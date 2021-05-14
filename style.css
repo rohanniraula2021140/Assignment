@@ -1,17 +1,24 @@
+header{
+	position: sticky;
+	top: 0;
+}
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element */
 header h1 {
+	
 	background-color: grey;
 	text-align: center;
 	color: white;
 	font-size: 45px;
 	padding: 20px 0px 20px 0px;
 	margin: -8px 0px 0px 0px;
+	
 }
  /* reference ko lagi ho yo: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed  */
  ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 25%;
+	width: 15%;
 	background-color: #f1f1f1;
 	position: fixed;
 	height: 100%;
@@ -36,4 +43,25 @@ header h1 {
   }
   @media screen {
 	  
+  }
+  .index_main {
+	  border: 1px solid black;
+	  border-radius: 10px;
+	  
+	  width: 50%;
+	  height: auto;
+	  margin:5% 0% 0% 20% ;
+
+
+  }
+  .index_main:hover{
+	box-shadow: 20px 20px;
+  }
+  .index_main img {
+	padding-left: 35%;
+	
+  }
+  .index_main h2 {
+	padding-left: 10%;
+	
   }
