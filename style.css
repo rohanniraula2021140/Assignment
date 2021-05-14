@@ -5,9 +5,9 @@ header{
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element */
 header h1 {
 	
-	background-image: linear-gradient(rgb(32, 16, 250),rgb());
+	background-image: linear-gradient(rgb(32, 16, 250),#0b9fb3);
 	text-align: center;
-	color: rgb(255, 255, 255);
+	color: rgb(34, 15, 15);
 	font-size: 45px;
 	padding: 20px 0px 20px 0px;
 	margin: -8px 0px 0px 0px;
