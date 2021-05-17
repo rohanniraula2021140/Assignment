@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -6,8 +6,8 @@
 <style>
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(39, 23, 98);
+  
 }
 
 .topnav {
@@ -15,6 +15,7 @@ body {
   background-color: rgb(39, 23, 98);
   display: flex;
   flex-direction: row;
+  
   
 }
 
@@ -73,16 +74,55 @@ body {
 	width: 50%;
 	height: 40%;
 	padding: 3%;
-	margin: 5% 0px 0px 10%;
+	margin: 0% 0px 0px 10%;
+  animation-name: comefromup;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  position: relative;
+  animation-timing-function: ease;
 
 }
+.index_hello h3 {
+  color:#a69bd3;
+}
 
+
+.index_imrohan{
+  /* animation-name: comefromup;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  position: relative; */
+  color: white;font-size: 45px;
+}
+
+
+@keyframes comefromup{
+  /* 0% {left:0px;right:0px; left: ; top: 0px; mar}
+  25% {left:0px;right:0px;  left: ; top: -10px;}
+  75% {left:0px;right:0px; left: 0px; top: 5px;}
+  100% {left:0px;right:0px; left: 0px; top: 0px;} */
+  0%{left: 0px;}
+  10%{left: 100px;}
+  40%{left: 50px;}
+  50%{left: 0px;}
+  80%{left: -50px;}
+  100%{left: 0px;}
+}
+.index_hello_para{
+  color: rgb(186, 150, 219); 
+  font-size: 29px;
+  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
 .index_button {
 	font-weight: bold;
 	font-size: 15px;
 	color:rgb(39, 23, 98);
 	/* color: red; */
-	width: 20%; height: 50px; background-image: linear-gradient(rgba(58, 33, 151, 0.753),rgba(130, 22, 219, 0.705))
+	width: 20%; height: 50px; background-image: linear-gradient(rgba(58, 33, 151, 0.753),rgba(130, 22, 219, 0.705));
+  
+
 }
 .index_button:hover {
 	font-weight: bolder;
@@ -93,28 +133,29 @@ body {
 .index_aboutme {
 	margin: 10% 0px 0px 50% ;
 }
+.index_aboutme_para {
+  color: rgb(186, 150, 219); 
+  font-size: 25px;
+  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
+}
 </style>
 </head>
 <body>
 
-<div class="topnav">
+<nav class="topnav">
   <a href="#home" class="active" style="margin-left: 50%;">Home</a>                                                                 
   <a href="#news">News</a>                                                                            
   <a href="#contact">Contact</a>                                                                         
   <a href="#about">About</a>                                                                         
-  <a href="" class="icon" ><img src="../Images/3line.png" width="20px" height="20px" />        
-</a>
-</div>
+  <a href="" class="icon" ><img src="../Images/3line.png" width="20px" height="20px" /></a>
+</nav>
 
   <div class="index_hello">
-	  <h3 style="color:#a69bd3;">  Hello</h3>
-	  <h2 style="color: white;font-size: 45px;">I'm Rohan Niraula </h2>
+	  <h3>  Hello</h3>
+	  <h2  class="index_imrohan">I'm Rohan Niraula </h2>
 	  
-	  <pre style="color: white; font-size: 20px;">Expert in the Web Development and 
-has a Special training in the
-field of Artificial Intellegence 
-and Machine Learning.
-	  </pre>
+	  <p class="index_hello_para">Expert in the Web Development and<br> has a Special training in the field of Artificial<br> Intellegence and Machine Learning.</p>
 	  <button class="index_button" style="width: 20%; height: 50px; background-color: white; ">Learn more</button>
 
   </div>
@@ -122,13 +163,8 @@ and Machine Learning.
 	  <!-- <h3 style="color:#a69bd3;">  Hello</h3> -->
 	  <h2 style="color: white;font-size: 45px;">About Me</h2>
 	  
-	  <pre style="color: white; font-size: 20px;">Expert in the Web Development and 
-has a Special training in the field of 
-Artificial Intellegence and Machine Learning.
-Certified from Google, Facebook, 
-Amazon and various institution like havard, 
-MIT, Cambridge, Oxford and manymore.
-	  </pre>
+	  <p class="index_aboutme_para">Expert in the Web Development and has a <br>Special training in the field of Artificial <br>Intellegence and Machine Learning. Certified <br>from Google, Facebook, Amazon and various<br> institution like havard, MIT, Cambridge,<br> Oxford and manymore.
+	  </p>
 	  <button class="index_button" style="width: 20%; height: 50px; background-color: white; ">Learn more</button>
 
   </div>
