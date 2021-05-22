@@ -1,67 +1,489 @@
-header{
-	position: sticky;
-	top: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+.index_hello {
+    padding: 3%;
+    margin-top: 25px;
+    margin-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-bottom: 10%;
 }
-/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element */
-header h1 {
-	
-	background-image: linear-gradient(rgb(32, 16, 250),#0b9fb3);
-	text-align: center;
-	color: rgb(34, 15, 15);
-	font-size: 45px;
-	padding: 20px 0px 20px 0px;
-	margin: -8px 0px 0px 0px;
-	
+
+@media only screen and (max-width: 599px;
+) {
+    /* for mobile */
+    .index_hello {
+        /* padding: 3%; */
+        margin-top: 25px;
+        margin-left: 10%;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        margin-bottom: 10%;
+        text-align: center;
+    }
 }
- /* reference ko lagi ho yo: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed  */
- ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 15%;
-	background-color: #f1f1f1;
-	position: fixed;
-	height: 100%;
-	overflow: auto;
-  }
-  
-  li a {
-	display: block;
-	color: #000;
-	padding: 8px 16px;
-	text-decoration: none;
-  }
-  
-  li a.active {
-	background-color: #4CAF50;
-	color: white;
-  }
-  
-  li a:hover:not(.active) {
-	background-color: #555;
-	color: white;
-  }
-  @media screen {
-	  
-  }
-  .index_main {
-	  border: 1px solid black;
-	  border-radius: 10px;
-	  
-	  width: 50%;
-	  height: auto;
-	  margin:5% 0% 0% 20% ;
+
+.index_hello:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.index_hello h3 {
+    color: #a69bd3;
+    font-size: 30px;
+}
+
+.index_imrohan {
+    color: white;
+    font-size: 45px;
+}
+
+.index_hello_para {
+    color: rgb(186, 150, 219);
+    font-size: 29px;
+    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
-  }
-  .index_main:hover{
-	box-shadow: 20px 20px;
-  }
-  .index_main img {
-	padding-left: 35%;
-	
-  }
-  .index_main h2 {
-	padding-left: 10%;
-	
-  }
+/* 2nd para */
+
+
+/* Writing frrom here */
+
+.index_bio {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    /* margin-left: 10%; */
+    /* grid-row-start: 4;
+    grid-row-end: 5; */
+    margin-bottom: 10%;
+    margin-left: 10%;
+    align-content: stretch;
+}
+
+@media only screen and (max-width:499px) {
+    .index_bio {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        /* margin-left: 10%; */
+        /* grid-row-start: 4;
+        grid-row-end: 5; */
+        margin-bottom: 10%;
+        margin-left: 10%;
+        align-content: stretch;
+    }
+}
+
+.index_bio:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.index_bio {
+    color: rgb(186, 150, 219);
+    font-size: 25px;
+    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index_bio h2 {
+    color: white;
+    font-size: 45px;
+}
+
+
+/* writing from here*/
+
+
+/* 3rd para */
+
+.index_aboutme {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin-left: 15%;
+    margin-bottom: 25px;
+    /* grid-row-start: 4;
+    grid-row-end: 5; */
+}
+
+@media only screen and (max-width:499px) {
+    .index_aboutme {
+        grid-column-start: 1;
+        grid-column-end: 13;
+        margin-left: 15%;
+        margin-bottom: 25px;
+        /* grid-row-start: 4;
+  grid-row-end: 5; */
+    }
+}
+
+.index_aboutme:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.index_aboutme_para {
+    color: rgb(186, 150, 219);
+    font-size: 25px;
+    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index_aboutme h2 {
+    color: white;
+    font-size: 45px;
+}
+
+
+/* body */
+
+
+/* writitng from here */
+
+body {
+    margin: 0;
+    background-color: rgb(39, 23, 98);
+}
+
+
+/* button */
+
+
+/* writing from here */
+
+.index_button {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(39, 23, 98);
+    /* color: red; */
+    width: 20%;
+    height: 50px;
+    background-image: linear-gradient(rgba(58, 33, 151, 0.753), rgba(130, 22, 219, 0.705));
+}
+
+.index_button:hover {
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(53, 11, 206, 0.5);
+    font-size: 17px;
+}
+
+
+/* footer */
+
+
+/* Writign form hereee */
+
+.footer {
+    background-color: rgb(173, 144, 219);
+    padding-bottom: 50px;
+    padding-top: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgb(148, 52, 204);
+}
+
+.gridfootercontainer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgb(148, 52, 204);
+}
+
+.portfolio {
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.portfolio:hover {}
+
+.portfolio .footertitle {
+    text-shadow: 2px 2px white;
+}
+
+.portfolio .footertitle:hover {
+    text-shadow: 3px 4px white;
+}
+
+.portfolio a {
+    list-style-type: none;
+    color: rgb(88, 76, 76);
+}
+
+.portfolio a:hover {
+    text-shadow: 1px 1px white;
+    font-size: larger;
+}
+
+.portfolio a:active {
+    color: blue;
+}
+
+.portfolio a:visited {
+    color: red;
+}
+
+.sitereport {
+    padding-left: 10%;
+    grid-column-start: 5;
+    grid-column-end: 9;
+}
+
+.sitereport:hover {}
+
+.sitereport .footertitle {
+    text-shadow: 2px 2px white;
+}
+
+.sitereport .footertitle:hover {
+    text-shadow: 3px 4px white;
+}
+
+.sitereport a {
+    list-style-type: none;
+    color: rgb(88, 76, 76);
+}
+
+.sitereport a:hover {
+    text-shadow: 1px 1px white;
+    font-size: larger;
+}
+
+.sitereport a:active {
+    color: blue;
+}
+
+.sitereport a:visited {
+    color: red;
+}
+
+.contact {
+    padding-left: 10%;
+    grid-column-start: 9;
+    grid-column-end: 13;
+}
+
+.contact:hover {}
+
+.contact .footertitle {
+    text-shadow: 2px 2px white;
+}
+
+.contact .footertitle:hover {
+    text-shadow: 3px 4px white;
+}
+
+.contact a {
+    list-style-type: none;
+    color: rgb(88, 76, 76);
+}
+
+.contact a:hover {
+    text-shadow: 1px 1px white;
+    font-size: larger;
+}
+
+.contact a:active {
+    color: blue;
+}
+
+.contact a:visited {
+    color: red;
+}
+
+.footericoncontainer {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+.footericoncontainer:hover {
+    font-size: 29px;
+}
+
+.footericoncontainer img {
+    padding: 5px;
+}
+
+.footericoncontainer img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 599px) {
+    /* for mobile */
+    .footer {
+        background-color: rgb(173, 144, 219);
+        padding-bottom: 50px;
+        padding-top: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: rgb(148, 52, 204);
+        text-align: center;
+    }
+    .gridfootercontainer {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: rgb(148, 52, 204);
+    }
+    .portfolio {
+        /* padding-left: 10%; */
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+    .portfolio:hover {}
+    .portfolio .footertitle {
+        text-shadow: 2px 2px white;
+    }
+    .portfolio .footertitle:hover {
+        text-shadow: 3px 4px white;
+    }
+    .portfolio a {
+        list-style-type: none;
+        color: rgb(88, 76, 76);
+    }
+    .portfolio a:hover {
+        text-shadow: 1px 1px white;
+        font-size: larger;
+    }
+    .portfolio a:active {
+        color: blue;
+    }
+    .portfolio a:visited {
+        color: green;
+    }
+    .sitereport {
+        /* padding-left: 10%; */
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+    .sitereport:hover {}
+    .sitereport .footertitle {
+        text-shadow: 2px 2px white;
+    }
+    .sitereport .footertitle:hover {
+        text-shadow: 3px 4px white;
+    }
+    .sitereport a {
+        list-style-type: none;
+        color: rgb(88, 76, 76);
+    }
+    .sitereport a:hover {
+        text-shadow: 1px 1px white;
+        font-size: larger;
+    }
+    .sitereport a:active {
+        color: blue;
+    }
+    .sitereport a:visited {
+        color: green;
+    }
+    .contact {
+        /* padding-left: 10%; */
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+    .contact:hover {}
+    .contact .footertitle {
+        text-shadow: 2px 2px white;
+    }
+    .contact .footertitle:hover {
+        text-shadow: 3px 4px white;
+    }
+    .contact a {
+        list-style-type: none;
+        color: rgb(88, 76, 76);
+    }
+    .contact a:hover {
+        text-shadow: 1px 1px white;
+        font-size: larger;
+    }
+    .contact a:active {
+        color: blue;
+    }
+    .contact a:visited {
+        color: green;
+    }
+    .footericoncontainer {
+        text-align: center;
+        font-size: 23px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+    .footericoncontainer:hover {
+        font-size: 29px;
+    }
+    .footericoncontainer img {
+        padding: 5px;
+    }
+    .footericoncontainer img:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+
+/* grrrrid contaienr */
+
+
+/* writing from here */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-item {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* height: 150px;
+    padding-top: 85px; */
+    /*   */
+    /* text-align: center; */
+}
+
+.grid-item1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* height: 150px;
+    padding-top: 85px; */
+    font-size: 45px;
+    text-align: center;
+}
+
+
+/* navigation bar  */
+
+
+/* writing fffffffffffform here */
+
+.topnav {
+    /* width: 100px; */
+    height: 50px;
+    grid-column: 4/13;
+    /* color: white; */
+    /* background-color: #551dd8; */
+}
+
+.topnav a {
+    width: 150px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(49, 23, 98);
+    float: left;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: rgb(202, 201, 120);
+    width: 115px;
+    height: 35px;
+    font-size: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* responsive writing frooooooooooooooooooooooooooooom mhwer */
