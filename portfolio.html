@@ -15,24 +15,24 @@
 <script>
     function myFunction() {
         var x = document.getElementById("iconhamburger ");
-        if (x.className === "topnav ") {
+        if (x.className === "navbar ") {
             x.className += " iconhamburgerresponsive ";
         } else {
-            x.className = "topnav ";
+            x.className = "navbar ";
         }
     }
 </script>
 
 <body>
     <div class="grid-container ">
-        <div class="grid-item topnav" id="iconhamburger ">
+        <div class="grid-item navbar" id="iconhamburger ">
             <a href="index.html ">Home</a>
             <a href="portfolio.html" class="active ">Portfolio</a>
             <a href="contact.html ">Contact</a>
             <a href="sitereport.html">Sitereport</a>
             <a href="cv.html">CV</a>
-            <a href="javascript:void(0); " class="icon " onclick="myFunction() ">
-                <img src="../../../Images/3line.png " width="50px " height="50px " />
+            <a href="javascript:void(0); " class="threeline" onclick="myFunction() ">
+                <img src="" width="50px " height="50px " />
             </a>
         </div>
     </div>
