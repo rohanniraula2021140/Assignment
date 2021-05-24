@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pattaya&family=Reggae+One&display=swap');
+.port_gradient {
+    background-repeat: no-repeat;
+    background-image: url(../Images/portfolio.jpg) stretch;
+}
+
+.box {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.skills {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-top: -0px;
+    color: white;
+}
+
+.portfolio {
+    font-size: 25px;
+    margin-top: -2px;
+    margin-bottom: -1px;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.details {
+    color: white;
+    font-family: 'Reggae One', cursive;
+}
+
+.box-design1 {
+    height: 350px;
+    width: 250px;
+    grid-column: 2/5;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(92, 18, 135);
+    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design2 {
+    height: 350px;
+    width: 250px;
+    grid-column: 5/7;
+    background: rgb(0, 249, 167);
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(180deg, rgba(0, 249, 167, 1) 0%, rgba(36, 227, 218, 1) 37%, rgba(33, 209, 216, 1) 47%, rgba(27, 179, 212, 1) 56%, rgba(0, 35, 195, 1) 100%);
+}
+
+.box-design3 {
+    height: 350px;
+    width: 250px;
+    grid-column: 8/12;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(92, 18, 135);
+    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design4 {
+    height: 350px;
+    width: 250px;
+    grid-column: 2/5;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(92, 18, 135);
+    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design5 {
+    height: 350px;
+    width: 250px;
+    grid-column: 5/7;
+    background: rgb(0, 249, 167);
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(180deg, rgba(0, 249, 167, 1) 0%, rgba(36, 227, 218, 1) 37%, rgba(33, 209, 216, 1) 47%, rgba(27, 179, 212, 1) 56%, rgba(0, 35, 195, 1) 100%);
+}
+
+.box-design6 {
+    height: 350px;
+    width: 250px;
+    grid-column: 8/12;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgb(92, 18, 135);
+    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
