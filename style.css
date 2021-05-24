@@ -147,8 +147,14 @@
 
 body {
     margin: 0;
+    height: 100%;
+}
+
+.gradient {
     background: rgb(255, 68, 0);
     background: linear-gradient(117deg, rgba(255, 68, 0, 1) 0%, rgba(5, 0, 255, 1) 49%, rgba(255, 244, 0, 1) 50%, rgba(255, 0, 39, 1) 100%);
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 
@@ -565,6 +571,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-color: rgb(90, 74, 121);
 }
 
 .topnav a:hover {
@@ -574,7 +581,7 @@ body {
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgb(64, 53, 85);
     color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
