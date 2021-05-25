@@ -8,34 +8,48 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
     <title>Sitereport</title>
     <link rel="stylesheet " href="style.css" />
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sitereport.css" />
 </head>
 
 <script>
     function myFunction() {
-        var x = document.getElementById("iconhamburger ");
+        var x = document.getElementById(" myTopnav ");
         if (x.className === "topnav ") {
-            x.className += " iconhamburgerresponsive ";
+            x.className += " responsive ";
         } else {
             x.className = "topnav ";
         }
     }
 </script>
 
-<body>
+<body class="gradient ">
     <div class="grid-container ">
-        <div class="grid-item topnav" id="iconhamburger ">
-            <a href="index.html ">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html ">Contact</a>
-            <a href="sitereport.html" class="active">Sitereport</a>
-            <a href="cv.html">CV</a>
-            <a href="t:void(0);" class="icon" onclick="myFunction()">
-                <img src="../../../Images/3line.png " width="50px " height="50px " />
+        <div class="topnav " id="myTopnav ">
+            <a href="index.html"> Home
+            </a>
+            <a href="portfolio.html "> portfolio
+                    </a>
+            <a href="contact.html "> Contact
+            </a>
+            <a href="sitereport.html " class="active">Sitereport
+            </a>
+            <a href="cv.html "> CV
+            </a>
+            <a href="javascript:void(0); " class="icon " onclick="myFunction() ">
+                <i class="fa fa-bars ">
+                </i>
             </a>
         </div>
+        <div class="site_box ">
+            <div>
+                <h2>Sitereport</h2>
+
+            </div>
+        </div>
     </div>
+
+
 </body>
 
 </html>

@@ -7,34 +7,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
     <title>CV</title>
-    <link rel="stylesheet " href="style.css" />
+    <!-- <link rel="stylesheet " href="style.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cv.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
 </head>
 
 <script>
     function myFunction() {
-        var x = document.getElementById("iconhamburger ");
+        var x = document.getElementById(" myTopnav ");
         if (x.className === "topnav ") {
-            x.className += " iconhamburgerresponsive ";
+            x.className += " responsive ";
         } else {
             x.className = "topnav ";
         }
     }
 </script>
 
-<body>
-    <div class="grid-container ">
-        <div class="grid-item topnav" id="iconhamburger ">
+<body class="gradient cvgrad">
+
+
+    <div class="grid-container-cv">
+        <div class="topnav " id="myTopnav ">
             <a href="index.html ">Home</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="portfolio.html ">Portfolio</a>
             <a href="contact.html ">Contact</a>
-            <a href="sitereport.html">Sitereport</a>
-            <a href="cv.html" class="active">CV</a>
+            <a href="sitereport.html ">Sitereport</a>
+            <a href="cv.html " class="active ">CV</a>
             <a href="javascript:void(0); " class="icon " onclick="myFunction() ">
-                <img src="../../../Images/3line.png " width="50px " height="50px " />
+                <i class="fa fa-bars "></i>
             </a>
         </div>
+        <!-- <div class="transparentbox">
+
+        </div> -->
+
+        <div class="card1">
+            <div class="cardhead1">
+                <h1>Introduction</h1>
+            </div>
+            <div class="carddown1">
+                <h1>Rohan Niraula</h1>
+                <h2>Contact: 9876543210</h2>
+                <h2>Email: rohanniroula@gmail.com</h2>
+
+            </div>
+        </div>
+        <div class="card2">
+            <div class="cardhead2">
+                <h1>Education</h1>
+            </div>
+            <div class="carddown2">
+                <h2>Baljagriti English Secondary School</h2>
+                <h2>Secondary School Examination</h2>
+
+                <h3>2008-2018</h3>
+                <hr>
+                <h2>BVM College</h2>
+                <h2>Plus 2 in Science Faculty</h2>
+                <h3>2018-2020</h3>
+                <hr>
+                <h2>BSC(HONS) in Software Engineering</h2>
+                <h3>2021-2024</h3>
+                <h3>NAMI College</h3>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="cardhead3">
+                <h1>Work Experience</h1>
+            </div>
+            <div class="carddown3">
+
+                <h2>Artificial Info Tech Pvt Ltd</h2>
+                <h3>Worked as Volunteer</h3>
+                <P>I got opportunity to work as my brother was friend of CEO at that time.<br>My working interest to this field was from there.</P>
+                <h3>2016-2018</h3>
+                <hr>
+                <h2>Bajra Technologies Pvt Ltd</h2>
+                <h3>Worked as Volunteer</h3>
+                <h3>2018-2019</h3>
+                <hr>
+                <p>My work was not so good but being satisfied of my hardwork and honesty I was recommended by this institiution to this company</p>
+                <h2>Eval Technologies</h2>
+                <h3>Worked as Software Engineer Asistant</h3>
+                <p>I was interested to this field but wasn't dipped well enough deep so that i could find the reality. For that purpose i moved to this comapny as an assistant of software engineer (my brother)</p>
+                <h3>2019-2020</h3>
+                <hr>
+                <h2>WolfMatrix | Software Company</h2>
+                <h3>Working as Software Devloper</h3>
+                <p>After doing hardwork for one year as it was the period of lockdown i was infront of pc for more than 16hrs a day which brought me to this company as a software engineer.</p>
+                <h3>2020-Present</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="card4 ">
+            <div class="cardhead4 ">
+                <h1>Language</h1>
+            </div>
+            <div class="carddown4 ">
+
+                <h3 class="lang-type ">Nepali</h3>
+                <p class="lang-status ">Native</p>
+                <hr>
+                <h3 class="lang-type ">English</h3>
+                <p class="lang-status ">Fluent</p>
+                <hr>
+                <h3 class="lang-type ">Arabic</h3>
+                <p class="lang-status ">Good</p>
+                <hr>
+                <h3 class="lang-type ">Hindi</h3>
+                <p class="lang-status ">Fluent</p>
+                <hr>
+            </div>
+        </div>
+
+        <div class="card5">
+            <div class="cardhead5 ">
+                <h1>Interest</h1>
+            </div>
+            <div class="carddown5 ">
+                <img src="../Images/interes/boxing.jpg " alt="boxing " width="50px " height="50px " />
+                <img src="../Images/interes/camara.png " alt="camera " width="50px " height="50px " />
+                <img src="../Images/interes/plane.png " alt="flying " width="50px " height="50px " /><br>
+                <img src="../Images/interes/music.png " alt="music " width="50px " height="50px " />
+                <img src="../Images/interes/tv.png " alt="tv " width="50px " height="50px " />
+                <img src="../Images/interes/shooting.jpg " alt="shooting " width="50px " height="50px " /><br>
+                <img src="../Images/interes/origamy.jpg " alt="origamy " width="50px " height="50px " />
+                <img src="../Images/interes/juice.jpg " alt="juice " width="50px " height="50px " />
+                <img src="../Images/interes/gaming.jpg " alt="gaming " width="50px " height="50px " />
+
+
+            </div>
+        </div>
+        <div class="side-bar ">
+            <img src="../Images/dummy.png " class="profile_img" alt=" My profile picture looking at your screen" />
+
+            <h2 class="sidebar_headhead">Rohan Niraula</h2>
+            <h4 class="sidebar_head">Student</h4>
+            <p class="sidebar_body">Knows about the webdevelopment and <br> currently studying at NAMI College, <br>University of Northampton. Has a hobby<br> about the Aritifical Intelligence and<br> Machine Learning.</p>
+
+            <h2 class="sidebar_head">Expertise</h2>
+
+            <img src="../Images/jslogo.png " width="150px " />
+            <img src="../Images/htmllogo.png " width="150px " />
+            <img src=" ../Images/csslogo.png " width="150px " />
+            <img src=" ../Images/bootlogo.png " width="150px " />
+            <img src=" ../Images/pslogo.png " width="150px " />
+
+            <h2 class="sidebar_head">Contact:</h2>
+            <h3 class="sidebar_body">Phone no: 9878965412</h3>
+            <h3 class="sidebar_body">Landline No: 025-456321</h3>
+            <h3 class="sidebar_body">Email: rohanniraula@gmail.com</h3>
+            <h3 class="sidebar_body">Secondary email: rohanniraula2@gmail.com</h3>
+            <h3 class="sidebar_head">Address</h3>
+            <h3 class="sidebar_body">Temporary: washington DC, America</h3>
+            <h3 class="sidebar_body">Permanent: Kathmandu, Nepal</h3>
+            <h3 class="sidebar_body">Website: rohanniraula.com</h3>
+        </div>
+
+
     </div>
 </body>
 
