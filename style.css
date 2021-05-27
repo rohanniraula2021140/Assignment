@@ -150,12 +150,13 @@ body {
     height: 100%;
 }
 
-.gradient {
+
+/* .gradient {
     background: rgb(255, 68, 0);
     background: linear-gradient(117deg, rgba(255, 68, 0, 1) 0%, rgba(5, 0, 255, 1) 49%, rgba(255, 244, 0, 1) 50%, rgba(255, 0, 39, 1) 100%);
     background-repeat: no-repeat;
     height: 100%;
-}
+} */
 
 
 /* button */
@@ -186,7 +187,7 @@ body {
 
 /* Writign form hereee */
 
-.footer {
+.footer-in {
     background-color: rgb(173, 144, 219);
     padding-bottom: 50px;
     padding-top: 24px;
@@ -195,115 +196,115 @@ body {
     color: rgb(148, 52, 204);
 }
 
-.gridfootercontainer {
+.gridfootercontainer-in {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: rgb(148, 52, 204);
 }
 
-.portfolio {
+.portfolio-in {
     padding-left: 10%;
     grid-column-start: 1;
     grid-column-end: 5;
 }
 
-.portfolio:hover {}
+.portfolio-in:hover {}
 
-.portfolio .footertitle {
+.portfolio-in .footertitle-in {
     text-shadow: 2px 2px white;
 }
 
-.portfolio .footertitle:hover {
+.portfolio-in .footertitle-in:hover {
     text-shadow: 3px 4px white;
 }
 
-.portfolio a {
+.portfolio-in a {
     list-style-type: none;
     color: rgb(88, 76, 76);
 }
 
-.portfolio a:hover {
+.portfolio-in a:hover {
     text-shadow: 1px 1px white;
     font-size: larger;
 }
 
-.portfolio a:active {
+.portfolio-in a:active {
     color: blue;
 }
 
-.portfolio a:visited {
+.portfolio-in a:visited {
     color: red;
 }
 
-.sitereport {
+.sitereport-in {
     padding-left: 10%;
     grid-column-start: 5;
     grid-column-end: 9;
 }
 
-.sitereport:hover {}
+.sitereport-in:hover {}
 
-.sitereport .footertitle {
+.sitereport-in .footertitle-in {
     text-shadow: 2px 2px white;
 }
 
-.sitereport .footertitle:hover {
+.sitereport-in .footertitle-in:hover {
     text-shadow: 3px 4px white;
 }
 
-.sitereport a {
+.sitereport-in a {
     list-style-type: none;
     color: rgb(88, 76, 76);
 }
 
-.sitereport a:hover {
+.sitereport-in a:hover {
     text-shadow: 1px 1px white;
     font-size: larger;
 }
 
-.sitereport a:active {
+.sitereport-in a:active {
     color: blue;
 }
 
-.sitereport a:visited {
+.sitereport-in a:visited {
     color: red;
 }
 
-.contact {
+.contact-in {
     padding-left: 10%;
     grid-column-start: 9;
     grid-column-end: 13;
 }
 
-.contact:hover {}
+.contact-in:hover {}
 
-.contact .footertitle {
+.contact-in .footertitle-in {
     text-shadow: 2px 2px white;
 }
 
-.contact .footertitle:hover {
+.contact-in .footertitle-in:hover {
     text-shadow: 3px 4px white;
 }
 
-.contact a {
+.contact-in a {
     list-style-type: none;
     color: rgb(88, 76, 76);
 }
 
-.contact a:hover {
+.contact-in a:hover {
     text-shadow: 1px 1px white;
     font-size: larger;
 }
 
-.contact a:active {
+.contact-in a:active {
     color: blue;
 }
 
-.contact a:visited {
+.contact-in a:visited {
     color: red;
 }
 
-.footericoncontainer {
+.footericoncontainer-in {
     text-align: center;
     font-size: 28px;
     color: white;
@@ -312,21 +313,21 @@ body {
     grid-column-end: 13;
 }
 
-.footericoncontainer:hover {
+.footericoncontainer-in:hover {
     font-size: 29px;
 }
 
-.footericoncontainer img {
+.footericoncontainer-in img {
     padding: 5px;
 }
 
-.footericoncontainer img:hover {
+.footericoncontainer-in img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media only screen and (max-width: 599px) {
     /* for mobile */
-    .footer {
+    .footer-in {
         background-color: rgb(173, 144, 219);
         padding-bottom: 50px;
         padding-top: 24px;
@@ -335,90 +336,90 @@ body {
         color: rgb(148, 52, 204);
         text-align: center;
     }
-    .gridfootercontainer {
+    .gridfootercontainer-in {
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         color: rgb(148, 52, 204);
     }
-    .portfolio {
+    .portfolio-in {
         /* padding-left: 10%; */
         grid-column-start: 1;
         grid-column-end: 13;
     }
-    .portfolio:hover {}
-    .portfolio .footertitle {
+    .portfolio-in:hover {}
+    .portfolio-in .footertitle-in {
         text-shadow: 2px 2px white;
     }
-    .portfolio .footertitle:hover {
+    .portfolio-in .footertitle-in:hover {
         text-shadow: 3px 4px white;
     }
-    .portfolio a {
+    .portfolio-in a {
         list-style-type: none;
         color: rgb(88, 76, 76);
     }
-    .portfolio a:hover {
+    .portfolio-in a:hover {
         text-shadow: 1px 1px white;
         font-size: larger;
     }
-    .portfolio a:active {
+    .portfolio-in a:active {
         color: blue;
     }
-    .portfolio a:visited {
+    .portfolio-in a:visited {
         color: green;
     }
-    .sitereport {
+    .sitereport-in {
         /* padding-left: 10%; */
         grid-column-start: 1;
         grid-column-end: 13;
     }
-    .sitereport:hover {}
-    .sitereport .footertitle {
+    .sitereport-in:hover {}
+    .sitereport-in .footertitle-in {
         text-shadow: 2px 2px white;
     }
-    .sitereport .footertitle:hover {
+    .sitereport-in .footertitle-in:hover {
         text-shadow: 3px 4px white;
     }
-    .sitereport a {
+    .sitereport-in a {
         list-style-type: none;
         color: rgb(88, 76, 76);
     }
-    .sitereport a:hover {
+    .sitereport-in a:hover {
         text-shadow: 1px 1px white;
         font-size: larger;
     }
-    .sitereport a:active {
+    .sitereport-in a:active {
         color: blue;
     }
-    .sitereport a:visited {
+    .sitereport-in a:visited {
         color: green;
     }
-    .contact {
+    .contact-in {
         /* padding-left: 10%; */
         grid-column-start: 1;
         grid-column-end: 13;
     }
-    .contact:hover {}
-    .contact .footertitle {
+    .contact-in:hover {}
+    .contact-in .footertitle-in {
         text-shadow: 2px 2px white;
     }
-    .contact .footertitle:hover {
+    .contact-in .footertitle-in:hover {
         text-shadow: 3px 4px white;
     }
-    .contact a {
+    .contact-in a {
         list-style-type: none;
         color: rgb(88, 76, 76);
     }
-    .contact a:hover {
+    .contact-in a:hover {
         text-shadow: 1px 1px white;
         font-size: larger;
     }
-    .contact a:active {
+    .contact-in a:active {
         color: blue;
     }
-    .contact a:visited {
+    .contact-in a:visited {
         color: green;
     }
-    .footericoncontainer {
+    .footericoncontainer-in {
         text-align: center;
         font-size: 23px;
         color: white;
@@ -426,13 +427,13 @@ body {
         grid-column-start: 1;
         grid-column-end: 13;
     }
-    .footericoncontainer:hover {
+    .footericoncontainer-in:hover {
         font-size: 29px;
     }
-    .footericoncontainer img {
+    .footericoncontainer-in img {
         padding: 5px;
     }
-    .footericoncontainer img:hover {
+    .footericoncontainer-in img:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
@@ -443,12 +444,12 @@ body {
 
 /* writing from here */
 
-.grid-container {
+.grid-container-in {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
-.grid-item {
+.grid-item-in {
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
     /* height: 150px;
     padding-top: 85px; */
@@ -456,7 +457,7 @@ body {
     /* text-align: center; */
 }
 
-.grid-item1 {
+.grid-item1-in {
     border: 1px solid rgba(0, 0, 0, 0.8);
     /* height: 150px;
     padding-top: 85px; */
@@ -557,13 +558,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav {
+.topnav-in {
     overflow: hidden;
     /* background-color : #333; */
     grid-column: 4/13;
 }
 
-.topnav a {
+.topnav-in a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -574,52 +575,52 @@ body {
     background-color: rgb(90, 74, 121);
 }
 
-.topnav a:hover {
+.topnav-in a:hover {
     background-color: #ddd;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.topnav a.active {
+.topnav-in a.active {
     background-color: rgb(64, 53, 85);
     color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.topnav .icon {
+.topnav-in .icon-in {
     display: none;
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
+    .topnav-in a:not(:first-child) {
         display: none;
     }
-    .topnav a.icon {
+    .topnav-in a.icon-in {
         float: right;
         display: block;
     }
-    .topnav {
+    .topnav-in {
         width: 100%;
         grid-column: 1/13;
     }
-    .topnav a:not(:.icon) {
+    .topnav-in a:not(:.icon-in) {
         grid-column: 1/12;
     }
-    .icon {
+    .icon-in {
         grid-column: 12/13;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .topnav.responsive {
+    .topnav-in.responsive-in {
         position: relative;
     }
-    .topnav.responsive .icon {
+    .topnav-in.responsive-in .icon-in {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a {
+    .topnav-in.responsive-in a {
         float: none;
         display: block;
         text-align: left;
