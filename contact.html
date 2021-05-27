@@ -1,45 +1,85 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
-    <title>Contact</title>
-    <link rel="stylesheet " href="style.css" />
-    <link rel="stylesheet" href="cv.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
 
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
+<body>
+    <div class="grid-container">
 
-<body class="gradient">
-    <div class="grid-container ">
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-            <a href="sitereport.html" class="active">Sitereport</a>
-            <a href="cv.html">CV</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+        <div class="getintouch">
+            <h2>Get in touch</h2>
+            <h3 class="feelfree">Feel free to drop us the line below:</h3>
+            <div class="rohan">
+                <form action="post">
+                    <input type="text" name="FirstName" placeholder="First Name">
+                    <input type="text" name="LastName" placeholder="Last Name">
+                    <input type="email" name="FirstName" placeholder="Email">
+                    <input type="text" name="Phoneno" placeholder="Phone NO">
+                    <br>
+
+                    </h3>
+                    <textarea>Any Suggestion or any queries about my life..?!</textarea><br>
+                    <a href="mailto:rohanniroula456@gmail.com"><input class=" submitbtn " type="submit " value="Submit "></a>
+                </form>
+            </div>
         </div>
+        <div class="contact ">
+            <h2>Contact Me</h2>
+            <ul>
+                </li>
+                <li><img src="../Images/location.png " width="25 " height="25 ">
+                    <a href="https://www.google.com/maps/@27.7211288,85.3322699,19.75z ">Bhatbhateni, Kathmandu</a>
+                    <li><img src=" ../Images/message.png " width="25 " height="25 ">
+                        <a href="mailto:rohanniroula456@gmail.com ">
+                            <a href="mailto:rohanniroula456@gmail.com ">rohanniraula@gmail.com</a>
+                    </li>
+                    <li><img src="../Images/skype.png " width="25 " height="25 ">
+                        <a href="http://www.skype.com ">rohanniraula</a></li>
+                    <li><img src=" ../Images/smartphone.png " width="25 " height="25 ">+977-9874563210</li>
 
+            </ul>
 
+            <div class="image ">
+                <img src=" " width=" " height=" ">
+                <img src=" " width=" " height=" ">
+                <img src=" " width=" " height=" ">
+            </div>
+        </div>
+        <div class="topnav ">
+            <div class="topnav " id="myTopnav ">
+                <a href="index.html ">Home</a>
+                <a href="portfolio.html ">Portfolio</a>
+                <a href="contact.html " class="active ">Contact</a>
+                <a href="cv.html">CV</a>
+                <a href="sitereport.html ">Sitereport</a>
+                <a href="javascript:void(0); " class="icon " onclick="myFunction() ">
+                    <i class="fa fa-bars "></i>
+                </a>
+            </div>
+
+        </div>
     </div>
 </body>
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pattaya&family=Reggae+One&display=swap');
 .port_gradient {
     background-repeat: no-repeat;
-    background-image: url(../Images/portfolio.jpg) stretch;
+    background-image: url("../Images/portfolio.jpg") stretch;
 }
 
 .box {
@@ -13,11 +13,15 @@
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     margin-top: -0px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     color: white;
 }
 
 .portfolio {
     font-size: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     margin-top: -2px;
     margin-bottom: -1px;
     color: white;
@@ -26,59 +30,182 @@
 
 .details {
     color: white;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     font-family: 'Reggae One', cursive;
+}
+
+.skills:hover {
+    font-size: 37px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.portfolio:hover {
+    font-size: 28px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.details:hover {
+    font-size: 20px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote {
+    font-family: 'Noto Sans JP', sans-serif;
+    grid-column: 3/12;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote h1 {
+    background-color: rgba(63, 28, 4, 0.548);
+    color: white;
+    width: fit-content;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote h3 {
+    background-color: rgba(63, 28, 4, 0.548);
+    color: white;
+    width: fit-content;
+    text-align: center;
+    margin-left: 250px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote:hover {
+    font-family: 'Noto Sans JP', sans-serif;
+    grid-column: 3/12;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote h1:hover {
+    background-color: rgba(2, 8, 39, 0.548);
+    color: white;
+    width: fit-content;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote h3:hover {
+    background-color: rgba(3, 37, 10, 0.548);
+    color: white;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
 
 .box-design1 {
     height: 350px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     width: 250px;
+    background-color: rgb(97, 9, 24);
     grid-column: 2/5;
+    grid-row: 3/4;
     box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: rgb(92, 18, 135);
-    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design1:hover {
+    padding: 12px 12px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(150, 99, 4);
 }
 
 .box-design2 {
     height: 350px;
     width: 250px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(97, 95, 2);
     grid-column: 5/7;
-    background: rgb(0, 249, 167);
+    grid-row: 3/4;
     box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: linear-gradient(180deg, rgba(0, 249, 167, 1) 0%, rgba(36, 227, 218, 1) 37%, rgba(33, 209, 216, 1) 47%, rgba(27, 179, 212, 1) 56%, rgba(0, 35, 195, 1) 100%);
+}
+
+.box-design2:hover {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(98, 5, 126);
+    padding: 12px 12px;
 }
 
 .box-design3 {
     height: 350px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     width: 250px;
+    background-color: rgb(1, 78, 78);
     grid-column: 8/12;
+    grid-row: 3/4;
     box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: rgb(92, 18, 135);
-    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design3:hover {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(105, 17, 6);
+    padding: 12px 12px;
 }
 
 .box-design4 {
     height: 350px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     width: 250px;
+    background-color: rgb(79, 4, 94);
     grid-column: 2/5;
+    grid-row: 4/5;
     box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: rgb(92, 18, 135);
-    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design4:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(17, 61, 4);
+    padding: 12px 12px;
 }
 
 .box-design5 {
     height: 350px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     width: 250px;
+    background-color: rgb(10, 4, 88);
     grid-column: 5/7;
-    background: rgb(0, 249, 167);
+    grid-row: 4/5;
     box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: linear-gradient(180deg, rgba(0, 249, 167, 1) 0%, rgba(36, 227, 218, 1) 37%, rgba(33, 209, 216, 1) 47%, rgba(27, 179, 212, 1) 56%, rgba(0, 35, 195, 1) 100%);
+}
+
+.box-design5:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(104, 32, 4);
+    padding: 12px 12px;
 }
 
 .box-design6 {
     height: 350px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
     width: 250px;
+    background-color: rgb(97, 2, 73);
     grid-column: 8/12;
+    grid-row: 4/5;
     box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background: rgb(92, 18, 135);
-    background: linear-gradient(174deg, rgba(92, 18, 135, 1) 3%, rgba(180, 58, 34, 1) 70%, rgba(255, 102, 0, 1) 100%);
+}
+
+.box-design6:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(3, 43, 104);
+    padding: 12px 12px;
 }
