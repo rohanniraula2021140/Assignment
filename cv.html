@@ -21,12 +21,18 @@
 </head>
 
 <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav-cv");
-        if (x.className === "topnav-cv") {
-            x.className += " responsive-cv";
+    function navbarcv() {
+        // upper lines defines the function and the name defining this function is navbarcv
+        var navbarcvvar = document.getElementById("myTopnav-cv");
+        // upper line defines the variable and it recieves the eleement by the id from this document
+        if (navbarcvvar.className === "topnav-cv") {
+               // here if the variable navbarcvnvar is equal to topnav-cv then following will be done 
+            navbarcvvar.className += " smallscrn-cv";
+            // it will add with smallscrn-cv otherwise following will be done
         } else {
-            x.className = "topnav-cv";
+            navbarcvvar.className = "topnav-cv";
+            // remains same 
+            // now function ended
         }
     }
 </script>
@@ -41,7 +47,7 @@
             <a href="contact.html ">Contact</a>
             <a href="cv.html " class="active ">CV</a>
             <a href="sitereport.html ">Sitereport</a>
-            <a href="javascript:void(0); " class="icon-cv" onclick="myFunction() ">
+            <a href="javascript:void(0); " class="icon-cv" onclick="navbarcv() ">
                 <i class="fa fa-bars "></i>
             </a>
         </div>

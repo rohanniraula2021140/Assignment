@@ -16,12 +16,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
     <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav-con");
-            if (x.className === "topnav-con") {
-                x.className += " responsive-con";
+        function navbarcon() {
+            // upper lines defines the function and the name for this function si navbarcon
+            var navbarconvar = document.getElementById("myTopnav-con");
+            // upper line define the variable and it recieves the eleement by the id from this document 
+            
+            if (navbarconvar.className === "topnav-con") {
+                // here if the variable navbarconvar is equal to topnav-con then 
+                navbarconvar.className += " smallscrn-con";
+                // it will added with smallscrn-con otherwise
             } else {
-                x.className = "topnav-con";
+                navbarconvar.className = "topnav-con";
+                // remains same 
             }
         }
     </script>
@@ -71,7 +77,7 @@
                 <a href="contact.html" class="active">Contact</a>
                 <a href="cv.html">CV</a>
                 <a href="sitereport.html">Sitereport</a>
-                <a href="javascript:void(0); " class="icon-con" onclick="myFunction() ">
+                <a href="javascript:void(0); " class="icon-con" onclick="navbarcon() ">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>

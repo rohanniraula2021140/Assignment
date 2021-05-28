@@ -19,36 +19,42 @@
         grid-column-start: 1;
         grid-column-end: 13;
         margin-bottom: 10%;
-        text-align: center;
+        text-align: center;/* align the text in desired way */
     }
 }
 
 .index_hello:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* the above shadow will be the shadow for ht element */
 }
 
 .index_hello h3 {
-    color: #a69bd3;
+    color: #a69bd3;/* this sets the color for this */
     font-size: 20px;
 }
 
 .index_imrohan {
-    color: white;
+    color: white;/* this sets the color for this */
     font-size: 45px;
 }
 
 .index_hello_para {
-    color: rgb(186, 150, 219);
+    color: rgb(186, 150, 219);/* this sets the color for this */
     font-size: 23px;
-    font-family: monospace;
+    
     font-family: Arial, Helvetica, sans-serif;
+        /* this is google font used here */
+
 }
 
 .index_hello_para:hover {
-    color: rgb(186, 150, 219);
+    color: rgb(186, 150, 219);/* this sets the color for this */
     font-size: 25px;
-    font-family: monospace;
+    /* this displays the text in the size mentioned above */
+    
     font-family: Arial, Helvetica, sans-serif;
+        /* this is google font used here */
+
 }
 
 
@@ -83,17 +89,21 @@
 
 .index_bio:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* the above shadow will be the shadow for ht element */
 }
 
 .index_bio {
-    color: rgb(186, 150, 219);
+    color: rgb(186, 150, 219);/* this sets the color for this */
     font-size: 25px;
-    font-family: monospace;
+    /* this displays the text in the size mentioned above */
+    
     font-family: Arial, Helvetica, sans-serif;
+        /* this is google font used here */
+
 }
 
 .index_bio h2 {
-    color: white;
+    color: white;/* this sets the color for this */
     font-size: 45px;
 }
 
@@ -125,17 +135,22 @@
 
 .index_aboutme:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* the above shadow will be the shadow for ht element */
 }
 
 .index_aboutme_para {
-    color: rgb(186, 150, 219);
+    color: rgb(186, 150, 219);/* this sets the color for this */
     font-size: 25px;
+    /* this displays the text in the size mentioned above */
     font-family: monospace;
+    /* this is font type  */
     font-family: Arial, Helvetica, sans-serif;
+        /* this is google font used here */
+
 }
 
 .index_aboutme h2 {
-    color: white;
+    color: white;/* this sets the color for this */
     font-size: 45px;
 }
 
@@ -167,17 +182,19 @@ body {
 .index_button {
     font-weight: bold;
     font-size: 15px;
-    color: rgb(39, 23, 98);
+    color: rgb(39, 23, 98);/* this sets the color for this */
     /* color: red; */
     width: 20%;
+    /* the widht is as above */
     height: 50px;
     background-image: linear-gradient(rgba(58, 33, 151, 0.753), rgba(130, 22, 219, 0.705));
 }
 
 .index_button:hover {
     font-weight: bolder;
-    color: white;
+    color: white;/* this sets the color for this */
     background-color: rgba(53, 11, 206, 0.5);
+    /* the bg color is as above */
     font-size: 17px;
 }
 
@@ -189,21 +206,32 @@ body {
 
 .footer-in {
     background-color: rgb(173, 144, 219);
+    /* the bg color is as above */
     padding-bottom: 50px;
+    /* the elemeent is padded in bottom as above magnitude */
     padding-top: 24px;
+        /* the element is padded in top as above magntiude */
+
     font-family: 'Montserrat', sans-serif;
+        /* this is google font used here */
+
     font-size: 25px;
-    color: rgb(148, 52, 204);
+    /* this displays the text in the size mentioned above */
+    color: rgb(148, 52, 204);/* this sets the color for this */
 }
 
 .gridfootercontainer-in {
     font-family: 'Montserrat', sans-serif;
+        /* this is google font used here */
+
     font-size: 25px;
-    color: rgb(148, 52, 204);
+    /* this displays the text in the size mentioned above */
+    color: rgb(148, 52, 204);/* this sets the color for this */
 }
 
 .portfolio-in {
     padding-left: 10%;
+    /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 1;
     grid-column-end: 5;
 }
@@ -211,33 +239,34 @@ body {
 .portfolio-in:hover {}
 
 .portfolio-in .footertitle-in {
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
 }
 
 .portfolio-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
 }
 
 .portfolio-in a {
     list-style-type: none;
-    color: rgb(88, 76, 76);
+    color: rgb(88, 76, 76);/* this sets the color for this */
 }
 
 .portfolio-in a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
     font-size: larger;
 }
 
 .portfolio-in a:active {
-    color: blue;
+    color: blue;/* this sets the color for this */
 }
 
 .portfolio-in a:visited {
-    color: red;
+    color: red;/* this sets the color for this */
 }
 
 .sitereport-in {
     padding-left: 10%;
+    /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 5;
     grid-column-end: 9;
 }
@@ -245,33 +274,34 @@ body {
 .sitereport-in:hover {}
 
 .sitereport-in .footertitle-in {
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
 }
 
 .sitereport-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
 }
 
 .sitereport-in a {
     list-style-type: none;
-    color: rgb(88, 76, 76);
+    color: rgb(88, 76, 76);/* this sets the color for this */
 }
 
 .sitereport-in a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
     font-size: larger;
 }
 
 .sitereport-in a:active {
-    color: blue;
+    color: blue;/* this sets the color for this */
 }
 
 .sitereport-in a:visited {
-    color: red;
+    color: red;/* this sets the color for this */
 }
 
 .contact-in {
     padding-left: 10%;
+    /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 9;
     grid-column-end: 13;
 }
@@ -279,36 +309,38 @@ body {
 .contact-in:hover {}
 
 .contact-in .footertitle-in {
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
 }
 
 .contact-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
 }
 
 .contact-in a {
     list-style-type: none;
-    color: rgb(88, 76, 76);
+    color: rgb(88, 76, 76);/* this sets the color for this */
 }
 
 .contact-in a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
     font-size: larger;
 }
 
 .contact-in a:active {
-    color: blue;
+    color: blue;/* this sets the color for this */
 }
 
 .contact-in a:visited {
-    color: red;
+    color: red;/* this sets the color for this */
 }
 
 .footericoncontainer-in {
-    text-align: center;
+    text-align: center;/* align the text in desired way */
     font-size: 28px;
-    color: white;
+    color: white;/* this sets the color for this */
     font-family: 'Montserrat', sans-serif;
+        /* this is google font used here */
+
     grid-column-start: 1;
     grid-column-end: 13;
 }
@@ -323,107 +355,123 @@ body {
 
 .footericoncontainer-in img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* the above shadow will be the shadow for ht element */
 }
 
 @media only screen and (max-width: 599px) {
     /* for mobile */
     .footer-in {
         background-color: rgb(173, 144, 219);
+        /* the bg color is as above */
         padding-bottom: 50px;
+        /* the elemeent is padded in bottom as above magnitude */
         padding-top: 24px;
+            /* the element is padded in top as above magntiude */
+
         font-family: 'Montserrat', sans-serif;
+            /* this is google font used here */
+
         font-size: 25px;
-        color: rgb(148, 52, 204);
-        text-align: center;
+    /* this displays the text in the size mentioned above */
+        color: rgb(148, 52, 204);/* this sets the color for this */
+        text-align: center;/* align the text in desired way */
     }
     .gridfootercontainer-in {
         font-family: 'Montserrat', sans-serif;
+            /* this is google font used here */
+
         font-size: 25px;
-        color: rgb(148, 52, 204);
+    /* this displays the text in the size mentioned above */
+        color: rgb(148, 52, 204);/* this sets the color for this */
     }
     .portfolio-in {
-        /* padding-left: 10%; */
+        padding-left: 0%;
+        /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
         grid-column-end: 13;
     }
     .portfolio-in:hover {}
     .portfolio-in .footertitle-in {
-        text-shadow: 2px 2px white;
+        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
     }
     .portfolio-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
     }
     .portfolio-in a {
         list-style-type: none;
-        color: rgb(88, 76, 76);
+        color: rgb(88, 76, 76);/* this sets the color for this */
     }
     .portfolio-in a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
         font-size: larger;
     }
     .portfolio-in a:active {
-        color: blue;
+        color: blue;/* this sets the color for this */
     }
     .portfolio-in a:visited {
-        color: green;
+        color: green;/* this sets the color for this */
     }
     .sitereport-in {
-        /* padding-left: 10%; */
+        padding-left: 0%;
+        /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
         grid-column-end: 13;
     }
     .sitereport-in:hover {}
     .sitereport-in .footertitle-in {
-        text-shadow: 2px 2px white;
+        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
     }
     .sitereport-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
     }
     .sitereport-in a {
         list-style-type: none;
-        color: rgb(88, 76, 76);
+        color: rgb(88, 76, 76);/* this sets the color for this */
     }
     .sitereport-in a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
         font-size: larger;
     }
     .sitereport-in a:active {
-        color: blue;
+        color: blue;/* this sets the color for this */
     }
     .sitereport-in a:visited {
-        color: green;
+        color: green;/* this sets the color for this */
     }
     .contact-in {
-        /* padding-left: 10%; */
+        padding-left: 0%;
+        /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
         grid-column-end: 13;
     }
     .contact-in:hover {}
     .contact-in .footertitle-in {
-        text-shadow: 2px 2px white;
+        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
     }
     .contact-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
     }
     .contact-in a {
         list-style-type: none;
-        color: rgb(88, 76, 76);
+        color: rgb(88, 76, 76);/* this sets the color for this */
     }
     .contact-in a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
         font-size: larger;
     }
     .contact-in a:active {
-        color: blue;
+        color: blue;/* this sets the color for this */
     }
     .contact-in a:visited {
-        color: green;
+        color: green;/* this sets the color for this */
     }
     .footericoncontainer-in {
-        text-align: center;
+        text-align: center;/* align the text in desired way */
         font-size: 23px;
-        color: white;
+        color: white;/* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
+            /* this is google font used here */
+
         grid-column-start: 1;
         grid-column-end: 13;
     }
@@ -435,6 +483,7 @@ body {
     }
     .footericoncontainer-in img:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /* the above shadow will be the shadow for ht element */
     }
 }
 
@@ -462,7 +511,7 @@ body {
     /* height: 150px;
     padding-top: 85px; */
     font-size: 45px;
-    text-align: center;
+    text-align: center;/* align the text in desired way */
 }
 
 
@@ -533,6 +582,7 @@ font-size: 20px;
 }
 .topnav a {
     font-size: 25px;
+    /* this displays the text in the size mentioned above */
 }
 
 }
@@ -548,7 +598,7 @@ font-size: 20px;
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: left;/* align the text in desired way */
     }
 }
 */
@@ -567,63 +617,89 @@ body {
 .topnav-in a {
     float: left;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
+    color: #f2f2f2;/* this sets the color for this */
+    text-align: center;/* align the text in desired way */
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     background-color: rgb(90, 74, 121);
+    /* the bg color is as above */
 }
 
 .topnav-in a:hover {
     background-color: #ddd;
-    color: black;
+    /* the bg color is as above */
+    color: black;/* this sets the color for this */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* the above shadow will be the shadow for ht element */
 }
 
 .topnav-in a.active {
     background-color: rgb(64, 53, 85);
-    color: white;
+    color: white;/* this sets the color for this */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* the above shadow will be the shadow for ht element */
 }
 
 .topnav-in .icon-in {
     display: none;
+    /* the display of the icon will not be seen  */
+    /* because if it will be seen in the large screen then it will not meet the requirement */
 }
 
 @media only screen and (max-width: 600px) {
     .topnav-in a:not(:first-child) {
         display: none;
+        /* only first element will be seen remainng will not be seeen */
     }
     .topnav-in a.icon-in {
         float: right;
+        /* the icon will float right part fo the screen */
         display: block;
+        /* the icon will be treated as the block */       
     }
     .topnav-in {
         width: 100%;
+        /* the navigation bar will allocate the full 100% width */                           
+        /* the widht is as above */
         grid-column: 1/13;
+        /* as it is in small screen it will take all the column to be appropriate */         
     }
     .topnav-in a:not(:.icon-in) {
         grid-column: 1/12;
+        /* as it only for the achor name is will take approx 95% of space and that is here about 3 column */         
     }
     .icon-in {
         grid-column: 12/13;
+        /* for icon it will barely take about 5% space so it only takes one column */                                
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .topnav-in.responsive-in {
+    .topnav-in.smallscrn-in {
+        /* here media screen is the query which will be only valid if the device screen is maximum 599px if it is more than that  */
+        /* the default css will be applied */
         position: relative;
+        /* this two class will have postion relative */
+        /* here this will be only applied if both topnav and responsive will be met and that will be done by js written in the script file */
+        
     }
-    .topnav-in.responsive-in .icon-in {
+    .topnav-in.smallscrn-in .icon-in {
         position: absolute;
+            /* the postion of the icon will be absolute */             
         right: 0;
+            /* icon will be at the full right part of the screen */    
         top: 0;
+            /* icon will be at the top of the screen */                
+            /* now icon will lies in the top right part of the scren */
     }
-    .topnav-in.responsive-in a {
+    .topnav-in.smallscrn-in a {
         float: none;
+        /* the anchor tag will not float now */         
         display: block;
+        /* the anchor will be treated as the block */   
         text-align: left;
+        /* the letter will be left part of the screen */
     }
 }
 

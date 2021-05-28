@@ -13,12 +13,17 @@
 </head>
 
 <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav-site");
-        if (x.className === "topnav-site") {
-            x.className += " responsive-site";
+    function navbarsite() {
+        // upper lines defines the function and the name for this function si navbarsite
+        var navbarsitevar = document.getElementById("myTopnav-site");
+        // upper line define the variable named navbarsitevar and it recieves the eleement by the id from this document
+        if (navbarsitevar.className === "topnav-site") {
+               // here if the variable navbarsitevar is equal to topnav-con then 
+            navbarsitevar.className += " smallscrn-site";
+            // it will added with smallscrn-site otherwise
         } else {
-            x.className = "topnav-site";
+            navbarsitevar.className = "topnav-site";
+            // remains same and script ended    
         }
     }
 </script>
@@ -36,7 +41,7 @@
             </a>
             <a href="sitereport.html" class="active">Sitereport
             </a>
-            <a href="javascript:void(0);" class="icon-site" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon-site" onclick="navbarsite()">
                 <i class="fa fa-bars">
                 </i>
             </a>
