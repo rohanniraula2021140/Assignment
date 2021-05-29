@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu:wght@700&display=swap');
 .index_hello {
     padding: 3%; 
     /* the overal padding is as mentioned above */
@@ -8,6 +7,7 @@
     margin-left: 10%;
     /* the margin at the left */
     grid-column-start: 1;
+    /* grid-column: 1/ span7; */
     /* grid make the element to start from the 1st column */
     grid-column-end: 7;
     /* grid make the element to end at the 13th column    */
@@ -15,21 +15,23 @@
     animation: shadowchangerin 0.7s ease-out infinite;
 }
 
-@media only screen and (max-width: 599px;
-) {
+@media only screen and (max-width: 599px) {
     /* for mobile */
     .index_hello {
         padding: 0%;
+        
         /* the overal padding is as mentioned above */
         margin-top: 25px;
         /* margin at the top for the ellement in the samall screen is 25px */
-        margin-left: 10%;
+        margin-left: 0%;
         /* the margin at the left side is 10% */
-        grid-column-start: 1;
+        /* grid-column-start: 1; */
+        grid-column: 1/span12;
         /* grid make the element to start from the 1st column */
-        grid-column-end: 13;
+        /* grid-column-end: 13; */
         /* grid make the element to end at the 13th column    */
-        margin-bottom: 10%;transition-duration: 1s;
+        /* margin-bottom: 10%; */
+        transition-duration: 1s;
         text-align: center;/* align the text in desired way */
     }
 }
@@ -90,7 +92,62 @@
 
 
 }
-
+.firstimage{
+    grid-column: 7/12;
+    margin: 50px;
+    width: fit-content;
+}
+.firstimage img{animation: shadowchangerin 0.7s ease-out infinite;}
+.thirdimage img{animation: shadowchangerin 0.7s ease-out infinite;}
+.secondimage img{animation: shadowchangerin 0.7s ease-out infinite;}
+.secondimage{
+    grid-column: 2/6;
+    margin: 50px;width: fit-content;
+}
+.thirdimage{
+    grid-column: 6/12;
+    
+    margin-left: 150px;
+    height: fit-content;
+    width: fit-content
+}
+.imagechangeone{display:block;}
+.imagechangetwo{display:none;}
+.imagechangethree{display:block;}
+.imagechangefour{display:none;}
+@media only screen and (max-width: 599px){
+    .firstimage{
+        grid-column: 1/12;
+        margin: 5%;
+        width: fit-content;
+    }
+    .firstimage img{
+        width: 80%;animation: shadowchangerin 0.7s ease-out infinite;
+        margin-left:10%;
+    }
+    
+    .secondimage img{
+        width: 80%;animation: shadowchangerin 0.7s ease-out infinite;margin-left:10%;
+    }
+    .thirdimage img{
+        width: 80%;animation: shadowchangerin 0.7s ease-out infinite;margin-left:10%;
+    }
+    .secondimage{
+        grid-column: 1/12;
+        margin: 0px;
+        width: fit-content;
+    }
+    .thirdimage{
+        grid-column: 1/12;
+        /* margin: 50px; */
+        margin-left: 0px;
+        width: fit-content;
+    } 
+    .imagechangeone{display:none;}
+    .imagechangetwo{display:block;}
+    .imagechangethree{display:none;}
+    .imagechangefour{display:block;}
+}
 
 /* 2nd para */
 
@@ -105,7 +162,7 @@
     
     margin-bottom: 10%;
     /* margin at the bttom of the elemne is 10% */
-    margin-left: 1%;
+    margin-left: 1%;margin-right: 5%;
     /* margin at the left of the element is 10% */
     align-content: stretch;
     /* the contentis stretchded up to the border */
@@ -119,12 +176,14 @@
         /* grid make the element to start from the 1st column */
         grid-column-end: 13;
         /* grid make the element to end at the 13th column    */
-        margin-bottom: 10%;
+        /* margin-bottom: 10%; */
         /* marin at the bottom is 10% */
-        margin-left: 10%;
+        /* margin-left: 10%; */
         /* margin at the left is 10% */
+        width: 80%;
         align-content: stretch;transition-duration: 1s;
         /* the cotent is stretch up to border */
+    
     }
 }
 
@@ -138,7 +197,7 @@
 .index_bio {
     color: rgb(186, 150, 219);/* this sets the color for this */
     font-size: 25px;transition-duration: 1s;
-    width: 550px;
+    /* width: 550px; */
     /* this displays the text in the size mentioned above */
     animation: shadowchangerin 0.7s ease-out infinite;
     font-family: Arial, Helvetica, sans-serif;
@@ -164,7 +223,8 @@
     grid-column-end: 6;
     /* grid make the element to end at the 13th column    */
     margin-left: 15%;
-    width: 570px;
+    /* width: 570px; */
+    width: 90%;
     /* margin at the left side is 15% */
     margin-bottom: 25px;transition-duration: 1s;
     /* margin at the bottom is 25px */
@@ -179,7 +239,8 @@
         /* grid make the element to start from the 1st column */
         grid-column-end: 13;
         /* grid make the element to end at the 13th column    */
-        margin-left: 15%;
+        margin-left: 1%;
+        width: 80%;
         /* margin at the left side is as above */
         margin-bottom: 25px;transition-duration: 1s;
     /* margin at the bottom is 25px */
@@ -918,7 +979,7 @@ body {
         /* the icon will be treated as the block */       
     }
     .navbarinqwertyuiop-in {
-        width: 100%;
+        /* width: 100%; */
         /* the navigation bar will allocate the full 100% width */                           
         /* the widht is as above */
         grid-column: 1/13;
@@ -940,17 +1001,8 @@ body {
         /* the default css will be applied */
         position: relative;
         /* this two class will have postion relative */
-        /* here this will be only applied if both topnav and responsive will be met and that will be done by js written in the script file */
+        /* here this will be only applied if both topnav and responsive will be met equal and that will be done by js written in the script file */
         
-    }
-    .navbarinqwertyuiop-in.smallscrn-in .threelineinqwerty-in {
-        position: absolute;
-            /* the postion of the icon will be absolute */             
-        right: 0;
-            /* icon will be at the full right part of the screen */    
-        top: 0;
-            /* icon will be at the top of the screen */                
-            /* now icon will lies in the top right part of the scren */
     }
     .navbarinqwertyuiop-in.smallscrn-in a {
         float: none;
@@ -959,6 +1011,12 @@ body {
         /* the anchor will be treated as the block */   
         text-align: left;
         /* the letter will be left part of the screen */
+    }.navbarinqwertyuiop-in.smallscrn-in a:not(:.threelineinqwerty-in){
+        grid-column: 1/12;
+        width: 90%;
+    }
+    .threelineinqwerty-in{
+        grid-column: 12/13;
     }
 }
 
