@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
     <title>Document</title>
     <link rel="stylesheet " href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -15,28 +18,28 @@
 
 
 <script>
-    function navbarin() {
+    function navbarinqwerty() {
         // upper lines defines the function and the name for this function si navbarin
-        var navbarinvar = document.getElementById("myTopnav-in");
+        var navbarinvar = document.getElementById("jstrigger-in");
         // upper line define the variable navbarinvar and it recieves the eleement by the id from this document
-        if (navbarinvar.className === "topnav-in") {
+        if (navbarinvar.className === "navbarinqwertyuiop-in") {
                // here if the variable navbarinvar is equal to topnav-con then 
             navbarinvar.className += " smallscrn-in";
             // it will add with smallscrn-in so that responsive change in the style is obtained otherwise
         } else {
-            navbarinvar.className = "topnav-in";
+            navbarinvar.className = "navbarinqwertyuiop-in";
             // remains same 
         }
     }
 </script>
 
-<body class="gradient-in">
+<body class="bgcolor-in">
         <!-- puting the class name for the body so that allocate the gradient to id -->
 
     <div class="grid-container-in ">
         <!-- the new container is created where the elemeent is placed according to the grid address -->
 
-        <div class="topnav-in" id="myTopnav-in">
+        <div class="navbarinqwertyuiop-in" id="jstrigger-in">
               <!-- for the navigation bar the class is given tot the style sheet
              -->
              <!-- for the javascript the id is given so that script gets hte element and make the responsive view when screen is lessar than 600px -->
@@ -50,45 +53,51 @@
             <!-- provideing access to cv.html throught link-->        
             <a href="sitereport.html">Sitereport</a>
             <!-- provideing access to sitereport.html throught link-->
-            <a href="javascript:void(0);" class="icon-in" onclick="navbarin()">
+            <a href="javascript:void(0);" class="threelineinqwerty-in" onclick="navbarinqwerty()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
 
-
+<span></span>
         <div class="grid-item-in index_hello ">
             <!-- one allocates the grid area another is for first para style -->
 
             <h3> Hello</h3>
             <!-- title also has style in style.css -->
-            <h2 class="index_imrohan">I'm Rohan Niraula </h2>
+            <h2 class="index_imrohan"><span class="hellolight1">I</span><span class="hellolight2">'</span><span class="hellolight3">m</span> <span class="hellolight4"> R </span><span class="hellolight5">o</span><span class="hellolight6">h</span><span class="hellolight7">a</span><span class="hellolight8">n</span><span class="hellolight9"> N</span><span class="hellolight10">i</span><span class="hellolight11">r</span><span class="hellolight12">a</span><span class="hellolight13">u</span><span class="hellolight14">l</span><span class="hellolight15">a</span> </h2>
             <!-- 2nd heading has class name -->
 
             <p class="index_hello_para">Expert in the Web Development and<br> has a Special training in the field of Artificial<br> Intellegence and Machine Learning.</p>
             <!-- paragraph has class fromwhich it takes the style -->
-            <button class="index_button">Learn more</button>
+            <a href="sitereport.html"><button class="index_button">Learn more</button></a>
             <!-- the button has style fromtheindex-btton  -->
 
 
+        </div>
+        <div class="firstimage">
+            <img src
         </div>
         <!-- first para div ends here -->
         <!-- second para div start from here -->
         <div class="grid-item-in index_bio" id="bio ">
             <!-- multiple class provide the multiple styles and id is to naviage to the certain paragraph -->
-            <h2>Bio</h2>
+            <h2 style="font-family: ubuntu;"><span class="biolight1">I</span><span class="biolight2">N</span><span class="biolight3">F</span><span class="biolight4">O</span></h2>
             <!-- 2nd heading has class in sheets without class name -->
 
             <p class="index_aboutme_para">Only Believe's the Unexpectional Truth Called Death. <br> Not Fear of death <br> No Addiction, No love and No any Things to lose.<br> Want to Achieve the ultimate goal. <br> Has Decent knowledge about it.
             </p>
             <!-- para class gives the styles to the paragrah -->
-            <button class="index_button">Learn more</button>
+            <a href="sitereport.html"><button class="index_button">Learn more</button></a>
             <!-- the button has style fromtheindex-btton  -->
+
+        </div>
+        <div class="secondimage">
 
         </div>
         <div class="grid-item-in index_aboutme">
             <!-- multiple class provide the multiple styles and id is to naviage to the certain paragraph -->
 
-            <h2>Me (Professional)</h2>
+            <h2><span class="hobbylight1">H</span><span class="hobbylight2">o</span><span class="hobbylight3">b</span><span class="hobbylight4">b</span><span class="hobbylight5">i</span><span class="hobbylight6">e</span><span class="hobbylight7">s</span></h2>
             <!-- the heading has the styles in the external lheading  -->
             
 
@@ -96,11 +105,11 @@
                 and manymore.
             </p>
             <!-- the paragrpah has the styles in the external stylesheet -->
-            <button class="index_button">Learn more</button>
+            <a href="sitereport.html"><button class="index_button">Learn more</button></a>
             <!-- the button has style fromtheindex-btton  -->
 
         </div>
-
+        <div class="thirdimage"></div>
 
 
 

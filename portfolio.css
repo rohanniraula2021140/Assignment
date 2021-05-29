@@ -1,4 +1,4 @@
-smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pattaya&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pattaya&family=Reggae+One&display=swap');
     .grid-container-por {
         display: grid;
         /* it divides the screen into the desired shaped columned */
@@ -8,20 +8,21 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     
     body {
         margin: 0;
+        background-color: rgb(88, 18, 18);
         /* margin is none */
         font-family: Arial, Helvetica, sans-serif;
             /* this is google font used here */
 
     }
     
-    .topnav-por {
+    .navbarportqwertyuiop-por {
         overflow: hidden;
         /* background-color : #333; */
         grid-column: 4/13;
         /* grid column start at 4 and end at 13 */
     }
     
-    .topnav-por a {
+    .navbarportqwertyuiop-por a {
         float: left;
         /* the element is lfoating at left side */
         display: block;
@@ -36,69 +37,128 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         /* underline is removed throgh this */
         font-size: 17px;
         /* the text size is setted */
-        background-color: rgb(90, 74, 121);
+        background-color: rgb(15, 1, 44);
         /* the bg color is as above */
+
+        
+        font-weight: 700;
+        font-family: 'Ubuntu',sans-serif;
+    }
+    @media only screen and (min-width:600px){
+        .navbarportqwertyuiop-por a{
+        width: 125px;
+        height: 40px;
+        background-color: rgb(1, 27, 39);
+        padding: 20px;
+        font-size: 23px;
+        }
+        
+    }
+    @keyframes colorchangersite {
+        10% {
+            color: rgb(238, 255, 0);/* this sets the color for this */
+            text-shadow: 0px 0px 1px rgb(255, 253, 253);/* provides the desired shadow to the text */
+        }
+        20% {
+            color: rgb(166, 255, 0);/* this sets the color for this */
+            text-shadow: 0px 0px 1px rgb(248, 193, 193);/* provides the desired shadow to the text */
+        }
+        30% {
+            color: rgb(30, 255, 0);/* this sets the color for this */
+            text-shadow: 0px 0px 1px rgb(252, 127, 127);/* provides the desired shadow to the text */
+        }
+        40% {
+            color: rgb(0, 255, 149);/* this sets the color for this */
+            text-shadow: ;/* provides the desired shadow to the text */
+        }
+        50% {
+            color: rgb(0, 174, 255);/* this sets the color for this */
+            text-shadow: 0px 18px 18px rgb(115, 247, 103);/* provides the desired shadow to the text */
+        }
+        60% {
+            color: rgb(0, 225, 255);/* this sets the color for this */
+            text-shadow: ;/* provides the desired shadow to the text */
+        }
+        70% {
+            color: rgb(0, 47, 255);/* this sets the color for this */
+            text-shadow: ;/* provides the desired shadow to the text */
+        }
+        80% {
+            color: rgb(38, 0, 255);/* this sets the color for this */
+            text-shadow: 0px 16px 6px rgb(214, 243, 86);/* provides the desired shadow to the text */
+        }
+        90% {
+            color: rgb(247, 0, 255);/* this sets the color for this */
+            text-shadow: ;/* provides the desired shadow to the text */
+        }
+        100% {
+            color: rgb(255, 0, 43);/* this sets the color for this */
+            text-shadow: 0px 20px 20px rgb(19, 111, 248);/* provides the desired shadow to the text */
+        }
     }
     
-    .topnav-por a:hover {
-        background-color: #ddd;
+    .navbarportqwertyuiop-por a:hover {
+        background-color: rgb(54, 2, 2);
+        transition-duration: 1s;
         /* the bg color is as above */
         color: black;/* this sets the color for this */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);/* the above shadow will be the shadow for ht element */
         /* the multiple merge into single one to provde eautiful one */
+        animation: colorchangersite 0.7s ease-out infinite;
     }
     
-    .topnav-por a.active {
-        background-color: rgb(64, 53, 85);
+    .navbarportqwertyuiop-por a.active {
+        background-color: rgb(33, 11, 75);
         /* the bg color is as above */
-        color: white;/* this sets the color for this */
+        color: rgb(78, 7, 7);/* this sets the color for this */
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);/* the above shadow will be the shadow for ht element */
         /* the multiple merge into single one to provde eautiful one */
+        animation: colorchangersite 0.7s ease-out infinite;
     }
     
-    .topnav-por .icon-por {
+    .navbarportqwertyuiop-por .threelineportqwerty-por {
         display: none;
     }
     /* the display of the icon will not be seen  */
     /* because if it will be seen in the large screen then it will not meet the requirement */
     
     @media only screen and (max-width: 600px) {
-        .topnav-por a:not(:first-child) {
+        .navbarportqwertyuiop-por a:not(:first-child) {
             display: none;
             /* only first element will be seen remainng will not be seeen */
         }
-        .topnav-por a.icon-por {
+        .navbarportqwertyuiop-por a.threelineportqwerty-por {
             float: right;
             /* the icon will float right part fo the screen */
             display: block;
             /* the icon will be treated as the block */       
         }
-        .topnav-por {
+        .navbarportqwertyuiop-por {
             width: 100%;
             /* the navigation bar will allocate the full 100% width */                           
             /* the widht is as above */
             grid-column: 1/13;
             /* as it is in small screen it will take all the column to be appropriate */         
         }
-        .topnav-por a:not(:.icon-por) {
+        .navbarportqwertyuiop-por a:not(:.threelineportqwerty-por) {
             grid-column: 1/12;
             /* as it only for the achor name is will take approx 95% of space and that is here about 3 column */         
         }
-        .icon-por {
+        .threelineportqwerty-por {
             grid-column: 12/13;
             /* for icon it will barely take about 5% space so it only takes one column */                                
         }
     }
     
     @media only screen and (max-width: 600px) {
-        .topnav-por.smallscrn-por {
+        .navbarportqwertyuiop-por.smallscrn-por {
             /* here media screen is the query which will be only valid if the device screen is maximum 599px if it is more than that  */
             /* the default css will be applied */
             position: relative;
             /* this two class will have postion relative */
         /* here this will be only applied if both topnav and responsive will be met and that will be done by js written in the script file */
         }
-        .topnav-por.smallscrn-por .icon-por {
+        .navbarportqwertyuiop-por.smallscrn-por .threelineportqwerty-por {
             position: absolute;
                 /* the postion of the icon will be absolute */             
             right: 0;
@@ -107,13 +167,65 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
                 /* icon will be at the top of the screen */                
                 /* now icon will lies in the top right part of the scren */
         }
-        .topnav-por.smallscrn-por a {
+        .navbarportqwertyuiop-por.smallscrn-por a {
             float: none;
             /* the anchor tag will not float now */         
             display: block;
             /* the anchor will be treated as the block */   
             text-align: left;
             /* the letter will be left part of the screen */
+        }
+    }
+    @keyframes shadowchangerport {
+        10% {
+            color: rgb(238, 255, 0);/* this sets the color for this */
+            /* text-shadow: 0px 0px 1px rgb(255, 253, 253);provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
+        }
+        20% {
+            color: rgb(166, 255, 0);/* this sets the color for this */
+            /* text-shadow: 0px 0px 1px rgb(248, 193, 193);provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
+        }
+        30% {
+            color: rgb(30, 255, 0);/* this sets the color for this */
+            /* text-shadow: 0px 0px 1px rgb(252, 127, 127);provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
+        }
+        40% {
+            color: rgb(0, 255, 149);/* this sets the color for this */
+            /* text-shadow: ;provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 0, 0, 0.832);
+        }
+        50% {
+            color: rgb(0, 174, 255);/* this sets the color for this */
+            /* text-shadow: 0px 18px 18px rgb(115, 247, 103);provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 94, 0, 0.832);
+        }
+        60% {
+            color: rgb(0, 225, 255);/* this sets the color for this */
+            /* text-shadow: ;provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 196, 2, 0.832);
+        }
+        70% {
+            color: rgb(0, 47, 255);/* this sets the color for this */
+            /* text-shadow: ;provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(60, 255, 1, 0.832);
+        }
+        80% {
+            color: rgb(38, 0, 255);/* this sets the color for this */
+            /* text-shadow: 0px 16px 6px rgb(214, 243, 86);provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(2, 255, 150, 0.832);
+        }
+        90% {
+            color: rgb(247, 0, 255);/* this sets the color for this */
+            /* text-shadow: ;provides the desired shadow to the text */
+            box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 47, 255, 0.832);
+        }
+        100% {
+            color: rgb(255, 0, 43);/* this sets the color for this */
+            /* text-shadow: 0px 20px 20px rgb(19, 111, 248);provides the desired shadow to the text */
+            box-shadow: 0 4.4343px 5.3434px 0 rgba(255, 2, 141, 0.747);
         }
     }
     
@@ -291,7 +403,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     }
     
     .box-design1-por {
-        height: 350px;
+        height: 350px;animation: shadowchangerport 0.7s ease-out infinite;
         /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
@@ -349,7 +461,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     }
     
     .box-design2-por {
-        height: 350px;
+        height: 350px;animation: shadowchangerport 0.7s ease-out infinite;
         /* the height of the element is as given */
         width: 250px;
         /* the widht is as above */
@@ -404,7 +516,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     }
     
     .box-design3-por {
-        height: 350px;
+        height: 350px;animation: shadowchangerport 0.7s ease-out infinite;
         /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
@@ -435,7 +547,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             height: 350px;
             /* the height of the element is as given */
             transition-duration: 1s;
-    /* time for transistion between the styles */
+            /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
             width: 80%;
             /* the widht is as above */
@@ -458,7 +570,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     }
     
     .box-design4-por {
-        height: 350px;
+        height: 350px;animation: shadowchangerport 0.7s ease-out infinite;
         /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
@@ -515,7 +627,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     }
     
     .box-design5-por {
-        height: 350px;
+        height: 350px;animation: shadowchangerport 0.7s ease-out infinite;
         /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
@@ -571,7 +683,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     }
     
     .box-design6-por {
-        height: 350px;
+        height: 350px;animation: shadowchangerport 0.7s ease-out infinite;
         /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */

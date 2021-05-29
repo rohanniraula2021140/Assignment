@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Sitereport</title>
     <link rel="stylesheet " href="footer-site.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,16 +13,16 @@
 </head>
 
 <script>
-    function navbarsite() {
+    function navbarsiteqwerty() {
         // upper lines defines the function and the name for this function si navbarsite
-        var navbarsitevar = document.getElementById("myTopnav-site");
+        var navbarsitevar = document.getElementById("jstrigger-site");
         // upper line define the variable named navbarsitevar and it recieves the eleement by the id from this document
-        if (navbarsitevar.className === "topnav-site") {
+        if (navbarsitevar.className === "navbarsiteqwertyuiop-site") {
                // here if the variable navbarsitevar is equal to topnav-con then 
             navbarsitevar.className += " smallscrn-site";
             // it will added with smallscrn-site otherwise
         } else {
-            navbarsitevar.className = "topnav-site";
+            navbarsitevar.className = "navbarsiteqwertyuiop-site";
             // remains same and script ended    
         }
     }
@@ -32,29 +32,21 @@
     <!-- puting the class name for the body so that allocate the gradient to id -->
     <div class="grid-container-site">
         <!-- the new container is created where the elemeent is placed according to the grid address -->
-        <div class="topnav-site" id="myTopnav-site">
+        <div class="navbarsiteqwertyuiop-site" id="jstrigger-site">
             <!-- for the navigation bar the class is given tot the style sheet
              -->
              <!-- for the javascript the id is given so that script gets hte element and make the responsive view when screen is lessar than 600px -->
-            <a href="index.html"> Home
-                <!-- provideing access to index.html throught link-->             
-            </a>
-            <a href="portfolio.html"> Portfolio
-                    </a>
-                    <!-- provideing access to portfolio.html throught link-->               
-            <a href="contact.html"> Contact
-            </a>
+            <a href="index.html"> Home </a>
+            <!-- provideing access to index.html throught link-->            
+            <a href="portfolio.html"> Portfolio</a>
+            <!-- provideing access to portfolio.html throught link-->               
+            <a href="contact.html"> Contact </a>
             <!-- provideing access to cntact.html throught link-->            
-            <a href="cv.html"> CV
-            </a>
+            <a href="cv.html"> CV </a>
             <!-- provideing access to cv.html throught link-->                   
-            <a href="sitereport.html" class="active">Sitereport
-            </a>
+            <a href="sitereport.html" class="active">Sitereport </a>
             <!-- provideing access to sitereport.html throught link-->              
-            <a href="javascript:void(0);" class="icon-site" onclick="navbarsite()">
-                <i class="fa fa-bars">
-                </i>
-            </a>
+            <a href="javascript:void(0);" class="threelinesiteqwerty-site" onclick="navbarsiteqwerty()"><i class="fa fa-bars"></i></a>
         </div>
         <div class="site_box-site ">
             <!-- giving another div to make the title -->

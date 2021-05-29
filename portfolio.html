@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0 ">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet " href="footer-port.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,16 +15,16 @@
 </head>
 
 <script>
-    function navbarport() {
+    function navbarportqwerty() {
         // upper lines defines the function and the name for this function si navbarport
-        var navbarportvar = document.getElementById("myTopnav-por");
+        var navbarportvar = document.getElementById("jstrigger-por");
         // upper line define the variable named navbarportvar and it recieves the eleement by the id from this document
-        if (navbarportvar.className === "topnav-por") {
+        if (navbarportvar.className === "navbarportqwertyuiop-por") {
                // here if the variable navbarportvar is equal to topnav-con then 
             navbarportvar.className += " smallscrn-por";
             // it will added with smallscrn-port to make webpage respoinsive
         } else {
-            navbarportvar.className = "topnav-por";
+            navbarportvar.className = "navbarportqwertyuiop-por";
             // remains same and script ended 
         }
     }
@@ -35,7 +35,7 @@
 
     <div class=" grid-container-por">
         <!-- the new container is created where the elemeent is placed according to the grid address -->
-        <div class="topnav-por" id="myTopnav-por">
+        <div class="navbarportqwertyuiop-por" id="jstrigger-por">
               <!-- for the navigation bar the class is given tot the style sheet
              -->
              <!-- for the javascript the id is given so that script gets hte element and make the responsive view when screen is lessar than 600px -->
@@ -49,7 +49,7 @@
             <!-- provideing access to cv.html throught link-->        
             <a href="sitereport.html">Sitereport</a>
             <!-- provideing access to sitereport.html throught link-->
-            <a href="javascript:void(0);" class="icon-por" onclick="navbarport()">
+            <a href="javascript:void(0);" class="threelineportqwerty-por" onclick="navbarportqwerty()">
                 <i class="fa fa-bars "></i>
             </a>
         </div>

@@ -21,16 +21,16 @@
 </head>
 
 <script>
-    function navbarcv() {
+    function navbarcvqwerty() {
         // upper lines defines the function and the name defining this function is navbarcv
-        var navbarcvvar = document.getElementById("myTopnav-cv");
+        var navbarcvvar = document.getElementById("jstrigger-cv");
         // upper line defines the variable and it recieves the eleement by the id from this document
-        if (navbarcvvar.className === "topnav-cv") {
+        if (navbarcvvar.className === "navbarcvqwertyuiop-cv") {
                // here if the variable navbarcvnvar is equal to topnav-cv then following will be done 
             navbarcvvar.className += " smallscrn-cv";
             // it will add with smallscrn-cv otherwise following will be done
         } else {
-            navbarcvvar.className = "topnav-cv";
+            navbarcvvar.className = "navbarcvqwertyuiop-cv";
             // remains same 
             // now function ended
         }
@@ -43,21 +43,21 @@
     <div class="grid-container-cv">
             <!-- the new container is created where the elemeent is placed according to the grid address -->
 
-        <div class="topnav-cv" id="myTopnav-cv">
+        <div class="navbarcvqwertyuiop-cv" id="jstrigger-cv">
               <!-- for the navigation bar the class is given tot the style sheet
              -->
              <!-- for the javascript the id is given so that script gets hte element and make the responsive view when screen is lessar than 600px -->
-            <a href="index.html ">Home</a>
+            <a href="index.html">Home</a>
             <!-- provideing access to index.html throught link-->     
-            <a href="portfolio.html ">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
             <!-- provideing access to portfolio.html throught link--> 
-            <a href="contact.html ">Contact</a>
+            <a href="contact.html">Contact</a>
             <!-- provideing access to cntact.html throught link-->    
-            <a href="cv.html " class="active ">CV</a>
+            <a href="cv.html" class="active ">CV</a>
             <!-- provideing access to cv.html throught link-->        
-            <a href="sitereport.html ">Sitereport</a>
+            <a href="sitereport.html">Sitereport</a>
             <!-- provideing access to sitereport.html throught link-->
-            <a href="javascript:void(0); " class="icon-cv" onclick="navbarcv() ">
+            <a href="javascript:void(0); " class="threelinecvqwerty-cv" onclick="navbarcvqwerty() ">
                 <i class="fa fa-bars "></i>
             </a>
         </div>

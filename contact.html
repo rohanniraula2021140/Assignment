@@ -16,17 +16,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
     <script>
-        function navbarcon() {
+        function navbarconqwerty() {
             // upper lines defines the function and the name for this function si navbarcon
-            var navbarconvar = document.getElementById("myTopnav-con");
+            var navbarconvar = document.getElementById("jstrigger-con");
             // upper line define the variable and it recieves the eleement by the id from this document 
             
-            if (navbarconvar.className === "topnav-con") {
+            if (navbarconvar.className === "navbarconqwertyuiop-con") {
                 // here if the variable navbarconvar is equal to topnav-con then 
                 navbarconvar.className += " smallscrn-con";
                 // it will added with smallscrn-con otherwise
             } else {
-                navbarconvar.className = "topnav-con";
+                navbarconvar.className = "navbarconqwertyuiop-con";
                 // remains same 
             }
         }
@@ -100,10 +100,10 @@
 
             
         </div>
-        <div class="topnav-con ">
+        <div class="navbarconqwertyuiop-con ">
             <!-- this is new container for nav bar / -->
             
-            <div class="topnav-con" id="myTopnav-con">
+            <div class="navbarconqwertyuiop-con" id="jstrigger-con">
                   <!-- for the navigation bar the class is given tot the style sheet
              -->
              <!-- for the javascript the id is given so that script gets hte element and make the responsive view when screen is lessar than 600px -->
@@ -117,7 +117,7 @@
                 <!-- provideing access to cv.html throught link-->        
                 <a href="sitereport.html">Sitereport</a>
                 <!-- provideing access to sitereport.html throught link-->
-                <a href="javascript:void(0); " class="icon-con" onclick="navbarcon() ">
+                <a href="javascript:void(0); " class="threelineconqwerty-con" onclick="navbarconqwerty() ">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
