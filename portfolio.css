@@ -206,6 +206,8 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             /* this is google font used here */
 
         grid-column: 3/12;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
+
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -218,7 +220,10 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
                 /* this is google font used here */
 
             grid-column: 1/13;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
+
             grid-row: 2/3;
+            /* the grid make the element to start and end according to the above value */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -231,6 +236,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         /* the bg color is as above */
         color: white;/* this sets the color for this */
         width: fit-content;
+        /* the width is as above */
         text-align: center;/* align the text in desired way */
         transition-duration: 1s;
     /* time for transistion between the styles */
@@ -245,6 +251,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         /* the widht is as above */
         text-align: center;/* align the text in desired way */
         margin-left: 250px;
+        /* margin of the given element as above */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -255,6 +262,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             /* this is google font used here */
 
         grid-column: 3/12;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -284,6 +292,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     
     .box-design1-por {
         height: 350px;
+        /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
     /* time for transistion between the styles */
@@ -293,12 +302,15 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(97, 9, 24);
         /* the bg color is as above */
         grid-column: 2/5;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         grid-row: 3/4;
+        /* the grid make the element to start and end according to the above value */
         box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
     }
     
     .box-design1-por:hover {
         padding: 12px 12px;
+        /* the padding of the top bottom is first one and right left is second one */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -309,20 +321,25 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     @media only screen and (max-width: 599px) {
         .box-design1-por {
             height: 350px;
+            /* the height of the element is as given */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
             width: 80%;
             /* the widht is as above */
             margin-left: 10%;
+            /* the margin at the left side fo the element */
             background-color: rgb(97, 9, 24);
             /* the bg color is as above */
             grid-column: 2/12;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
             grid-row: 3/4;
+            /* the grid make the element to start and end according to the above value */
             box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
         }
         .box-design1-por:hover {
             padding: 12px 12px;
+             /* the padding of the top bottom is first one and right left is second one */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -333,6 +350,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     
     .box-design2-por {
         height: 350px;
+        /* the height of the element is as given */
         width: 250px;
         /* the widht is as above */
         transition-duration: 1s;
@@ -341,12 +359,15 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(97, 95, 2);
         /* the bg color is as above */
         grid-column: 5/7;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         grid-row: 3/4;
+        /* the grid make the element to start and end according to the above value */
         box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
     }
     
     .box-design2-por:hover {
         transition-duration: 2s;
+        /* timing for the transisiton */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
         background-color: rgb(98, 5, 126);
         /* the bg color is as above */
@@ -356,20 +377,25 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     @media only screen and (max-width: 599px) {
         .box-design2-por {
             height: 350px;
+            /* the height of the element is as given */
             width: 80%;
             /* the widht is as above */
             margin-left: 10%;
+            /* the margin at the left side of the elment */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
             background-color: rgb(97, 95, 2);
             /* the bg color is as above */
             grid-column: 2/12;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
             grid-row: 4/5;
+            /* the grid make the element to start and end according to the above value */
             box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
         }
         .box-design2-por:hover {
             transition-duration: 2s;
+            /* the time for the duration fo the transisiton */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
             background-color: rgb(98, 5, 126);
             /* the bg color is as above */
@@ -379,6 +405,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     
     .box-design3-por {
         height: 350px;
+        /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -387,21 +414,26 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(1, 78, 78);
         /* the bg color is as above */
         grid-column: 8/12;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         grid-row: 3/4;
+        /* the grid make the element to start and end according to the above value */
         box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
     }
     
     .box-design3-por:hover {
         transition-duration: 2s;
+        /* the transitios time for the change ofthe style of the given element */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
         background-color: rgb(105, 17, 6);
         /* the bg color is as above */
         padding: 12px 12px;
+         /* the padding of the top bottom is first one and right left is second one */
     }
     
     @media only screen and (max-width: 599px) {
         .box-design3-por {
             height: 350px;
+            /* the height of the element is as given */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -411,7 +443,9 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             background-color: rgb(1, 78, 78);
             /* the bg color is as above */
             grid-column: 2/12;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
             grid-row: 5/6;
+            /* the grid make the element to start and end according to the above value */
             box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
         }
         .box-design3-por:hover {
@@ -425,6 +459,7 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
     
     .box-design4-por {
         height: 350px;
+        /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -433,7 +468,9 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(79, 4, 94);
         /* the bg color is as above */
         grid-column: 2/5;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         grid-row: 4/5;
+        /* the grid make the element to start and end according to the above value */
         box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
     }
     
@@ -444,21 +481,26 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(17, 61, 4);
         /* the bg color is as above */
         padding: 12px 12px;
+         /* the padding of the top bottom is first one and right left is second one */
     }
     
     @media only screen and (max-width:599px) {
         .box-design4-por {
             height: 350px;
+            /* the height of the element is as given */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
             width: 80%;
             /* the widht is as above */
             margin-left: 10%;
+            /* the margin at the left side of the element is as aove */
             background-color: rgb(79, 4, 94);
             /* the bg color is as above */
             grid-column: 2/12;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
             grid-row: 6/7;
+            /* the grid make the element to start and end according to the above value */
             box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
         }
         .box-design4-por:hover {
@@ -468,11 +510,13 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             background-color: rgb(17, 61, 4);
             /* the bg color is as above */
             padding: 12px 12px;
+             /* the padding of the top bottom is first one and right left is second one */
         }
     }
     
     .box-design5-por {
         height: 350px;
+        /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -481,7 +525,9 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(10, 4, 88);
         /* the bg color is as above */
         grid-column: 5/7;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         grid-row: 4/5;
+        /* the grid make the element to start and end according to the above value */
         box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
     }
     
@@ -492,11 +538,13 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(104, 32, 4);
         /* the bg color is as above */
         padding: 12px 12px;
+         /* the padding of the top bottom is first one and right left is second one */
     }
     
     @media only screen and (max-width: 599px) {
         .box-design5-por {
             height: 350px;
+            /* the height of the element is as given */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -506,7 +554,9 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             background-color: rgb(10, 4, 88);
             /* the bg color is as above */
             grid-column: 2/12;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
             grid-row: 7/8;
+            /* the grid make the element to start and end according to the above value */
             box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
         }
         .box-design5-por:hover {
@@ -516,11 +566,13 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             background-color: rgb(104, 32, 4);
             /* the bg color is as above */
             padding: 12px 12px;
+             /* the padding of the top bottom is first one and right left is second one */
         }
     }
     
     .box-design6-por {
         height: 350px;
+        /* the height of the element is as given */
         transition-duration: 1s;
     /* time for transistion between the styles */
         transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -529,7 +581,9 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(97, 2, 73);
         /* the bg color is as above */
         grid-column: 8/12;
+        /* the grid make the element ot start and end according to the above value (colummmmn) */
         grid-row: 4/5;
+        /* the grid make the element to start and end according to the above value */
         box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
     }
     
@@ -540,11 +594,13 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
         background-color: rgb(3, 43, 104);
         /* the bg color is as above */
         padding: 12px 12px;
+        /* this sets the top bottom padding t 12px and right left padding to 12px */
     }
     
     @media only screen and (max-width: 599px) {
         .box-design6-por {
             height: 350px;
+            /* the height of the element is as given */
             transition-duration: 1s;
     /* time for transistion between the styles */
             transition-timing-function: ease-in-out; /* displays how the transition is preformed */
@@ -554,7 +610,9 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             background-color: rgb(97, 2, 73);
             /* the bg color is as above */
             grid-column: 2/12;
+            /* the grid make the element ot start and end according to the above value (colummmmn) */
             grid-row: 8/9;
+            /* the grid make the element to start and end according to the above value */
             box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;/* the above shadow will be the shadow for ht element */
         }
         .box-design6-por:hover {
@@ -565,5 +623,6 @@ smallscrn    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@5
             background-color: rgb(3, 43, 104);
             /* the bg color is as above */
             padding: 12px 12px;
+             /* the padding of the top bottom is first one and right left is second one */
         }
     }

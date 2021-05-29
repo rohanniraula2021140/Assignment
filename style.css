@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 .index_hello {
-    padding: 3%;
+    padding: 3%; 
+    /* the overal padding is as mentioned above */
     margin-top: 45px;
+    /* the top of margin is 45px */
     margin-left: 10%;
+    /* the margin at the left */
     grid-column-start: 1;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 7;
+    /* grid make the element to end at the 13th column    */
     margin-bottom: 10%;
 }
 
@@ -13,11 +18,16 @@
 ) {
     /* for mobile */
     .index_hello {
-        /* padding: 3%; */
+        padding: 0%;
+        /* the overal padding is as mentioned above */
         margin-top: 25px;
+        /* margin at the top for the ellement in the samall screen is 25px */
         margin-left: 10%;
+        /* the margin at the left side is 10% */
         grid-column-start: 1;
+        /* grid make the element to start from the 1st column */
         grid-column-end: 13;
+        /* grid make the element to end at the 13th column    */
         margin-bottom: 10%;
         text-align: center;/* align the text in desired way */
     }
@@ -31,16 +41,20 @@
 .index_hello h3 {
     color: #a69bd3;/* this sets the color for this */
     font-size: 20px;
+    /* text are size accroding to above value */
 }
 
 .index_imrohan {
     color: white;/* this sets the color for this */
     font-size: 45px;
+    /* text are size accroding to above value */
 }
 
 .index_hello_para {
     color: rgb(186, 150, 219);/* this sets the color for this */
-    font-size: 23px;
+    font-size: 23px; 
+    /* text are size accroding to above value */
+    
     
     font-family: Arial, Helvetica, sans-serif;
         /* this is google font used here */
@@ -65,25 +79,30 @@
 
 .index_bio {
     grid-column-start: 6;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 12;
-    /* margin-left: 10%; */
-    /* grid-row-start: 4;
-    grid-row-end: 5; */
+    /* grid make the element to end at the 13th column    */
+    
     margin-bottom: 10%;
+    /* margin at the bttom of the elemne is 10% */
     margin-left: 10%;
+    /* margin at the left of the element is 10% */
     align-content: stretch;
+    /* the contentis stretchded up to the border */
 }
 
 @media only screen and (max-width:499px) {
     .index_bio {
         grid-column-start: 1;
+        /* grid make the element to start from the 1st column */
         grid-column-end: 13;
-        /* margin-left: 10%; */
-        /* grid-row-start: 4;
-        grid-row-end: 5; */
+        /* grid make the element to end at the 13th column    */
         margin-bottom: 10%;
+        /* marin at the bottom is 10% */
         margin-left: 10%;
+        /* margin at the left is 10% */
         align-content: stretch;
+        /* the cotent is stretch up to border */
     }
 }
 
@@ -105,6 +124,7 @@
 .index_bio h2 {
     color: white;/* this sets the color for this */
     font-size: 45px;
+    /* to make text bigger */
 }
 
 
@@ -115,21 +135,26 @@
 
 .index_aboutme {
     grid-column-start: 1;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 6;
+    /* grid make the element to end at the 13th column    */
     margin-left: 15%;
+    /* margin at the left side is 15% */
     margin-bottom: 25px;
-    /* grid-row-start: 4;
-    grid-row-end: 5; */
+    /* margin at the bottom is 25px */
+    
 }
 
 @media only screen and (max-width:499px) {
     .index_aboutme {
         grid-column-start: 1;
+        /* grid make the element to start from the 1st column */
         grid-column-end: 13;
+        /* grid make the element to end at the 13th column    */
         margin-left: 15%;
+        /* margin at the left side is as above */
         margin-bottom: 25px;
-        /* grid-row-start: 4;
-  grid-row-end: 5; */
+    /* margin at the bottom is 25px */
     }
 }
 
@@ -152,6 +177,7 @@
 .index_aboutme h2 {
     color: white;/* this sets the color for this */
     font-size: 45px;
+    /* this displays the text in the size mentioned above */
 }
 
 
@@ -162,7 +188,9 @@
 
 body {
     margin: 0;
+    /* margin is 0 */
     height: 100%;
+    /* the height of the element takes as much it can*/
 }
 
 
@@ -181,21 +209,26 @@ body {
 
 .index_button {
     font-weight: bold;
+    /* the text size s bold */
     font-size: 15px;
+    /* this displays the text in the size mentioned above */
     color: rgb(39, 23, 98);/* this sets the color for this */
     /* color: red; */
     width: 20%;
     /* the widht is as above */
     height: 50px;
+    /* the height is 50px */
     background-image: linear-gradient(rgba(58, 33, 151, 0.753), rgba(130, 22, 219, 0.705));
 }
 
 .index_button:hover {
     font-weight: bolder;
+    /* fontweight is bolder */
     color: white;/* this sets the color for this */
     background-color: rgba(53, 11, 206, 0.5);
     /* the bg color is as above */
     font-size: 17px;
+    /* this displays the text in the size mentioned above */
 }
 
 
@@ -233,7 +266,9 @@ body {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 1;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 5;
+    /* grid make the element to end at the 13th column    */
 }
 
 .portfolio-in:hover {}
@@ -248,12 +283,14 @@ body {
 
 .portfolio-in a {
     list-style-type: none;
+    /* removes the bullet sign */
     color: rgb(88, 76, 76);/* this sets the color for this */
 }
 
 .portfolio-in a:hover {
     text-shadow: 1px 1px white;/* provides the desired shadow to the text */
     font-size: larger;
+    /* this displays the text in the size mentioned above */
 }
 
 .portfolio-in a:active {
@@ -268,7 +305,9 @@ body {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 5;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 9;
+    /* grid make the element to end at the 13th column    */
 }
 
 .sitereport-in:hover {}
@@ -283,12 +322,14 @@ body {
 
 .sitereport-in a {
     list-style-type: none;
+    /* removes the bullet sign */
     color: rgb(88, 76, 76);/* this sets the color for this */
 }
 
 .sitereport-in a:hover {
     text-shadow: 1px 1px white;/* provides the desired shadow to the text */
     font-size: larger;
+    /* this displays the text in the size mentioned above */
 }
 
 .sitereport-in a:active {
@@ -303,7 +344,9 @@ body {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 9;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 13;
+    /* grid make the element to end at the 13th column    */
 }
 
 .contact-in:hover {}
@@ -318,12 +361,14 @@ body {
 
 .contact-in a {
     list-style-type: none;
+    /* removes the bullet sign */
     color: rgb(88, 76, 76);/* this sets the color for this */
 }
 
 .contact-in a:hover {
     text-shadow: 1px 1px white;/* provides the desired shadow to the text */
     font-size: larger;
+    /* this displays the text in the size mentioned above */
 }
 
 .contact-in a:active {
@@ -337,20 +382,25 @@ body {
 .footericoncontainer-in {
     text-align: center;/* align the text in desired way */
     font-size: 28px;
+    /* this displays the text in the size mentioned above */
     color: white;/* this sets the color for this */
     font-family: 'Montserrat', sans-serif;
         /* this is google font used here */
 
     grid-column-start: 1;
+    /* grid make the element to start from the 1st column */
     grid-column-end: 13;
+    /* grid make the element to end at the 13th column    */
 }
 
 .footericoncontainer-in:hover {
     font-size: 29px;
+    /* this displays the text in the size mentioned above */
 }
 
 .footericoncontainer-in img {
     padding: 5px;
+    /* the element overal padding is 5px */
 }
 
 .footericoncontainer-in img:hover {
@@ -388,7 +438,9 @@ body {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
+        /* grid make the element to start from the 1st column */
         grid-column-end: 13;
+        /* grid make the element to end at the 13th column    */
     }
     .portfolio-in:hover {}
     .portfolio-in .footertitle-in {
@@ -399,11 +451,14 @@ body {
     }
     .portfolio-in a {
         list-style-type: none;
+
+        /* removes the bullet sign */
         color: rgb(88, 76, 76);/* this sets the color for this */
     }
     .portfolio-in a:hover {
         text-shadow: 1px 1px white;/* provides the desired shadow to the text */
         font-size: larger;
+        /* this displays the text in the size mentioned above */
     }
     .portfolio-in a:active {
         color: blue;/* this sets the color for this */
@@ -415,7 +470,9 @@ body {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
+        /* grid make the element to start from the 1st column */
         grid-column-end: 13;
+        /* grid make the element to end at the 13th column    */
     }
     .sitereport-in:hover {}
     .sitereport-in .footertitle-in {
@@ -426,6 +483,7 @@ body {
     }
     .sitereport-in a {
         list-style-type: none;
+        /* removes the bullet sign */
         color: rgb(88, 76, 76);/* this sets the color for this */
     }
     .sitereport-in a:hover {
@@ -442,7 +500,9 @@ body {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
+        /* grid make the element to start from the 1st column */
         grid-column-end: 13;
+        /* grid make the element to end at the 13th column    */
     }
     .contact-in:hover {}
     .contact-in .footertitle-in {
@@ -453,11 +513,13 @@ body {
     }
     .contact-in a {
         list-style-type: none;
+        /* removes the bullet sign */
         color: rgb(88, 76, 76);/* this sets the color for this */
     }
     .contact-in a:hover {
         text-shadow: 1px 1px white;/* provides the desired shadow to the text */
         font-size: larger;
+        /* this displays the text in the size mentioned above */
     }
     .contact-in a:active {
         color: blue;/* this sets the color for this */
@@ -468,18 +530,23 @@ body {
     .footericoncontainer-in {
         text-align: center;/* align the text in desired way */
         font-size: 23px;
+        /* this displays the text in the size mentioned above */
         color: white;/* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
             /* this is google font used here */
 
-        grid-column-start: 1;
+        grid-column-start: 1; 
+        /* grid make the element to start from the 1st column  */
         grid-column-end: 13;
+        /* grid make the element to end at the 13th column       */
     }
     .footericoncontainer-in:hover {
         font-size: 29px;
+        /* this displays the text in the size mentioned above */
     }
     .footericoncontainer-in img {
         padding: 5px;
+        /* the overal padding is as mentioned above */
     }
     .footericoncontainer-in img:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -495,22 +562,21 @@ body {
 
 .grid-container-in {
     display: grid;
+    /* divides the screen in the grid form */
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    /* the above code divides the into three parts */
 }
 
-.grid-item-in {
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* height: 150px;
-    padding-top: 85px; */
-    /*   */
-    /* text-align: center; */
-}
+
+
 
 .grid-item1-in {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    /* height: 150px;
-    padding-top: 85px; */
+    /* the border for the item to check the space taking */
+    
+
     font-size: 45px;
+    /* this displays the text in the size mentioned above */
     text-align: center;/* align the text in desired way */
 }
 
@@ -583,7 +649,7 @@ font-size: 20px;
 .topnav a {
     font-size: 25px;
     /* this displays the text in the size mentioned above */
-}
+/* }
 
 }
 @media screen and (max-width: 600px) {
@@ -598,30 +664,33 @@ font-size: 20px;
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;/* align the text in desired way */
-    }
-}
-*/
+        /* the browser will treat ast the block element */
+        /* text-align: left;align the text in desired way */
+    /* } */
+/* } */
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+
 
 .topnav-in {
     overflow: hidden;
     /* background-color : #333; */
-    grid-column: 4/13;
+    /* grid-column: 4/13; topnavbar starts from te 4th column and end at the 13th column */
 }
 
 .topnav-in a {
     float: left;
+    /* the item is float on hte left side of the element */
     display: block;
+    /* the browser will treat ast the block element */
     color: #f2f2f2;/* this sets the color for this */
     text-align: center;/* align the text in desired way */
     padding: 14px 16px;
+    /* the top bottom and right left padding is as mentioned above */
     text-decoration: none;
+    /* removes the bullet of the anchor tag */
     font-size: 17px;
+    /* this displays the text in the size mentioned above */
     background-color: rgb(90, 74, 121);
     /* the bg color is as above */
 }
@@ -636,6 +705,7 @@ body {
 
 .topnav-in a.active {
     background-color: rgb(64, 53, 85);
+    /* bg color when the anchore tag is active */
     color: white;/* this sets the color for this */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* the above shadow will be the shadow for ht element */
