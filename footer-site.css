@@ -4,8 +4,8 @@
     padding-bottom: 50px;
     /* the elemeent is padded in bottom as above magnitude */
     padding-top: 24px;
-        /* the element is padded in top as above magntiude */
-transition-duration: 1s;
+    /* the element is padded in top as above magntiude */
+    transition-duration: 1s;
     font-family: 'Montserrat', sans-serif;
     /* tthis is google font named montserat */
     font-size: 25px;
@@ -16,145 +16,197 @@ transition-duration: 1s;
 
 .gridfootercontainer-site {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;transition-duration: 1s;
+    font-size: 25px;
+    transition-duration: 1s;
     /* this displays the text in the size mentioned above */
-    color: rgb(148, 52, 204);/* this sets the color for this */
+    color: rgb(148, 52, 204);
+    /* this sets the color for this */
 }
 
 .portfolio-site {
-    padding-left: 10%;transition-duration: 1s;
+    padding-left: 10%;
+    transition-duration: 1s;
     /* it provides the padding to the left sides accroding to the above mangnitude */
-    grid-column-start: 1;/* grid makes the element to start from the column one */     
-    grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
+    grid-column-start: 1;
+    /* grid makes the element to start from the column one */
+    grid-column-end: 12;
+    text-align: center;
+    /* grid mekes the element to end in above mentioned column  */
 }
 
 .portfolio-site:hover {}
 
 .portfolio-site .footertitle-site {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2px 2px white;
+    /* provides the desired shadow to the text */
 }
 
 .portfolio-site .footertitle-site:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
 }
 
 .portfolio-site a {
-    list-style-type: none;transition-duration: 1s;
+    list-style-type: none;
+    transition-duration: 1s;
     /* removes the bullet sign */
-    color: rgb(88, 76, 76);/* this sets the color for this */
+    color: rgb(88, 76, 76);
+    /* this sets the color for this */
 }
 
 .portfolio-site a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
-    font-size: larger;transition-duration: 1s;
+    text-shadow: 1px 1px white;
+    /* provides the desired shadow to the text */
+    font-size: larger;
+    transition-duration: 1s;
     /* this displays the text in the size mentioned above */
 }
 
 .portfolio-site a:active {
-    color: blue;/* this sets the color for this */
+    color: blue;
+    /* this sets the color for this */
 }
 
 .portfolio-site a:visited {
-    color: rgb(124, 12, 12);/* this sets the color for this */
+    color: rgb(124, 12, 12);
+    /* this sets the color for this */
 }
 
 .sitereport-site {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
-    grid-column-start: 5;/* grid makes the element to start from the column one */     
-    grid-column-end: 9;/* grid mekes the element to end in above mentioned column  */ 
+    grid-column-start: 1;
+    /* grid makes the element to start from the column one */
+    grid-column-end: 12;
+    text-align: center;
+    /* grid mekes the element to end in above mentioned column  */
 }
 
 .sitereport-site:hover {}
 
 .sitereport-site .footertitle-site {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2px 2px white;
+    /* provides the desired shadow to the text */
 }
 
 .sitereport-site .footertitle-site:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .sitereport-site a {
     list-style-type: none;
     /* removes the bullet sign */
-    color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(88, 76, 76);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .sitereport-site a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1px 1px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
-    /* this displays the text in the size mentioned above */transition-duration: 1s;
+    /* this displays the text in the size mentioned above */
+    transition-duration: 1s;
 }
 
 .sitereport-site a:active {
-    color: blue;/* this sets the color for this */transition-duration: 1s;
+    color: blue;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .sitereport-site a:visited {
-    color: rgb(146, 11, 11);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(146, 11, 11);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .contact-site {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
-    grid-column-start: 9;/* grid makes the element to start from the column nine */     
-    grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */transition-duration: 1s;
+    grid-column-start: 1;
+    /* grid makes the element to start from the column nine */
+    grid-column-end: 12;
+    text-align: center;
+    /* grid mekes the element to end in above mentioned column  */
+    transition-duration: 1s;
 }
 
 .contact-site:hover {}
 
 .contact-site .footertitle-site {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 2px 2px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .contact-site .footertitle-site:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .contact-site a {
     list-style-type: none;
     /* removes the bullet sign */
-    color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(88, 76, 76);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .contact-site a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 1px 1px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
     font-size: larger;
     /* this displays the text in the size mentioned above */
 }
 
 .contact-site a:active {
-    color: blue;/* this sets the color for this */transition-duration: 1s;
+    color: blue;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .contact-site a:visited {
-    color: rgb(102, 13, 13);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(102, 13, 13);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-site {
-    text-align: center;/* align the text in desired way */
+    text-align: center;
+    /* align the text in desired way */
     font-size: 28px;
     /* this displays the text in the size mentioned above */
-    color: white;/* this sets the color for this */
+    color: white;
+    /* this sets the color for this */
     font-family: 'Montserrat', sans-serif;
-    grid-column-start: 1;/* grid makes the element to start from the column one */     
-    grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */transition-duration: 1s;
+    grid-column-start: 1;
+    /* grid makes the element to start from the column one */
+    grid-column-end: 13;
+    /* grid mekes the element to end in above mentioned column  */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-site:hover {
     font-size: 29px;
-    /* this displays the text in the size mentioned above */transition-duration: 1s;
+    /* this displays the text in the size mentioned above */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-site img {
     padding: 5px;
-    /* this sets the overla padding of the eleemnt tobe in 5px */transition-duration: 1s;
+    /* this sets the overla padding of the eleemnt tobe in 5px */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-site img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* the above shadow will be the shadow for ht element */transition-duration: 1s;
+    /* the above shadow will be the shadow for ht element */
+    transition-duration: 1s;
 }
 
 @media only screen and (max-width: 599px) {
@@ -163,124 +215,174 @@ transition-duration: 1s;
         background-color: rgb(173, 144, 219);
         /* the bg color is as above */
         padding-bottom: 50px;
-        /* the elemeent is padded in bottom as above magnitude */transition-duration: 1s;
+        /* the elemeent is padded in bottom as above magnitude */
+        transition-duration: 1s;
         padding-top: 24px;
-            /* the element is padded in top as above magntiude */
-
+        /* the element is padded in top as above magntiude */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
-        color: rgb(148, 52, 204);/* this sets the color for this */
-        text-align: center;/* align the text in desired way */
+        /* this displays the text in the size mentioned above */
+        color: rgb(148, 52, 204);
+        /* this sets the color for this */
+        text-align: center;
+        /* align the text in desired way */
     }
     .gridfootercontainer-site {
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
-        color: rgb(148, 52, 204);/* this sets the color for this */transition-duration: 1s;
+        /* this displays the text in the size mentioned above */
+        color: rgb(148, 52, 204);
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .portfolio-site {
         padding-left: 10%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
-        grid-column-start: 1;/* grid makes the element to start from the column one */     
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */transition-duration: 1s;
+        grid-column-start: 1;
+        /* grid makes the element to start from the column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
+        transition-duration: 1s;
     }
     .portfolio-site:hover {}
     .portfolio-site .footertitle-site {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .portfolio-site .footertitle-site:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 3px 4px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .portfolio-site a {
         list-style-type: none;
         /* removes the bullet sign */
-        color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+        color: rgb(88, 76, 76);
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .portfolio-site a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 1px 1px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
     .portfolio-site a:active {
-        color: blue;/* this sets the color for this */transition-duration: 1s;
+        color: blue;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .portfolio-site a:visited {
-        color: green;/* this sets the color for this */transition-duration: 1s;
+        color: green;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .sitereport-site {
         padding-left: 10%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
-        grid-column-start: 1;/* grid makes the element to start from the column one */     
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */transition-duration: 1s;
+        grid-column-start: 1;
+        /* grid makes the element to start from the column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
+        transition-duration: 1s;
     }
     .sitereport-site:hover {}
     .sitereport-site .footertitle-site {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .sitereport-site .footertitle-site:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 3px 4px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .sitereport-site a {
         list-style-type: none;
         /* removes the bullet sign */
-        color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+        color: rgb(88, 76, 76);
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .sitereport-site a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 1px 1px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
     .sitereport-site a:active {
-        color: blue;/* this sets the color for this */transition-duration: 1s;
+        color: blue;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
-    .sitereport-site a:visited {transition-duration: 1s;
-        color: green;/* this sets the color for this */
+    .sitereport-site a:visited {
+        transition-duration: 1s;
+        color: green;
+        /* this sets the color for this */
     }
     .contact-site {
         padding-left: 10%;
-        /* it provides the padding to the left sides accroding to the above mangnitude */transition-duration: 1s;
-        grid-column-start: 1;/* grid makes the element to start from the column one */     
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+        /* it provides the padding to the left sides accroding to the above mangnitude */
+        transition-duration: 1s;
+        grid-column-start: 1;
+        /* grid makes the element to start from the column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
     }
     .contact-site:hover {}
     .contact-site .footertitle-site {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .contact-site .footertitle-site:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 3px 4px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .contact-site a {
         list-style-type: none;
         /* removes the bullet sign */
-        color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+        color: rgb(88, 76, 76);
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .contact-site a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 1px 1px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
     .contact-site a:active {
-        color: blue;/* this sets the color for this */transition-duration: 1s;
+        color: blue;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .contact-site a:visited {
-        color: green;/* this sets the color for this */transition-duration: 1s;
+        color: green;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .footericoncontainer-site {
-        text-align: center;/* align the text in desired way */transition-duration: 1s;
+        text-align: center;
+        /* align the text in desired way */
+        transition-duration: 1s;
         font-size: 23px;
         /* this displays the text in the size mentioned above */
-        color: white;/* this sets the color for this */
+        color: white;
+        /* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
-
-        grid-column-start: 1;/* grid makes the element to start from the column one */      
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */   
+        /* this is google font used here */
+        grid-column-start: 1;
+        /* grid makes the element to start from the column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
     }
     .footericoncontainer-site:hover {
         font-size: 29px;

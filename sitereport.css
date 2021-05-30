@@ -140,6 +140,26 @@ padding-top: 85px; */
     animation: onlytextshadowchangersite 1s ease-in-out infinite;
 }
 
+.classforimage {
+    width: 60%;
+    height: auto;
+}
+
+.gitimg {
+    width: 60%;
+    height: auto;
+}
+
+.gitimg2 {
+    height: auto;
+    width: 50%;
+}
+
+.gitimg3 {
+    width: 30%;
+    height: auto;
+}
+
 
 /* https: //www.hongkiat.com/blog/css-text-effects/ */
 
@@ -298,7 +318,7 @@ padding-top: 85px; */
 .navbarsiteqwertyuiop-site {
     overflow: hidden;
     /* background-color : #333; */
-    grid-column: 4/13;
+    grid-column: 3/13;
     grid-row: 1;
 }
 
@@ -365,7 +385,6 @@ padding-top: 85px; */
     40% {
         color: rgb(0, 255, 149);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     50% {
@@ -377,13 +396,11 @@ padding-top: 85px; */
     60% {
         color: rgb(0, 225, 255);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     70% {
         color: rgb(0, 47, 255);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     80% {
@@ -395,7 +412,6 @@ padding-top: 85px; */
     90% {
         color: rgb(247, 0, 255);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     100% {
@@ -442,16 +458,6 @@ padding-top: 85px; */
         font-size: 17px;
         padding: 14px 16px;
         height: auto;
-    }
-    .navbarsiteqwertyuiop-site a:not(:last-child) {
-        grid-column: 1/11;
-        width: 95%;
-        /* as it only for the achor name is will take approx 95% of space and that is here about 3 column */
-    }
-    .threelinesiteqwerty-site {
-        grid-column: 12/13;
-        width: 5%;
-        /* for icon it will barely take about 5% space so it only takes one column */
     }
 }
 
