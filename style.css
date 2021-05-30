@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu:wght@700&display=swap');
 .index_hello {
-    padding: 3%; 
+    padding: 3%;
     /* the overal padding is as mentioned above */
     margin-top: 45px;
     /* the top of margin is 45px */
@@ -11,7 +11,8 @@
     /* grid make the element to start from the 1st column */
     grid-column-end: 7;
     /* grid make the element to end at the 13th column    */
-    margin-bottom: 10%;transition-duration: 1s;
+    margin-bottom: 10%;
+    transition-duration: 1s;
     animation: shadowchangerin 0.7s ease-out infinite;
 }
 
@@ -19,7 +20,6 @@
     /* for mobile */
     .index_hello {
         padding: 0%;
-        
         /* the overal padding is as mentioned above */
         margin-top: 25px;
         /* margin at the top for the ellement in the samall screen is 25px */
@@ -32,122 +32,194 @@
         /* grid make the element to end at the 13th column    */
         /* margin-bottom: 10%; */
         transition-duration: 1s;
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
     }
 }
-.bgcolor-in{background-color: rgb(88, 18, 18);}
-.index_hello:hover {
-    
-    transition-duration: .4s;
 
+.bgcolor-in {
+    background-color: rgb(88, 18, 18);
+}
+
+.index_hello:hover {
+    transition-duration: .4s;
     /* the above shadow will be the shadow for ht element */
 }
-@keyframes fontchanger{
-    10%{font-weight:300;color:rgb(0, 255, 149); }
-    20%{font-weight:350;color:rgb(0, 225, 255);}
-    30%{font-weight:400;color:rgb(43, 255, 0);}
-    40%{font-weight:500;color:rgb(38, 0, 255);}
-    50%{font-weight:600;color:rgb(0, 174, 255);}
-    60%{font-weight:800;color:rgb(132, 0, 255);}
-    70%{font-weight:700;color:rgb(255, 0, 200);}
-    80%{font-weight:600;color:rgb(255, 0, 119);}
-    90%{font-weight:500;color:rgb(255, 0, 0);}
-    100%{font-weight:400;color:rgb(255, 72, 0);}
+
+@keyframes fontchanger {
+    10% {
+        font-weight: 300;
+        color: rgb(0, 255, 149);
+    }
+    20% {
+        font-weight: 350;
+        color: rgb(0, 225, 255);
+    }
+    30% {
+        font-weight: 400;
+        color: rgb(43, 255, 0);
+    }
+    40% {
+        font-weight: 500;
+        color: rgb(38, 0, 255);
+    }
+    50% {
+        font-weight: 600;
+        color: rgb(0, 174, 255);
+    }
+    60% {
+        font-weight: 800;
+        color: rgb(132, 0, 255);
+    }
+    70% {
+        font-weight: 700;
+        color: rgb(255, 0, 200);
+    }
+    80% {
+        font-weight: 600;
+        color: rgb(255, 0, 119);
+    }
+    90% {
+        font-weight: 500;
+        color: rgb(255, 0, 0);
+    }
+    100% {
+        font-weight: 400;
+        color: rgb(255, 72, 0);
+    }
 }
 
 .index_hello h3 {
-    color: #0468a1;/* this sets the color for this */
-    transition-duration: 1s; font-size: 28px;
+    color: #0468a1;
+    /* this sets the color for this */
+    transition-duration: 1s;
+    font-size: 28px;
     animation: fontchanger 10s ease-in-out infinite;
     /* text are size accroding to above value */
 }
 
 .index_imrohan {
-    color: rgb(97, 4, 4);/* this sets the color for this */
-    font-size: 45px;transition-duration: 1s;
+    color: rgb(97, 4, 4);
+    /* this sets the color for this */
+    font-size: 45px;
+    transition-duration: 1s;
     /* text are size accroding to above value */
 }
 
 .index_hello_para {
-    color: rgb(186, 150, 219);/* this sets the color for this */
-    font-size: 23px; transition-duration: 4s;animation: onlycolorchangerin 10s ease-in-out infinite;
+    color: rgb(186, 150, 219);
+    /* this sets the color for this */
+    font-size: 23px;
+    transition-duration: 4s;
+    animation: onlycolorchangerin 10s ease-in-out infinite;
     /* text are size accroding to above value */
-    
-    
-    font-family: ubuntu, sans-serif;transition-duration: 1s;
-        /* this is google font used here */
-
+    font-family: ubuntu, sans-serif;
+    transition-duration: 1s;
+    /* this is google font used here */
 }
-
 
 .index_hello_para:hover {
-    color: rgb(186, 150, 219);/* this sets the color for this */
-    font-size: 25px;    transition-duration: 4s;
-
+    color: rgb(186, 150, 219);
+    /* this sets the color for this */
+    font-size: 25px;
+    transition-duration: 4s;
     /* this displays the text in the size mentioned above */
-    
-    
-        /* this is google font used here */
-        
-
-
+    /* this is google font used here */
 }
-.firstimage{
+
+.firstimage {
     grid-column: 7/12;
     margin: 50px;
     width: fit-content;
 }
-.firstimage img{animation: shadowchangerin 0.7s ease-out infinite;}
-.thirdimage img{animation: shadowchangerin 0.7s ease-out infinite;}
-.secondimage img{animation: shadowchangerin 0.7s ease-out infinite;}
-.secondimage{
-    grid-column: 2/6;
-    margin: 50px;width: fit-content;
+
+.firstimage img {
+    animation: shadowchangerin 0.7s ease-out infinite;
 }
-.thirdimage{
+
+.thirdimage img {
+    animation: shadowchangerin 0.7s ease-out infinite;
+}
+
+.secondimage img {
+    animation: shadowchangerin 0.7s ease-out infinite;
+}
+
+.secondimage {
+    grid-column: 2/6;
+    margin: 50px;
+    width: fit-content;
+}
+
+.thirdimage {
     grid-column: 6/12;
-    
     margin-left: 150px;
     height: fit-content;
     width: fit-content
 }
-.imagechangeone{display:block;}
-.imagechangetwo{display:none;}
-.imagechangethree{display:block;}
-.imagechangefour{display:none;}
-@media only screen and (max-width: 599px){
-    .firstimage{
+
+.imagechangeone {
+    display: block;
+}
+
+.imagechangetwo {
+    display: none;
+}
+
+.imagechangethree {
+    display: block;
+}
+
+.imagechangefour {
+    display: none;
+}
+
+@media only screen and (max-width: 599px) {
+    .firstimage {
         grid-column: 1/12;
         margin: 5%;
         width: fit-content;
     }
-    .firstimage img{
-        width: 80%;animation: shadowchangerin 0.7s ease-out infinite;
-        margin-left:10%;
+    .firstimage img {
+        width: 80%;
+        animation: shadowchangerin 0.7s ease-out infinite;
+        margin-left: 10%;
     }
-    
-    .secondimage img{
-        width: 80%;animation: shadowchangerin 0.7s ease-out infinite;margin-left:10%;
+    .secondimage img {
+        width: 80%;
+        animation: shadowchangerin 0.7s ease-out infinite;
+        margin-left: 10%;
     }
-    .thirdimage img{
-        width: 80%;animation: shadowchangerin 0.7s ease-out infinite;margin-left:10%;
+    .thirdimage img {
+        width: 80%;
+        animation: shadowchangerin 0.7s ease-out infinite;
+        margin-left: 10%;
     }
-    .secondimage{
+    .secondimage {
         grid-column: 1/12;
         margin: 0px;
         width: fit-content;
     }
-    .thirdimage{
+    .thirdimage {
         grid-column: 1/12;
         /* margin: 50px; */
         margin-left: 0px;
         width: fit-content;
-    } 
-    .imagechangeone{display:none;}
-    .imagechangetwo{display:block;}
-    .imagechangethree{display:none;}
-    .imagechangefour{display:block;}
+    }
+    .imagechangeone {
+        display: none;
+    }
+    .imagechangetwo {
+        display: block;
+    }
+    .imagechangethree {
+        display: none;
+    }
+    .imagechangefour {
+        display: block;
+    }
 }
+
 
 /* 2nd para */
 
@@ -159,15 +231,16 @@
     /* grid make the element to start from the 1st column */
     grid-column-end: 12;
     /* grid make the element to end at the 13th column    */
-    
     margin-bottom: 10%;
     /* margin at the bttom of the elemne is 10% */
-    margin-left: 1%;margin-right: 5%;
+    margin-left: 1%;
+    margin-right: 5%;
     /* margin at the left of the element is 10% */
     align-content: stretch;
     /* the contentis stretchded up to the border */
     animation: shadowchangerin 0.7s ease-out infinite;
-    padding: 20px 29px;transition-duration: 1s;
+    padding: 20px 29px;
+    transition-duration: 1s;
 }
 
 @media only screen and (max-width:499px) {
@@ -181,9 +254,9 @@
         /* margin-left: 10%; */
         /* margin at the left is 10% */
         width: 80%;
-        align-content: stretch;transition-duration: 1s;
+        align-content: stretch;
+        transition-duration: 1s;
         /* the cotent is stretch up to border */
-    
     }
 }
 
@@ -191,23 +264,25 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* the above shadow will be the shadow for ht element */
     transition-duration: 1.4s;
-
 }
 
 .index_bio {
-    color: rgb(186, 150, 219);/* this sets the color for this */
-    font-size: 25px;transition-duration: 1s;
+    color: rgb(186, 150, 219);
+    /* this sets the color for this */
+    font-size: 25px;
+    transition-duration: 1s;
     /* width: 550px; */
     /* this displays the text in the size mentioned above */
     animation: shadowchangerin 0.7s ease-out infinite;
     font-family: Arial, Helvetica, sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
 }
 
 .index_bio h2 {
-    color: rgb(4, 43, 48);/* this sets the color for this */
-    font-size: 45px;transition-duration: 1s;
+    color: rgb(4, 43, 48);
+    /* this sets the color for this */
+    font-size: 45px;
+    transition-duration: 1s;
     /* to make text bigger */
 }
 
@@ -226,11 +301,11 @@
     /* width: 570px; */
     width: 90%;
     /* margin at the left side is 15% */
-    margin-bottom: 25px;transition-duration: 1s;
+    margin-bottom: 25px;
+    transition-duration: 1s;
     /* margin at the bottom is 25px */
     animation: shadowchangerin 0.7s ease-out infinite;
     padding: 15px 29px;
-    
 }
 
 @media only screen and (max-width:499px) {
@@ -242,9 +317,11 @@
         margin-left: 1%;
         width: 80%;
         /* margin at the left side is as above */
-        margin-bottom: 25px;transition-duration: 1s;
-    /* margin at the bottom is 25px */
-    animation:colorchangerin .435 ease-out infinite;    }
+        margin-bottom: 25px;
+        transition-duration: 1s;
+        /* margin at the bottom is 25px */
+        animation: colorchangerin .435 ease-out infinite;
+    }
 }
 
 .index_aboutme:hover {
@@ -254,7 +331,8 @@
 }
 
 .index_aboutme_para {
-    color: rgb(26, 2, 48);/* this sets the color for this */
+    color: rgb(26, 2, 48);
+    /* this sets the color for this */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
     font-family: monospace;
@@ -262,120 +340,128 @@
     transition-duration: 1s;
     font-family: 'Kanit', sans-serif;
     animation: onlycolorchangerin 10s ease-in-out infinite;
-        /* this is google font used here */
-
+    /* this is google font used here */
 }
 
 .index_aboutme h2 {
-    color: rgb(75, 3, 3);/* this sets the color for this */
+    color: rgb(75, 3, 3);
+    /* this sets the color for this */
     font-size: 45px;
-    /* this displays the text in the size mentioned above */transition-duration: 1s;
+    /* this displays the text in the size mentioned above */
+    transition-duration: 1s;
 }
 
 @keyframes onlycolorchangerin {
     10% {
-        color: rgb(139, 148, 9);/* this sets the color for this */
+        color: rgb(139, 148, 9);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(255, 253, 253);provides the desired shadow to the text */
-        
     }
     20% {
-        color: rgb(89, 133, 7);/* this sets the color for this */
+        color: rgb(89, 133, 7);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(248, 193, 193);provides the desired shadow to the text */
-        
     }
     30% {
-        color: rgb(23, 151, 6);/* this sets the color for this */
+        color: rgb(23, 151, 6);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(252, 127, 127);provides the desired shadow to the text */
-        
     }
     40% {
-        color: rgb(3, 153, 90);/* this sets the color for this */
+        color: rgb(3, 153, 90);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     50% {
-        color: rgb(2, 116, 168);/* this sets the color for this */
+        color: rgb(2, 116, 168);
+        /* this sets the color for this */
         /* text-shadow: 0px 18px 18px rgb(115, 247, 103);provides the desired shadow to the text */
-        
     }
     60% {
-        color: rgb(3, 133, 150);/* this sets the color for this */
+        color: rgb(3, 133, 150);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     70% {
-        color: rgb(192, 202, 247);/* this sets the color for this */
+        color: rgb(192, 202, 247);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     80% {
-        color: rgb(127, 107, 245);/* this sets the color for this */
+        color: rgb(127, 107, 245);
+        /* this sets the color for this */
         /* text-shadow: 0px 16px 6px rgb(214, 243, 86);provides the desired shadow to the text */
-        
     }
     90% {
-        color: rgb(242, 10, 250);/* this sets the color for this */
+        color: rgb(242, 10, 250);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     100% {
-        color: rgb(240, 135, 153);/* this sets the color for this */
+        color: rgb(240, 135, 153);
+        /* this sets the color for this */
         /* text-shadow: 0px 20px 20px rgb(19, 111, 248);provides the desired shadow to the text */
-        
     }
 }
 
-
-
-
 @keyframes shadowchangerin {
     10% {
-        color: rgb(238, 255, 0);/* this sets the color for this */
+        color: rgb(238, 255, 0);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(255, 253, 253);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
     }
     20% {
-        color: rgb(166, 255, 0);/* this sets the color for this */
+        color: rgb(166, 255, 0);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(248, 193, 193);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
     }
     30% {
-        color: rgb(30, 255, 0);/* this sets the color for this */
+        color: rgb(30, 255, 0);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(252, 127, 127);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
     }
     40% {
-        color: rgb(0, 255, 149);/* this sets the color for this */
+        color: rgb(0, 255, 149);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 0, 0, 0.832);
     }
     50% {
-        color: rgb(0, 174, 255);/* this sets the color for this */
+        color: rgb(0, 174, 255);
+        /* this sets the color for this */
         /* text-shadow: 0px 18px 18px rgb(115, 247, 103);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 94, 0, 0.832);
     }
     60% {
-        color: rgb(0, 225, 255);/* this sets the color for this */
+        color: rgb(0, 225, 255);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 196, 2, 0.832);
     }
     70% {
-        color: rgb(0, 47, 255);/* this sets the color for this */
+        color: rgb(0, 47, 255);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(60, 255, 1, 0.832);
     }
     80% {
-        color: rgb(38, 0, 255);/* this sets the color for this */
+        color: rgb(38, 0, 255);
+        /* this sets the color for this */
         /* text-shadow: 0px 16px 6px rgb(214, 243, 86);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(2, 255, 150, 0.832);
     }
     90% {
-        color: rgb(247, 0, 255);/* this sets the color for this */
+        color: rgb(247, 0, 255);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 47, 255, 0.832);
     }
     100% {
-        color: rgb(255, 0, 43);/* this sets the color for this */
+        color: rgb(255, 0, 43);
+        /* this sets the color for this */
         /* text-shadow: 0px 20px 20px rgb(19, 111, 248);provides the desired shadow to the text */
         box-shadow: 0 4.4343px 5.3434px 0 rgba(255, 2, 141, 0.747);
     }
@@ -413,13 +499,15 @@ body {
     /* the text size s bold */
     font-size: 15px;
     /* this displays the text in the size mentioned above */
-    color: rgb(39, 23, 98);/* this sets the color for this */
+    color: rgb(39, 23, 98);
+    /* this sets the color for this */
     /* color: red; */
     width: 20%;
     /* the widht is as above */
     border: none;
     /* to remove auto generated border  */
-    height: 50px;transition-duration: 1s;
+    height: 50px;
+    transition-duration: 1s;
     animation: colorandbgcolorchangerin 10s ease-in-out infinite;
     /* the height is 50px */
     background-image: linear-gradient(rgba(58, 33, 151, 0.753), rgba(130, 22, 219, 0.705));
@@ -428,8 +516,10 @@ body {
 .index_button:hover {
     font-weight: bolder;
     /* fontweight is bolder */
-    color: rgb(255, 0, 0);/* this sets the color for this */
-    background-color: rgba(255, 255, 255, 0.5);transition-duration: 1s;
+    color: rgb(255, 0, 0);
+    /* this sets the color for this */
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 1s;
     /* the bg color is as above */
     font-size: 17px;
     /* this displays the text in the size mentioned above */
@@ -437,67 +527,83 @@ body {
 
 @keyframes colorandbgcolorchangerin {
     10% {
-        color: rgb(255, 255, 255);/* this sets the color for this */
-        background-color: rgb(238, 255, 5);width: 22%;
-        font-weight: 800;/* this sets the color for this */
+        color: rgb(255, 255, 255);
+        /* this sets the color for this */
+        background-color: rgb(238, 255, 5);
+        width: 22%;
+        font-weight: 800;
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(255, 253, 253);provides the desired shadow to the text */
-        
     }
     20% {
-        color: rgb(244, 255, 223);width: 23%;
-        background-color:rgb(4, 238, 255) ;/* this sets the color for this */
+        color: rgb(244, 255, 223);
+        width: 23%;
+        background-color: rgb(4, 238, 255);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(248, 193, 193);provides the desired shadow to the text */
-        
     }
     30% {
-        color: rgb(30, 255, 0);font-weight: 800;width: 24%;
-        background-color: rgb(255, 255, 255);/* this sets the color for this */
+        color: rgb(30, 255, 0);
+        font-weight: 800;
+        width: 24%;
+        background-color: rgb(255, 255, 255);
+        /* this sets the color for this */
         /* text-shadow: 0px 0px 1px rgb(252, 127, 127);provides the desired shadow to the text */
-        
     }
     40% {
-        color: rgb(213, 255, 238);width: 23%;
-        background-color: rgb(47, 0, 255);/* this sets the color for this */
+        color: rgb(213, 255, 238);
+        width: 23%;
+        background-color: rgb(47, 0, 255);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     50% {
-        color: rgb(0, 174, 255);font-weight: 800;width: 22%;
-        background-color: rgb(255, 255, 255);/* this sets the color for this */
+        color: rgb(0, 174, 255);
+        font-weight: 800;
+        width: 22%;
+        background-color: rgb(255, 255, 255);
+        /* this sets the color for this */
         /* text-shadow: 0px 18px 18px rgb(115, 247, 103);provides the desired shadow to the text */
-        
     }
     60% {
-        color: rgb(217, 251, 255);width: 23%;
-        background-color: rgb(4, 226, 255);/* this sets the color for this */
+        color: rgb(217, 251, 255);
+        width: 23%;
+        background-color: rgb(4, 226, 255);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     70% {
-        color: rgb(0, 42, 255);font-weight: 800;width: 25%;
-        background-color: rgb(255, 255, 255);/* this sets the color for this */
+        color: rgb(0, 42, 255);
+        font-weight: 800;
+        width: 25%;
+        background-color: rgb(255, 255, 255);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     80% {
-        color: rgb(234, 231, 255);width: 21%;
-        background-color: rgb(240, 160, 240);/* this sets the color for this */
+        color: rgb(234, 231, 255);
+        width: 21%;
+        background-color: rgb(240, 160, 240);
+        /* this sets the color for this */
         /* text-shadow: 0px 16px 6px rgb(214, 243, 86);provides the desired shadow to the text */
-        
     }
     90% {
-        color: rgb(253, 203, 255);font-weight: 800;width: 20%;
-        background-color: rgb(255, 0, 0);/* this sets the color for this */
+        color: rgb(253, 203, 255);
+        font-weight: 800;
+        width: 20%;
+        background-color: rgb(255, 0, 0);
+        /* this sets the color for this */
         /* text-shadow: ;provides the desired shadow to the text */
-        
     }
     100% {
-        color: rgb(240, 135, 153);width: 25%;
-        background-color: rgb(7, 176, 255);/* this sets the color for this */
+        color: rgb(240, 135, 153);
+        width: 25%;
+        background-color: rgb(7, 176, 255);
+        /* this sets the color for this */
         /* text-shadow: 0px 20px 20px rgb(19, 111, 248);provides the desired shadow to the text */
-        
     }
 }
+
 
 /* footer */
 
@@ -510,30 +616,32 @@ body {
     padding-bottom: 50px;
     /* the elemeent is padded in bottom as above magnitude */
     padding-top: 24px;
-        /* the element is padded in top as above magntiude */transition-duration: 1s;
-
+    /* the element is padded in top as above magntiude */
+    transition-duration: 1s;
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
-    color: rgb(148, 52, 204);/* this sets the color for this */
+    color: rgb(148, 52, 204);
+    /* this sets the color for this */
 }
 
 .gridfootercontainer-in {
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */transition-duration: 1s;
-
+    /* this is google font used here */
+    transition-duration: 1s;
     font-size: 25px;
     /* this displays the text in the size mentioned above */
-    color: rgb(148, 52, 204);/* this sets the color for this */
+    color: rgb(148, 52, 204);
+    /* this sets the color for this */
 }
 
 .portfolio-in {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 1;
-    /* grid make the element to start from the 1st column */transition-duration: 1s;
+    /* grid make the element to start from the 1st column */
+    transition-duration: 1s;
     grid-column-end: 5;
     /* grid make the element to end at the 13th column    */
 }
@@ -541,31 +649,43 @@ body {
 .portfolio-in:hover {}
 
 .portfolio-in .footertitle-in {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 2px 2px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .portfolio-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .portfolio-in a {
     list-style-type: none;
     /* removes the bullet sign */
-    color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(88, 76, 76);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .portfolio-in a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 1px 1px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
     font-size: larger;
     /* this displays the text in the size mentioned above */
 }
 
 .portfolio-in a:active {
-    color: blue;/* this sets the color for this */transition-duration: 1s;
+    color: blue;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .portfolio-in a:visited {
-    color: red;/* this sets the color for this */transition-duration: 1s;
+    color: red;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .sitereport-in {
@@ -574,37 +694,50 @@ body {
     grid-column-start: 5;
     /* grid make the element to start from the 1st column */
     grid-column-end: 9;
-    /* grid make the element to end at the 13th column    */transition-duration: 1s;
+    /* grid make the element to end at the 13th column    */
+    transition-duration: 1s;
 }
 
 .sitereport-in:hover {}
 
 .sitereport-in .footertitle-in {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 2px 2px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .sitereport-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .sitereport-in a {
     list-style-type: none;
     /* removes the bullet sign */
-    color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(88, 76, 76);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .sitereport-in a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 1px 1px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
     font-size: larger;
     /* this displays the text in the size mentioned above */
 }
 
 .sitereport-in a:active {
-    color: blue;/* this sets the color for this */transition-duration: 1s;
+    color: blue;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .sitereport-in a:visited {
-    color: red;/* this sets the color for this */transition-duration: 1s;
+    color: red;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .contact-in {
@@ -613,66 +746,84 @@ body {
     grid-column-start: 9;
     /* grid make the element to start from the 1st column */
     grid-column-end: 13;
-    /* grid make the element to end at the 13th column    */transition-duration: 1s;
+    /* grid make the element to end at the 13th column    */
+    transition-duration: 1s;
 }
 
 .contact-in:hover {}
 
 .contact-in .footertitle-in {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 2px 2px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .contact-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
+    transition-duration: 1s;
 }
 
 .contact-in a {
     list-style-type: none;
     /* removes the bullet sign */
-    color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+    color: rgb(88, 76, 76);
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .contact-in a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1px 1px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
-    /* this displays the text in the size mentioned above */transition-duration: 1s;
+    /* this displays the text in the size mentioned above */
+    transition-duration: 1s;
 }
 
 .contact-in a:active {
-    color: blue;/* this sets the color for this */transition-duration: 1s;
+    color: blue;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .contact-in a:visited {
-    color: red;/* this sets the color for this */transition-duration: 1s;
+    color: red;
+    /* this sets the color for this */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-in {
-    text-align: center;/* align the text in desired way */
+    text-align: center;
+    /* align the text in desired way */
     font-size: 28px;
     /* this displays the text in the size mentioned above */
-    color: white;/* this sets the color for this */
+    color: white;
+    /* this sets the color for this */
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     grid-column-start: 1;
     /* grid make the element to start from the 1st column */
     grid-column-end: 13;
-    /* grid make the element to end at the 13th column    */transition-duration: 1s;
+    /* grid make the element to end at the 13th column    */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-in:hover {
     font-size: 29px;
-    /* this displays the text in the size mentioned above */transition-duration: 1s;
+    /* this displays the text in the size mentioned above */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-in img {
     padding: 5px;
-    /* the element overal padding is 5px */transition-duration: 1s;
+    /* the element overal padding is 5px */
+    transition-duration: 1s;
 }
 
 .footericoncontainer-in img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* the above shadow will be the shadow for ht element */transition-duration: 1s;
+    /* the above shadow will be the shadow for ht element */
+    transition-duration: 1s;
 }
 
 @media only screen and (max-width: 599px) {
@@ -683,23 +834,25 @@ body {
         padding-bottom: 50px;
         /* the elemeent is padded in bottom as above magnitude */
         padding-top: 24px;
-            /* the element is padded in top as above magntiude */
-
+        /* the element is padded in top as above magntiude */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
-        color: rgb(148, 52, 204);/* this sets the color for this */
-        text-align: center;/* align the text in desired way */transition-duration: 1s;
+        /* this displays the text in the size mentioned above */
+        color: rgb(148, 52, 204);
+        /* this sets the color for this */
+        text-align: center;
+        /* align the text in desired way */
+        transition-duration: 1s;
     }
     .gridfootercontainer-in {
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */transition-duration: 1s;
-
+        /* this is google font used here */
+        transition-duration: 1s;
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
-        color: rgb(148, 52, 204);/* this sets the color for this */
+        /* this displays the text in the size mentioned above */
+        color: rgb(148, 52, 204);
+        /* this sets the color for this */
     }
     .portfolio-in {
         padding-left: 0%;
@@ -707,31 +860,43 @@ body {
         grid-column-start: 1;
         /* grid make the element to start from the 1st column */
         grid-column-end: 13;
-        /* grid make the element to end at the 13th column    */transition-duration: 1s;
+        /* grid make the element to end at the 13th column    */
+        transition-duration: 1s;
     }
     .portfolio-in:hover {}
     .portfolio-in .footertitle-in {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .portfolio-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 3px 4px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .portfolio-in a {
         list-style-type: none;
-
         /* removes the bullet sign */
-        color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+        color: rgb(88, 76, 76);
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .portfolio-in a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1px 1px white;
+        /* provides the desired shadow to the text */
         font-size: larger;
-        /* this displays the text in the size mentioned above */transition-duration: 1s;
+        /* this displays the text in the size mentioned above */
+        transition-duration: 1s;
     }
     .portfolio-in a:active {
-        color: blue;/* this sets the color for this */transition-duration: 1s;
+        color: blue;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .portfolio-in a:visited {
-        color: green;/* this sets the color for this */transition-duration: 1s;
+        color: green;
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .sitereport-in {
         padding-left: 0%;
@@ -739,29 +904,40 @@ body {
         grid-column-start: 1;
         /* grid make the element to start from the 1st column */
         grid-column-end: 13;
-        /* grid make the element to end at the 13th column    */transition-duration: 1s;
+        /* grid make the element to end at the 13th column    */
+        transition-duration: 1s;
     }
     .sitereport-in:hover {}
     .sitereport-in .footertitle-in {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .sitereport-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 3px 4px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
     }
     .sitereport-in a {
         list-style-type: none;
         /* removes the bullet sign */
-        color: rgb(88, 76, 76);/* this sets the color for this */transition-duration: 1s;
+        color: rgb(88, 76, 76);
+        /* this sets the color for this */
+        transition-duration: 1s;
     }
     .sitereport-in a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */transition-duration: 1s;
+        text-shadow: 1px 1px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
         font-size: larger;
     }
     .sitereport-in a:active {
-        color: blue;/* this sets the color for this */
+        color: blue;
+        /* this sets the color for this */
     }
     .sitereport-in a:visited {
-        color: green;/* this sets the color for this */
+        color: green;
+        /* this sets the color for this */
     }
     .contact-in {
         padding-left: 0%;
@@ -773,36 +949,43 @@ body {
     }
     .contact-in:hover {}
     .contact-in .footertitle-in {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
     }
     .contact-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3px 4px white;
+        /* provides the desired shadow to the text */
     }
     .contact-in a {
         list-style-type: none;
         /* removes the bullet sign */
-        color: rgb(88, 76, 76);/* this sets the color for this */
+        color: rgb(88, 76, 76);
+        /* this sets the color for this */
     }
     .contact-in a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1px 1px white;
+        /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
     .contact-in a:active {
-        color: blue;/* this sets the color for this */
+        color: blue;
+        /* this sets the color for this */
     }
     .contact-in a:visited {
-        color: green;/* this sets the color for this */
+        color: green;
+        /* this sets the color for this */
     }
     .footericoncontainer-in {
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
         font-size: 23px;
         /* this displays the text in the size mentioned above */
-        color: white;/* this sets the color for this */
+        color: white;
+        /* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
-        grid-column-start: 1; 
+        /* this is google font used here */
+        grid-column-start: 1;
         /* grid make the element to start from the 1st column  */
         grid-column-end: 13;
         /* grid make the element to end at the 13th column       */
@@ -834,41 +1017,36 @@ body {
     /* the above code divides the into three parts */
 }
 
-
-
-
 .grid-item1-in {
     border: 1px solid rgba(0, 0, 0, 0.8);
     /* the border for the item to check the space taking */
-    
-
     font-size: 45px;
     /* this displays the text in the size mentioned above */
-    text-align: center;/* align the text in desired way */
+    text-align: center;
+    /* align the text in desired way */
 }
 
 
 /* navigation bar  */
 
-
-
-
-
 .navbarinqwertyuiop-in {
-    overflow: hidden;transition-duration: 1s;
+    overflow: hidden;
+    transition-duration: 1s;
     /* background-color : #333; */
     grid-column: 4/13;
-     /* topnavbar starts from te 4th column and end at the 13th column */
-     
+    /* topnavbar starts from te 4th column and end at the 13th column */
 }
 
 .navbarinqwertyuiop-in a {
     float: left;
     /* the item is float on hte left side of the element */
-    display: block;transition-duration: 1s;
+    display: block;
+    transition-duration: 1s;
     /* the browser will treat ast the block element */
-    color: #f2f2f2;/* this sets the color for this */
-    text-align: center;/* align the text in desired way */
+    color: #f2f2f2;
+    /* this sets the color for this */
+    text-align: center;
+    /* align the text in desired way */
     padding: 14px 16px;
     /* the top bottom and right left padding is as mentioned above */
     text-decoration: none;
@@ -878,7 +1056,7 @@ body {
     background-color: rgb(3, 21, 59);
     /* the bg color is as above */
     font-weight: 700;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     /* later added */
     /* width: 125px;
     height: 40px;
@@ -888,81 +1066,108 @@ body {
 }
 
 .navbarinqwertyuiop-in a:hover {
-    background-color: rgb(33, 2, 39);
+    background-color: rgb(35, 3, 43);
     /* the bg color is as above */
-    color: black;/* this sets the color for this */
+    color: black;
+    /* this sets the color for this */
     /* later added */
     box-shadow: 0 5.45px 9.454px 0 rgb(0, 0, 0), 0 6.232px 20.2343px 0 rgba(0, 0, 0, 0.904);
-    animation: colorchangersite 0.7s ease-out infinite;transition-duration: 1s;
+    animation: colorchangersite 0.7s ease-out infinite;
+    transition-duration: 1s;
     /* the above shadow will be the shadow for ht element */
 }
-@media only screen and (min-width:600px){
-    .navbarinqwertyuiop-in a{
-    width: 125px;
-    height: 40px;
-    background-color: rgb(1, 27, 39);
-    padding: 20px;transition-duration: 1s;
-    font-size: 23px;
+
+@media only screen and (min-width:600px) {
+    .navbarinqwertyuiop-in a {
+        width: 125px;
+        height: 40px;
+        background-color: rgb(1, 27, 39);
+        padding: 20px;
+        transition-duration: 1s;
+        font-size: 23px;
     }
-    
 }
+
 
 /* later added */
+
 @keyframes colorchangersite {
     10% {
-        color: rgb(238, 255, 0);/* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(255, 253, 253);/* provides the desired shadow to the text */
+        color: rgb(238, 255, 0);
+        /* this sets the color for this */
+        text-shadow: 0px 0px 1px rgb(255, 253, 253);
+        /* provides the desired shadow to the text */
     }
     20% {
-        color: rgb(166, 255, 0);/* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(248, 193, 193);/* provides the desired shadow to the text */
+        color: rgb(166, 255, 0);
+        /* this sets the color for this */
+        text-shadow: 0px 0px 1px rgb(248, 193, 193);
+        /* provides the desired shadow to the text */
     }
     30% {
-        color: rgb(30, 255, 0);/* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(252, 127, 127);/* provides the desired shadow to the text */
+        color: rgb(30, 255, 0);
+        /* this sets the color for this */
+        text-shadow: 0px 0px 1px rgb(252, 127, 127);
+        /* provides the desired shadow to the text */
     }
     40% {
-        color: rgb(0, 255, 149);/* this sets the color for this */
-        text-shadow: ;/* provides the desired shadow to the text */
+        color: rgb(0, 255, 149);
+        /* this sets the color for this */
+        text-shadow: ;
+        /* provides the desired shadow to the text */
     }
     50% {
-        color: rgb(0, 174, 255);/* this sets the color for this */
-        text-shadow: 0px 18px 18px rgb(115, 247, 103);/* provides the desired shadow to the text */
+        color: rgb(0, 174, 255);
+        /* this sets the color for this */
+        text-shadow: 0px 18px 18px rgb(115, 247, 103);
+        /* provides the desired shadow to the text */
     }
     60% {
-        color: rgb(0, 225, 255);/* this sets the color for this */
-        text-shadow: ;/* provides the desired shadow to the text */
+        color: rgb(0, 225, 255);
+        /* this sets the color for this */
+        text-shadow: ;
+        /* provides the desired shadow to the text */
     }
     70% {
-        color: rgb(0, 47, 255);/* this sets the color for this */
-        text-shadow: ;/* provides the desired shadow to the text */
+        color: rgb(0, 47, 255);
+        /* this sets the color for this */
+        text-shadow: ;
+        /* provides the desired shadow to the text */
     }
     80% {
-        color: rgb(38, 0, 255);/* this sets the color for this */
-        text-shadow: 0px 16px 6px rgb(214, 243, 86);/* provides the desired shadow to the text */
+        color: rgb(38, 0, 255);
+        /* this sets the color for this */
+        text-shadow: 0px 16px 6px rgb(214, 243, 86);
+        /* provides the desired shadow to the text */
     }
     90% {
-        color: rgb(247, 0, 255);/* this sets the color for this */
-        text-shadow: ;/* provides the desired shadow to the text */
+        color: rgb(247, 0, 255);
+        /* this sets the color for this */
+        text-shadow: ;
+        /* provides the desired shadow to the text */
     }
     100% {
-        color: rgb(255, 0, 43);/* this sets the color for this */
-        text-shadow: 0px 20px 20px rgb(19, 111, 248);/* provides the desired shadow to the text */
+        color: rgb(255, 0, 43);
+        /* this sets the color for this */
+        text-shadow: 0px 20px 20px rgb(19, 111, 248);
+        /* provides the desired shadow to the text */
     }
 }
 
-
 .navbarinqwertyuiop-in a.active {
-    background-color: rgb(100, 9, 14);transition-duration: 1s;
+    background-color: rgb(100, 9, 14);
+    transition-duration: 1s;
     animation: colorchangersite 0.7s ease-out infinite;
     /* bg color when the anchore tag is active */
-    color: white;/* this sets the color for this */
+    color: white;
+    /* this sets the color for this */
     box-shadow: 0 2px 4px 0 rgba(14, 1, 1, 0.918), 0 6px 20px 0 rgba(31, 2, 2, 0.904);
     /* the above shadow will be the shadow for ht element */
 }
 
 .navbarinqwertyuiop-in .threelineinqwerty-in {
-    display: none;transition-duration: 1s;
+    display: none;
+    transition-duration: 1s;
     /* the display of the icon will not be seen  */
     /* because if it will be seen in the large screen then it will not meet the requirement */
 }
@@ -976,22 +1181,22 @@ body {
         float: right;
         /* the icon will float right part fo the screen */
         display: block;
-        /* the icon will be treated as the block */       
+        /* the icon will be treated as the block */
     }
     .navbarinqwertyuiop-in {
         /* width: 100%; */
-        /* the navigation bar will allocate the full 100% width */                           
+        /* the navigation bar will allocate the full 100% width */
         /* the widht is as above */
         grid-column: 1/13;
-        /* as it is in small screen it will take all the column to be appropriate */         
+        /* as it is in small screen it will take all the column to be appropriate */
     }
     .navbarinqwertyuiop-in a:not(:.threelineinqwerty-in) {
         grid-column: 1/12;
-        /* as it only for the achor name is will take approx 95% of space and that is here about 3 column */         
+        /* as it only for the achor name is will take approx 95% of space and that is here about 3 column */
     }
     .threelineinqwerty-in {
         grid-column: 12/13;
-        /* for icon it will barely take about 5% space so it only takes one column */                                
+        /* for icon it will barely take about 5% space so it only takes one column */
     }
 }
 
@@ -1002,20 +1207,20 @@ body {
         position: relative;
         /* this two class will have postion relative */
         /* here this will be only applied if both topnav and responsive will be met equal and that will be done by js written in the script file */
-        
     }
     .navbarinqwertyuiop-in.smallscrn-in a {
         float: none;
-        /* the anchor tag will not float now */         
+        /* the anchor tag will not float now */
         display: block;
-        /* the anchor will be treated as the block */   
+        /* the anchor will be treated as the block */
         text-align: left;
         /* the letter will be left part of the screen */
-    }.navbarinqwertyuiop-in.smallscrn-in a:not(:.threelineinqwerty-in){
+    }
+    .navbarinqwertyuiop-in.smallscrn-in a:not(:.threelineinqwerty-in) {
         grid-column: 1/12;
         width: 90%;
     }
-    .threelineinqwerty-in{
+    .threelineinqwerty-in {
         grid-column: 12/13;
     }
 }
