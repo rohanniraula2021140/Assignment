@@ -52,7 +52,7 @@
         color: rgb(0, 255, 149);
     }
     20% {
-        font-weight: 350;
+        font-weight: 300;
         color: rgb(0, 225, 255);
     }
     30% {
@@ -320,7 +320,7 @@
         margin-bottom: 25px;
         transition-duration: 1s;
         /* margin at the bottom is 25px */
-        animation: colorchangerin .435 ease-out infinite;
+        animation: colorchangerin .435s ease-out infinite;
     }
 }
 
@@ -1113,7 +1113,6 @@ body {
     40% {
         color: rgb(0, 255, 149);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     50% {
@@ -1125,13 +1124,11 @@ body {
     60% {
         color: rgb(0, 225, 255);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     70% {
         color: rgb(0, 47, 255);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     80% {
@@ -1143,7 +1140,6 @@ body {
     90% {
         color: rgb(247, 0, 255);
         /* this sets the color for this */
-        text-shadow: ;
         /* provides the desired shadow to the text */
     }
     100% {
@@ -1190,7 +1186,7 @@ body {
         grid-column: 1/13;
         /* as it is in small screen it will take all the column to be appropriate */
     }
-    .navbarinqwertyuiop-in a:not(:.threelineinqwerty-in) {
+    .navbarinqwertyuiop-in a:not(:last-child) {
         grid-column: 1/12;
         /* as it only for the achor name is will take approx 95% of space and that is here about 3 column */
     }
@@ -1216,7 +1212,7 @@ body {
         text-align: left;
         /* the letter will be left part of the screen */
     }
-    .navbarinqwertyuiop-in.smallscrn-in a:not(:.threelineinqwerty-in) {
+    .navbarinqwertyuiop-in.smallscrn-in a:not(:last-child) {
         grid-column: 1/12;
         width: 90%;
     }
