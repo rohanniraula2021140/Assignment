@@ -255,6 +255,12 @@
         /* the url of the background image is provided */
     }
     
+    @media only screen and (max-width:599px) {
+        .imgforPort {
+            width: 90%;
+        }
+    }
+    
     .box-por {
         margin-top: 75px;
         /* top margin area is mentioned */
@@ -468,7 +474,7 @@
             /* time for transistion between the styles */
             transition-timing-function: ease-in-out;
             /* displays how the transition is preformed */
-            width: 80%;
+            width: 87%;
             /* the widht is as above */
             margin-left: 10%;
             /* the margin at the left side fo the element */

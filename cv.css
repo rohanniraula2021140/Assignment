@@ -109,7 +109,7 @@ body {
         /* the element will start from row 7  */
         text-align: center;
         /* the text is aligned to the center */
-        width: 100%;
+        width: 97%;
         /* the width is full as much it can take  */
         transition-duration: 1s;
         /* the time transiton for the changes is 1s */
@@ -1197,7 +1197,7 @@ body {
     .sidebar_headhead-cv {
         font-family: 'Open Sans Condensed', sans-serif;
         /* the google font is opens sans condensed*/
-        font-size: 63px;
+        font-size: 30px;
         /* the text size is as above */
         line-height: 20%;
         /* the line height is will be increased by 20% */
