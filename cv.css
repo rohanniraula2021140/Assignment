@@ -333,7 +333,7 @@ body {
     /* the bg color will be according to the above rgb */
     box-shadow: 0 12.334px 17.34px 0 rgba(15, 11, 11, 0.247);
     /* element is shadowed with above value  */
-    margin: 30px 12px 12px 22px;
+    margin: 30px 12px 520px 22px;
     /* margin top margin right marginn bottom and margin left  */
     transition-duration: 0.1s;
     /* transition time is as above  */
@@ -631,7 +631,7 @@ body {
     grid-column: 1/span1;
     grid-row: 3;
     background-color: rgb(92, 38, 70);
-    margin: -1220px 12px 12px 22px;
+    margin: -970px 12px 12px 22px;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
     /* the above shadow will be the shadow for ht element */
     transition: 0.1s;
@@ -828,7 +828,7 @@ body {
     /* the above shadow will be the shadow for ht element */
     transition: 0.1s;
     /* teh transtion duraton is as above */
-    margin: -980px 12px 12px 22px;
+    margin: -740px 12px 12px 22px;
     text-align: left;
     /* text is displayed in style assabove mentioned */
     color: white;
