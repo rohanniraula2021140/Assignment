@@ -355,52 +355,42 @@
     10% {
         color: rgb(139, 148, 9);
         /* this sets the color for this */
-        /* text-shadow: 0px 0px 1px rgb(255, 253, 253);provides the desired shadow to the text */
     }
     20% {
         color: rgb(89, 133, 7);
         /* this sets the color for this */
-        /* text-shadow: 0px 0px 1px rgb(248, 193, 193);provides the desired shadow to the text */
     }
     30% {
         color: rgb(23, 151, 6);
         /* this sets the color for this */
-        /* text-shadow: 0px 0px 1px rgb(252, 127, 127);provides the desired shadow to the text */
     }
     40% {
         color: rgb(3, 153, 90);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
     }
     50% {
         color: rgb(2, 116, 168);
         /* this sets the color for this */
-        /* text-shadow: 0px 18px 18px rgb(115, 247, 103);provides the desired shadow to the text */
     }
     60% {
         color: rgb(3, 133, 150);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
     }
     70% {
         color: rgb(192, 202, 247);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
     }
     80% {
         color: rgb(127, 107, 245);
         /* this sets the color for this */
-        /* text-shadow: 0px 16px 6px rgb(214, 243, 86);provides the desired shadow to the text */
     }
     90% {
         color: rgb(242, 10, 250);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
     }
     100% {
         color: rgb(240, 135, 153);
         /* this sets the color for this */
-        /* text-shadow: 0px 20px 20px rgb(19, 111, 248);provides the desired shadow to the text */
     }
 }
 
@@ -408,61 +398,51 @@
     10% {
         color: rgb(238, 255, 0);
         /* this sets the color for this */
-        /* text-shadow: 0px 0px 1px rgb(255, 253, 253);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
     }
     20% {
         color: rgb(166, 255, 0);
         /* this sets the color for this */
-        /* text-shadow: 0px 0px 1px rgb(248, 193, 193);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
     }
     30% {
         color: rgb(30, 255, 0);
         /* this sets the color for this */
-        /* text-shadow: 0px 0px 1px rgb(252, 127, 127);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 0, 0, 0.83232);
     }
     40% {
         color: rgb(0, 255, 149);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 0, 0, 0.832);
     }
     50% {
         color: rgb(0, 174, 255);
         /* this sets the color for this */
-        /* text-shadow: 0px 18px 18px rgb(115, 247, 103);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 94, 0, 0.832);
     }
     60% {
         color: rgb(0, 225, 255);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(255, 196, 2, 0.832);
     }
     70% {
         color: rgb(0, 47, 255);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(60, 255, 1, 0.832);
     }
     80% {
         color: rgb(38, 0, 255);
         /* this sets the color for this */
-        /* text-shadow: 0px 16px 6px rgb(214, 243, 86);provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(2, 255, 150, 0.832);
     }
     90% {
         color: rgb(247, 0, 255);
         /* this sets the color for this */
-        /* text-shadow: ;provides the desired shadow to the text */
         box-shadow: 0 8.43434px 12.43434px 0 rgba(0, 47, 255, 0.832);
     }
     100% {
         color: rgb(255, 0, 43);
         /* this sets the color for this */
-        /* text-shadow: 0px 20px 20px rgb(19, 111, 248);provides the desired shadow to the text */
         box-shadow: 0 4.4343px 5.3434px 0 rgba(255, 2, 141, 0.747);
     }
 }
@@ -701,13 +681,13 @@ body {
 .sitereport-in:hover {}
 
 .sitereport-in .footertitle-in {
-    text-shadow: 2px 2px white;
+    text-shadow: 2.0123px 2.0123px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
 
 .sitereport-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3.1232px 4.0123px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
@@ -721,7 +701,7 @@ body {
 }
 
 .sitereport-in a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1.012312px 1.012123px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
     font-size: larger;
@@ -753,13 +733,13 @@ body {
 .contact-in:hover {}
 
 .contact-in .footertitle-in {
-    text-shadow: 2px 2px white;
+    text-shadow: 2.0123132px 2.0123123px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
 
 .contact-in .footertitle-in:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3.0123px 4.23px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
@@ -773,7 +753,7 @@ body {
 }
 
 .contact-in a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1.0234px 1.0234px white;
     /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
@@ -821,7 +801,7 @@ body {
 }
 
 .footericoncontainer-in img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4.123123px 8.456px 0 rgba(0, 0, 0, 0.2345), 0 6.3456px 20.745345px 0 rgba(0, 0, 0, 0.19345345);
     /* the above shadow will be the shadow for ht element */
     transition-duration: 1s;
 }
@@ -865,12 +845,12 @@ body {
     }
     .portfolio-in:hover {}
     .portfolio-in .footertitle-in {
-        text-shadow: 2px 2px white;
+        text-shadow: 2.001234px 2.001234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
     .portfolio-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3.001234px 4.001234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
@@ -882,7 +862,7 @@ body {
         transition-duration: 1s;
     }
     .portfolio-in a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.001234px 1.001234px white;
         /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
@@ -909,12 +889,12 @@ body {
     }
     .sitereport-in:hover {}
     .sitereport-in .footertitle-in {
-        text-shadow: 2px 2px white;
+        text-shadow: 2.0123px 2.01231px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
     .sitereport-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3.0023px 4.0123px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
@@ -926,7 +906,7 @@ body {
         transition-duration: 1s;
     }
     .sitereport-in a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.001234px 1.001234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
         font-size: larger;
@@ -949,11 +929,11 @@ body {
     }
     .contact-in:hover {}
     .contact-in .footertitle-in {
-        text-shadow: 2px 2px white;
+        text-shadow: 2.001234px 2.001234px white;
         /* provides the desired shadow to the text */
     }
     .contact-in .footertitle-in:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3.001234px 4.001234px white;
         /* provides the desired shadow to the text */
     }
     .contact-in a {
@@ -963,7 +943,7 @@ body {
         /* this sets the color for this */
     }
     .contact-in a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.001234px 1.001234px white;
         /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
@@ -999,7 +979,7 @@ body {
         /* the overal padding is as mentioned above */
     }
     .footericoncontainer-in img:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4.123123px 8.456px 0 rgba(0, 0, 0, 0.2345), 0 6.3456px 20.745345px 0 rgba(0, 0, 0, 0.19345345);
         /* the above shadow will be the shadow for ht element */
     }
 }
@@ -1134,7 +1114,7 @@ body {
     80% {
         color: rgb(38, 0, 255);
         /* this sets the color for this */
-        text-shadow: 0px 16px 6px rgb(214, 243, 86);
+        text-shadow: 0px 16.01234px 6.01234px rgb(214, 243, 86);
         /* provides the desired shadow to the text */
     }
     90% {
@@ -1145,7 +1125,7 @@ body {
     100% {
         color: rgb(255, 0, 43);
         /* this sets the color for this */
-        text-shadow: 0px 20px 20px rgb(19, 111, 248);
+        text-shadow: 0px 20.01234px 20.01234px rgb(19, 111, 248);
         /* provides the desired shadow to the text */
     }
 }
@@ -1157,7 +1137,7 @@ body {
     /* bg color when the anchore tag is active */
     color: white;
     /* this sets the color for this */
-    box-shadow: 0 2px 4px 0 rgba(14, 1, 1, 0.918), 0 6px 20px 0 rgba(31, 2, 2, 0.904);
+    box-shadow: 0 2.01234px 4.01234px 0 rgba(14.01234, 1.01234, 1.01234, 0.918), 0 6.01234px 20.01234px 0 rgba(31.01234, 2.01234, 2.01234, 0.904);
     /* the above shadow will be the shadow for ht element */
 }
 
@@ -1223,17 +1203,16 @@ body {
 
 
 /* footer for portfolio */
+
 .footer-port {
     background-color: rgb(173, 144, 219);
     /* the bg color is as above */
     padding-bottom: 50px;
     /* the elemeent is padded in bottom as above magnitude */
     padding-top: 24px;
-        /* the element is padded in top as above magntiude */
-
+    /* the element is padded in top as above magntiude */
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
     color: rgb(148, 52, 204);
@@ -1242,10 +1221,11 @@ body {
 
 .gridfootercontainer-port {
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
+    /* this is google font used here */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
-    color: rgb(148, 52, 204);/* this sets the color for this */
+    color: rgb(148, 52, 204);
+    /* this sets the color for this */
 }
 
 .portfolio-port {
@@ -1253,17 +1233,20 @@ body {
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 1;
     /* grid make teh element to start from column one */
-    grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
+    grid-column-end: 5;
+    /* grid mekes the element to end in above mentioned column  */
 }
 
 .portfolio-port:hover {}
 
 .portfolio-port .footertitle-port {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
 }
 
 .portfolio-port .footertitle-port:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
 }
 
 .portfolio-port a {
@@ -1274,7 +1257,8 @@ body {
 }
 
 .portfolio-port a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
 }
@@ -1294,17 +1278,20 @@ body {
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 5;
     /* grid makes the element to start form the 5th column  */
-    grid-column-end: 9;/* grid mekes the element to end in above mentioned column  */
+    grid-column-end: 9;
+    /* grid mekes the element to end in above mentioned column  */
 }
 
 .sitereport-port:hover {}
 
 .sitereport-port .footertitle-port {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
 }
 
 .sitereport-port .footertitle-port:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
 }
 
 .sitereport-port a {
@@ -1315,7 +1302,8 @@ body {
 }
 
 .sitereport-port a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
 }
@@ -1333,19 +1321,22 @@ body {
 .contact-port {
     padding-left: 10%;
     /* it provides the padding to the left sides accroding to the above mangnitude */
-    grid-column-start: 9; 
+    grid-column-start: 9;
     /* grid make the column to start from the 9th column */
-    grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+    grid-column-end: 13;
+    /* grid mekes the element to end in above mentioned column  */
 }
 
 .contact-port:hover {}
 
 .contact-port .footertitle-port {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
 }
 
 .contact-port .footertitle-port:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
 }
 
 .contact-port a {
@@ -1356,7 +1347,8 @@ body {
 }
 
 .contact-port a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
 }
@@ -1372,17 +1364,18 @@ body {
 }
 
 .footericoncontainer-port {
-    text-align: center;/* align the text in desired way */
+    text-align: center;
+    /* align the text in desired way */
     font-size: 28px;
     /* this displays the text in the size mentioned above */
     color: white;
     /* this sets the color for this */
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     grid-column-start: 1;
     /* grid make teh element to start from column one */
-    grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+    grid-column-end: 13;
+    /* grid mekes the element to end in above mentioned column  */
 }
 
 .footericoncontainer-port:hover {
@@ -1396,7 +1389,7 @@ body {
 }
 
 .footericoncontainer-port img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.21234), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.191234);
     /* the above shadow will be the shadow for ht element */
 }
 
@@ -1408,23 +1401,21 @@ body {
         padding-bottom: 50px;
         /* the elemeent is padded in bottom as above magnitude */
         padding-top: 24px;
-            /* the element is padded in top as above magntiude */
-
+        /* the element is padded in top as above magntiude */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
         color: rgb(148, 52, 204);
         /* this sets the color for this */
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
     }
     .gridfootercontainer-port {
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
         color: rgb(148, 52, 204);
         /* this sets the color for this */
     }
@@ -1432,15 +1423,18 @@ body {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
     }
     .portfolio-port:hover {}
     .portfolio-port .footertitle-port {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
     }
     .portfolio-port .footertitle-port:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
     }
     .portfolio-port a {
         list-style-type: none;
@@ -1449,7 +1443,8 @@ body {
         /* this sets the color for this */
     }
     .portfolio-port a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
@@ -1465,15 +1460,18 @@ body {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
     }
     .sitereport-port:hover {}
     .sitereport-port .footertitle-port {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
     }
     .sitereport-port .footertitle-port:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
     }
     .sitereport-port a {
         list-style-type: none;
@@ -1482,7 +1480,8 @@ body {
         /* this sets the color for this */
     }
     .sitereport-port a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
@@ -1497,15 +1496,18 @@ body {
     .contact-port {
         /* padding-left: 10%; */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
     }
     .contact-port:hover {}
     .contact-port .footertitle-port {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
     }
     .contact-port .footertitle-port:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
     }
     .contact-port a {
         list-style-type: none;
@@ -1514,43 +1516,48 @@ body {
         /* this sets the color for this */
     }
     .contact-port a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
     .contact-port a:active {
-        color: blue;/* this sets the color for this */
+        color: blue;
+        /* this sets the color for this */
     }
     .contact-port a:visited {
-        color: green;/* this sets the color for this */
+        color: green;
+        /* this sets the color for this */
     }
     .footericoncontainer-port {
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
         font-size: 23px;
         /* this displays the text in the size mentioned above */
         color: white;
         /* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
     }
     .footericoncontainer-port:hover {
         font-size: 29px;
-        /* this displays the text in the size mentioned above *//* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
     }
     .footericoncontainer-port img {
-        padding: 5px; 
+        padding: 5px;
         /* the overal padding fo the element is 5px */
-
     }
     .footericoncontainer-port img:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.21234), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.191234);
         /* the above shadow will be the shadow for ht element */
     }
 }
+
 
 /* footer for sitereport  */
 
@@ -1593,12 +1600,12 @@ body {
 .portfolio-site:hover {}
 
 .portfolio-site .footertitle-site {
-    text-shadow: 2px 2px white;
+    text-shadow: 2.01234px 2.01234px white;
     /* provides the desired shadow to the text */
 }
 
 .portfolio-site .footertitle-site:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3.01234px 4.01234px white;
     /* provides the desired shadow to the text */
 }
 
@@ -1611,7 +1618,7 @@ body {
 }
 
 .portfolio-site a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1.01234px 1.01234px white;
     /* provides the desired shadow to the text */
     font-size: larger;
     transition-duration: 1s;
@@ -1641,12 +1648,12 @@ body {
 .sitereport-site:hover {}
 
 .sitereport-site .footertitle-site {
-    text-shadow: 2px 2px white;
+    text-shadow: 2.01234px 2.01234px white;
     /* provides the desired shadow to the text */
 }
 
 .sitereport-site .footertitle-site:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3.01234px 4.01234px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
@@ -1660,7 +1667,7 @@ body {
 }
 
 .sitereport-site a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1.01234px 1.01234px white;
     /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
@@ -1693,13 +1700,13 @@ body {
 .contact-site:hover {}
 
 .contact-site .footertitle-site {
-    text-shadow: 2px 2px white;
+    text-shadow: 2.01234px 2.01234px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
 
 .contact-site .footertitle-site:hover {
-    text-shadow: 3px 4px white;
+    text-shadow: 3.01234px 4.01234px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
 }
@@ -1713,7 +1720,7 @@ body {
 }
 
 .contact-site a:hover {
-    text-shadow: 1px 1px white;
+    text-shadow: 1.01234px 1.01234px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
     font-size: larger;
@@ -1760,7 +1767,7 @@ body {
 }
 
 .footericoncontainer-site img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.2111), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.19123);
     /* the above shadow will be the shadow for ht element */
     transition-duration: 1s;
 }
@@ -1804,12 +1811,12 @@ body {
     }
     .portfolio-site:hover {}
     .portfolio-site .footertitle-site {
-        text-shadow: 2px 2px white;
+        text-shadow: 2.01234px 2.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
     .portfolio-site .footertitle-site:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3.01234px 4.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
@@ -1821,7 +1828,7 @@ body {
         transition-duration: 1s;
     }
     .portfolio-site a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.01234px 1.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
         font-size: larger;
@@ -1848,12 +1855,12 @@ body {
     }
     .sitereport-site:hover {}
     .sitereport-site .footertitle-site {
-        text-shadow: 2px 2px white;
+        text-shadow: 2.01234px 2.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
     .sitereport-site .footertitle-site:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3.01234px 4.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
@@ -1865,7 +1872,7 @@ body {
         transition-duration: 1s;
     }
     .sitereport-site a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.01234px 1.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
         font-size: larger;
@@ -1892,12 +1899,12 @@ body {
     }
     .contact-site:hover {}
     .contact-site .footertitle-site {
-        text-shadow: 2px 2px white;
+        text-shadow: 2.01234px 2.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
     .contact-site .footertitle-site:hover {
-        text-shadow: 3px 4px white;
+        text-shadow: 3.01234px 4.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
     }
@@ -1909,7 +1916,7 @@ body {
         transition-duration: 1s;
     }
     .contact-site a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.01234px 1.01234px white;
         /* provides the desired shadow to the text */
         transition-duration: 1s;
         font-size: larger;
@@ -1949,7 +1956,7 @@ body {
         /* this sets the overal padding of the element to 5px */
     }
     .footericoncontainer-site img:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.2122), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.19111);
         /* the above shadow will be the shadow for ht element */
     }
 }
@@ -1957,22 +1964,17 @@ body {
 
 /* footer for cv  */
 
-
-
 .footer-cv {
     background-color: rgb(173, 144, 219);
     /* the bg color is as above */
     padding-bottom: 50px;
     /* the elemeent is padded in bottom as above magnitude */
     padding-top: 24px;
-        /* the element is padded in top as above magntiude */
-
+    /* the element is padded in top as above magntiude */
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
-    
     color: rgb(148, 52, 204);
     /* this sets the color for this */
     transition-duration: 1s;
@@ -1981,8 +1983,7 @@ body {
 
 .gridfootercontainer-cv {
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
     color: rgb(148, 52, 204);
@@ -1996,23 +1997,26 @@ body {
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 1;
     /* grid make teh element to start from column one */
-    grid-column-end: 2;/* grid mekes the element to end in above mentioned column  */
+    grid-column-end: 2;
+    /* grid mekes the element to end in above mentioned column  */
     transition-duration: 1s;
     /* time for transistion between the styles */
-    grid-row: 4;    /* grid makes the element to start froom the above menetioned row */
-
+    grid-row: 4;
+    /* grid makes the element to start froom the above menetioned row */
 }
 
 .portfolio-cv:hover {}
 
 .portfolio-cv .footertitle-cv {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
 
 .portfolio-cv .footertitle-cv:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2027,7 +2031,8 @@ body {
 }
 
 .portfolio-cv a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
     font-size: larger;
@@ -2053,23 +2058,26 @@ body {
     /* it provides the padding to the left sides accroding to the above mangnitude */
     transition-duration: 1s;
     /* time for transistion between the styles */
-    grid-column-start: 2; 
+    grid-column-start: 2;
     /* grid make the element to start fro 2nd column */
-    grid-column-end: 3;/* grid mekes the element to end in above mentioned column  */
-    grid-row: 4;    /* grid makes the element to start froom the above menetioned row */
-
+    grid-column-end: 3;
+    /* grid mekes the element to end in above mentioned column  */
+    grid-row: 4;
+    /* grid makes the element to start froom the above menetioned row */
 }
 
 .sitereport-cv:hover {}
 
 .sitereport-cv .footertitle-cv {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
 
 .sitereport-cv .footertitle-cv:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2084,7 +2092,8 @@ body {
 }
 
 .sitereport-cv a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
     font-size: larger;
@@ -2114,21 +2123,24 @@ body {
     /* the element start from the  3th column and it is made by grid structure */
     transition-duration: 1s;
     /* time for transistion between the styles */
-    grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
-    grid-row: 4;    /* grid makes the element to start froom the above menetioned row */
-
+    grid-column-end: 5;
+    /* grid mekes the element to end in above mentioned column  */
+    grid-row: 4;
+    /* grid makes the element to start froom the above menetioned row */
 }
 
 .contact-cv:hover {}
 
 .contact-cv .footertitle-cv {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
 
 .contact-cv .footertitle-cv:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2143,7 +2155,8 @@ body {
 }
 
 .contact-cv a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
     font-size: larger;
@@ -2165,7 +2178,8 @@ body {
 }
 
 .footericoncontainer-cv {
-    text-align: center;/* align the text in desired way */
+    text-align: center;
+    /* align the text in desired way */
     font-size: 28px;
     /* this displays the text in the size mentioned above */
     color: white;
@@ -2173,8 +2187,7 @@ body {
     transition-duration: 1s;
     /* time for transistion between the styles */
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     grid-column-start: 1;
     /* grid make teh element to start from column one */
     grid-column-end: 13;
@@ -2196,7 +2209,7 @@ body {
 }
 
 .footericoncontainer-cv img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.211), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.19);
     /* the above shadow will be the shadow for ht element */
     transition-duration: 1s;
     /* time for transistion between the styles */
@@ -2210,62 +2223,63 @@ body {
         padding-bottom: 50px;
         /* the elemeent is padded in bottom as above magnitude */
         padding-top: 24px;
-            /* the element is padded in top as above magntiude */
-
+        /* the element is padded in top as above magntiude */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
         color: rgb(148, 52, 204);
         /* this sets the color for this */
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .gridfootercontainer-cv {
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
         color: rgb(148, 52, 204);
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .portfolio-cv {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 5;
+        /* grid mekes the element to end in above mentioned column  */
         transition-duration: 1s;
-    /* time for transistion between the styles */
-        grid-row: 8;    /* grid makes the element to start froom the above menetioned row */
-
+        /* time for transistion between the styles */
+        grid-row: 8;
+        /* grid makes the element to start froom the above menetioned row */
     }
     .portfolio-cv:hover {}
     .portfolio-cv .footertitle-cv {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2px 2px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .portfolio-cv .footertitle-cv:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .portfolio-cv a {
         list-style-type: none;
         /* removes the bullet sign */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         color: rgb(88, 76, 76);
         /* this sets the color for this */
     }
     .portfolio-cv a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.01234px 1.01234px white;
         /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
@@ -2274,35 +2288,38 @@ body {
         color: blue;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .portfolio-cv a:visited {
         color: green;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-cv {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 5;
+        /* grid mekes the element to end in above mentioned column  */
         transition-duration: 1s;
-    /* time for transistion between the styles */
-        grid-row: 9;    /* grid makes the element to start froom the above menetioned row */
-
+        /* time for transistion between the styles */
+        grid-row: 9;
+        /* grid makes the element to start froom the above menetioned row */
     }
     .sitereport-cv:hover {}
     .sitereport-cv .footertitle-cv {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-cv .footertitle-cv:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-cv a {
         list-style-type: none;
@@ -2310,26 +2327,27 @@ body {
         color: rgb(88, 76, 76);
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-cv a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         font-size: larger;
         /* this displays the text in the size mentioned above */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-cv a:active {
         color: blue;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-cv a:visited {
         color: green;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contact-cv {
         padding-left: 20%;
@@ -2340,28 +2358,26 @@ body {
         
         left sides accroding to the above mangnitude */
         transition-duration: 1s;
-    /* time for transistion between the styles */
-    
+        /* time for transistion between the styles */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
-        grid-row: 10;    /* grid makes the element to start froom the above menetioned row */
-
+        /* grid make teh element to start from column one */
+        grid-column-end: 5;
+        /* grid mekes the element to end in above mentioned column  */
+        grid-row: 10;
+        /* grid makes the element to start froom the above menetioned row */
     }
     .contact-cv:hover {}
     .contact-cv .footertitle-cv {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
-        
-        
-
-
-transition-duration: 1s;
-    /* time for transistion between the styles */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
+        transition-duration: 1s;
+        /* time for transistion between the styles */
     }
     .contact-cv .footertitle-cv:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contact-cv a {
         list-style-type: none;
@@ -2369,12 +2385,13 @@ transition-duration: 1s;
         color: rgb(88, 76, 76);
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contact-cv a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
@@ -2382,51 +2399,51 @@ transition-duration: 1s;
         color: blue;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contact-cv a:visited {
         color: green;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .footericoncontainer-cv {
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         font-size: 23px;
         /* this displays the text in the size mentioned above */
         color: white;
         /* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 13;/* grid mekes the element to end in above mentioned column  */
-        grid-row: 11;    /* grid makes the element to start froom the above menetioned row */
-
+        /* grid make teh element to start from column one */
+        grid-column-end: 13;
+        /* grid mekes the element to end in above mentioned column  */
+        grid-row: 11;
+        /* grid makes the element to start froom the above menetioned row */
     }
     .footericoncontainer-cv:hover {
         font-size: 29px;
         /* this displays the text in the size mentioned above */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .footericoncontainer-cv img {
         padding: 5px;
         /* the overal padding of the element is 5px */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .footericoncontainer-cv img:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.21234), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.19123);
         /* the above shadow will be the shadow for ht element */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
 }
-
 
 
 /* footer fr contact  */
@@ -2446,16 +2463,13 @@ transition-duration: 1s;
     /* this sets the color for this */
     transition-duration: 1s;
     /* time for transistion between the styles */
-    
 }
 
 .gridfootercontainer-con {
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     font-size: 25px;
     /* this displays the text in the size mentioned above */
-
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2465,7 +2479,6 @@ transition-duration: 1s;
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 1;
     /* grid make teh element to start from column one */
-    
     grid-column-end: 2;
     /* grid make the element to end in column 2 */
     /* grid make the element to end in column 2 */
@@ -2478,14 +2491,15 @@ transition-duration: 1s;
 .portfolio-con:hover {}
 
 .portfolio-con .footertitle-con {
-    text-shadow: 2px 2px white;
+    text-shadow: 2.01234px 2.01234px white;
     /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
 
 .portfolio-con .footertitle-con:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2500,7 +2514,8 @@ transition-duration: 1s;
 }
 
 .portfolio-con a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
     transition-duration: 1s;
@@ -2509,7 +2524,6 @@ transition-duration: 1s;
 
 .portfolio-con a:active {
     color: blue;
-
     /* this sets the color for this */
     transition-duration: 1s;
     /* time for transistion between the styles */
@@ -2527,8 +2541,7 @@ transition-duration: 1s;
     /* it provides the padding to the left sides accroding to the above mangnitude */
     grid-column-start: 2;
     grid-row: 3;
-        /* grid makes the element to start froom the above menetioned row */
-
+    /* grid makes the element to start froom the above menetioned row */
     grid-column-end: 3;
     transition-duration: 1s;
     /* time for transistion between the styles */
@@ -2537,13 +2550,15 @@ transition-duration: 1s;
 .sitereport-con:hover {}
 
 .sitereport-con .footertitle-con {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
 
 .sitereport-con .footertitle-con:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3px 4px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2558,7 +2573,8 @@ transition-duration: 1s;
 }
 
 .sitereport-con a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
     transition-duration: 1s;
@@ -2591,13 +2607,15 @@ transition-duration: 1s;
 .contactfooter-con:hover {}
 
 .contactfooter-con .footertitle-con {
-    text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+    text-shadow: 2.01234px 2.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
 
 .contactfooter-con .footertitle-con:hover {
-    text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+    text-shadow: 3.01234px 4.01234px white;
+    /* provides the desired shadow to the text */
     transition-duration: 1s;
     /* time for transistion between the styles */
 }
@@ -2611,7 +2629,8 @@ transition-duration: 1s;
 }
 
 .contactfooter-con a:hover {
-    text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+    text-shadow: 1.01234px 1.01234px white;
+    /* provides the desired shadow to the text */
     font-size: larger;
     /* this displays the text in the size mentioned above */
     transition-duration: 1s;
@@ -2640,8 +2659,7 @@ transition-duration: 1s;
     color: white;
     /* this sets the color for this */
     font-family: 'Montserrat', sans-serif;
-        /* this is google font used here */
-
+    /* this is google font used here */
     grid-column-start: 1;
     /* grid make teh element to start from column one */
     grid-column-end: 13;
@@ -2679,25 +2697,23 @@ transition-duration: 1s;
         padding-bottom: 50px;
         /* the elemeent is padded in bottom as above magnitude */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
-    
+        /* this displays the text in the size mentioned above */
         color: rgb(148, 52, 204);
         /* this sets the color for this */
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
     }
     .gridfootercontainer-con {
         font-family: 'Montserrat', sans-serif;
-            /* this is google font used here */
-
+        /* this is google font used here */
         font-size: 25px;
-    /* this displays the text in the size mentioned above */
+        /* this displays the text in the size mentioned above */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         color: rgb(148, 52, 204);
         /* this sets the color for this */
     }
@@ -2705,19 +2721,22 @@ transition-duration: 1s;
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
+        /* grid make teh element to start from column one */
         transition-duration: 1s;
-    /* time for transistion between the styles */
-        grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
+        /* time for transistion between the styles */
+        grid-column-end: 5;
+        /* grid mekes the element to end in above mentioned column  */
         grid-row: 4;
         /* grid makes the element to start froom the above menetioned row */
     }
     .portfolio-con:hover {}
     .portfolio-con .footertitle-con {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
     }
     .portfolio-con .footertitle-con:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
     }
     .portfolio-con a {
         list-style-type: none;
@@ -2725,15 +2744,15 @@ transition-duration: 1s;
         color: rgb(88, 76, 76);
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .portfolio-con a:hover {
-        text-shadow: 1px 1px white;
+        text-shadow: 1.01234px 1.01234px white;
         /* this sets teh white text shadow */
         font-size: larger;
         /* this displays the text in the size mentioned above */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .portfolio-con a:active {
         color: blue;
@@ -2747,23 +2766,26 @@ transition-duration: 1s;
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
-        grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
+        /* grid make teh element to start from column one */
+        grid-column-end: 5;
+        /* grid mekes the element to end in above mentioned column  */
         grid-row: 5;
         /* grid makes the element to start froom the above menetioned row */
     }
     .sitereport-con:hover {}
     .sitereport-con .footertitle-con {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-con .footertitle-con:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-con a {
         list-style-type: none;
@@ -2771,12 +2793,13 @@ transition-duration: 1s;
         color: rgb(88, 76, 76);
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-con a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
@@ -2784,48 +2807,52 @@ transition-duration: 1s;
         color: blue;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .sitereport-con a:visited {
         color: green;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contactfooter-con {
         padding-left: 0%;
         /* it provides the padding to the left sides accroding to the above mangnitude */
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
+        /* grid make teh element to start from column one */
         transition-duration: 1s;
-    /* time for transistion between the styles */
-        grid-column-end: 5;/* grid mekes the element to end in above mentioned column  */
-        grid-row: 6;/* grid makes the element to start froom the above menetioned row */
+        /* time for transistion between the styles */
+        grid-column-end: 5;
+        /* grid mekes the element to end in above mentioned column  */
+        grid-row: 6;
+        /* grid makes the element to start froom the above menetioned row */
     }
     .contactfooter-con:hover {}
     .contactfooter-con .footertitle-con {
-        text-shadow: 2px 2px white;/* provides the desired shadow to the text */
+        text-shadow: 2.01234px 2.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contactfooter-con .footertitle-con:hover {
-        text-shadow: 3px 4px white;/* provides the desired shadow to the text */
+        text-shadow: 3.01234px 4.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contactfooter-con a {
         list-style-type: none;
         /* removes the bullet sign */
         color: rgb(88, 76, 76);
-
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contactfooter-con a:hover {
-        text-shadow: 1px 1px white;/* provides the desired shadow to the text */
+        text-shadow: 1.01234px 1.01234px white;
+        /* provides the desired shadow to the text */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         font-size: larger;
         /* this displays the text in the size mentioned above */
     }
@@ -2833,50 +2860,47 @@ transition-duration: 1s;
         color: blue;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .contactfooter-con a:visited {
         color: green;
         /* this sets the color for this */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .footericoncontainer-con {
-        text-align: center;/* align the text in desired way */
+        text-align: center;
+        /* align the text in desired way */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
         font-size: 23px;
         /* this displays the text in the size mentioned above */
         color: white;
         /* this sets the color for this */
         font-family: 'Montserrat', sans-serif;
         grid-column-start: 1;
-    /* grid make teh element to start from column one */
+        /* grid make teh element to start from column one */
         grid-column-end: 5;
         /* grid mekes the element to end in above mentioned column  */
-        grid-row: 7;/* grid makes the element to start froom the above menetioned row */
+        grid-row: 7;
+        /* grid makes the element to start froom the above menetioned row */
     }
     .footericoncontainer-con:hover {
         font-size: 29px;
         /* this displays the text in the size mentioned above */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .footericoncontainer-con img {
         padding: 5px;
         /* overla padding for element */
         transition-duration: 1s;
-    /* time for transistion between the styles */
+        /* time for transistion between the styles */
     }
     .footericoncontainer-con img:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4.01234px 8.01234px 0 rgba(0, 0, 0, 0.2111), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.1911);
         /* the above shadow will be the shadow for ht element */
         transition-duration: 1s;
         /* the time of transistion */
     }
 }
-
-
-
-
-

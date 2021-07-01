@@ -6,12 +6,7 @@
     /* this divides the screen into twelve auto parts (column) */
 }
 
-.grid-item-site {
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* height: 150px;
-padding-top: 85px; */
-    /* text-align: center; */
-}
+.grid-item-site {}
 
 .grid-item1-site {
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -100,7 +95,7 @@ padding-top: 85px; */
     /* background set the overal color so that above the gradient seems good */
     background: linear-gradient(174deg, rgb(47, 4, 71) 3%, rgb(19, 35, 39) 36%, rgb(85, 37, 6) 100%);
     /* the multiple color are used the different degrree to maek the linear gradient special and awesome  */
-    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, rgba(0, 0, 0, 0.12) 10px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 10px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25232) 10.12312px 54.12323px 55.12312px, rgba(0, 0, 0, 0.122132) 0px -12.123123px 30.1232px, rgba(0, 0, 0, 0.121) 0px 4.123123px 6.313px, rgba(0, 0, 0, 0.1711) 0px 12.123123px 13.12312px, rgba(0, 0, 0, 0.09123) 0px -3.1232px 5.123123px;
     /* the above shadow will be the shadow for ht element */
 }
 
@@ -167,7 +162,7 @@ padding-top: 85px; */
     10% {
         /* color: rgb(238, 255, 0); */
         /* this sets the color for this */
-        text-shadow: 1px 11px 1px rgb(1, 59, 4);
+        text-shadow: 1.123px 11.12312px 1.123123px rgb(1.46, 59.324234, 4.4264);
         /* provides the desired shadow to the text */
     }
     20% {
@@ -296,7 +291,7 @@ padding-top: 85px; */
         /* the letter are spaced in this ration */
         font-size: 45px;
         /* this displays the text in the size mentioned above */
-        text-shadow: 0px 0px 1px #fff, 0px 0px 2px #fff;
+        text-shadow: 0px 0px 1.234px #fff, 0px 0px 2.23454345px #fff;
         /* provides the desired shadow to the text */
         font-weight: 700;
         /* letter are heavily weighted  */
@@ -358,7 +353,7 @@ padding-top: 85px; */
     /* the bg color is as above */
     color: black;
     transition-duration: 1s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4.123123px 8.456px 0 rgba(0, 0, 0, 0.2345), 0 6.3456px 20.745345px 0 rgba(0, 0, 0, 0.19345345);
     /* the above shadow will be the shadow for ht element */
     animation: colorchangersite 0.7s ease-out infinite;
 }
@@ -426,7 +421,7 @@ padding-top: 85px; */
     background-color: rgb(19, 3, 48);
     /* the bg color is as above */
     color: white;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2.2431px 4.11424px 0 rgba(0, 0, 0, 0.21234), 0 6.12312px 20.25345px 0 rgba(0, 0, 0, 0.19234);
     /* the above shadow will be the shadow for ht element */
     animation: colorchangersite 0.7s ease-out infinite;
 }

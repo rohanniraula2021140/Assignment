@@ -34,18 +34,18 @@ body {
 }
 
 .side-bar-cv:hover {
-    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.911);
+    box-shadow: 0 7.01234px 15.01234px 0 rgba(0, 0, 0, 0.9111);
     /* on hover the box shadow will be changed will be black */
     color: rgb(255, 255, 255);
     /* the color will be changed to white on hover */
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* the text shadow will appear as above on hover */
     font-size: 23px;
     /* the letter will be seen in 23px */
 }
 
 .profile_img-cv {
-    box-shadow: 0 2px 9px 0 rgba(19, 12, 12, 0.075), 0 5px 23px 0 rgba(14, 13, 13, 0.356);
+    box-shadow: 0 2.01234px 9.01234px 0 rgba(19.01234, 12.01234, 12.01234, 0.0751), 0 5.01234px 23.01234px 0 rgba(14.01234, 13, 13, 0.356);
     /* the multiple shadows are mixed into one through the aboe three shadows */
     height: 200px;
     /* the height of the image will be above */
@@ -193,19 +193,19 @@ body {
     10% {
         color: rgb(238, 255, 0);
         /* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(255, 253, 253);
+        text-shadow: 0px 0px 1.01234px rgb(255, 253, 253);
         /* provides the desired shadow to the text */
     }
     20% {
         color: rgb(166, 255, 0);
         /* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(248, 193, 193);
+        text-shadow: 0px 0px 1.01234px rgb(248, 193, 193);
         /* provides the desired shadow to the text */
     }
     30% {
         color: rgb(30, 255, 0);
         /* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(252, 127, 127);
+        text-shadow: 0px 0px 1.01234px rgb(252, 127, 127);
         /* provides the desired shadow to the text */
     }
     40% {
@@ -216,7 +216,7 @@ body {
     50% {
         color: rgb(0, 174, 255);
         /* this sets the color for this */
-        text-shadow: 0px 18px 18px rgb(115, 247, 103);
+        text-shadow: 0px 18.01234px 18.01234px rgb(115, 247, 103);
         /* provides the desired shadow to the text */
     }
     60% {
@@ -232,7 +232,7 @@ body {
     80% {
         color: rgb(38, 0, 255);
         /* this sets the color for this */
-        text-shadow: 0px 16px 6px rgb(214, 243, 86);
+        text-shadow: 0px 16.01234px 6.01234px rgb(214, 243, 86);
         /* provides the desired shadow to the text */
     }
     90% {
@@ -243,7 +243,7 @@ body {
     100% {
         color: rgb(255, 0, 43);
         /* this sets the color for this */
-        text-shadow: 0px 20px 20px rgb(19, 111, 248);
+        text-shadow: 0px 20.01234px 20.01234px rgb(19, 111, 248);
         /* provides the desired shadow to the text */
     }
 }
@@ -315,7 +315,7 @@ body {
 } */
 
 .cvgrad-cv {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(136, 134, 134), rgb(133, 132, 132));
+    background-image: linear-gradient(rgb(255.01234, 255.01234, 255.01234), rgb(136.01234, 134.01234, 134.01234), rgb(133.01234, 132.01234, 132.01234));
     /* from here i have desinged the linear gradient */
 }
 
@@ -352,7 +352,7 @@ body {
     /* the shcdow of the element is presented as the box  */
     color: rgb(255, 255, 255);
     /* the letter is colored as the white */
-    text-shadow: 0 0 6px whitesmoke;
+    text-shadow: 0 0 6.01234px whitesmoke;
     /* the text are shadod with upper value */
     font-size: 16px;
     /* the text are displayed as its size */
@@ -562,7 +562,7 @@ body {
         height: fit-content;
         /* the height will be auto adjust as the content */
         background-color: rgb(92, 38, 43);
-        box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.211);
         /* the above shadow will be the shadow for ht element */
         transition: 0.1s;
         /* teh transtion duraton is as above */
@@ -574,7 +574,7 @@ body {
         /* the text size is as above */
     }
     .card2-cv:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+        box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.911);
         /* the above shadow will be the shadow for ht element */
         color: rgb(255, 255, 255);
         text-shadow: 0 0 5px white;
@@ -632,7 +632,7 @@ body {
     grid-row: 3;
     background-color: rgb(92, 38, 70);
     margin: -970px 12px 12px 22px;
-    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.211);
     /* the above shadow will be the shadow for ht element */
     transition: 0.1s;
     /* teh transtion duraton is as above */
@@ -645,10 +645,10 @@ body {
 }
 
 .card3-cv:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.911);
     /* the above shadow will be the shadow for ht element */
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 15px;
     /* the text size is as above */
@@ -677,7 +677,7 @@ body {
 }
 
 .card3-cv h2 {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 25px;
     /* the text size is as above */
@@ -686,7 +686,7 @@ body {
 }
 
 .card3-cv h3 {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 25px;
     /* the text size is as above */
@@ -700,7 +700,7 @@ body {
 }
 
 .card3-cv p {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 16px;
     /* the text size is as above */
@@ -709,7 +709,7 @@ body {
 }
 
 .card3-cv h2:hover {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 25.5px;
     /* the text size is as above */
@@ -718,7 +718,7 @@ body {
 }
 
 .card3-cv h3:hover {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 26px;
     /* the text size is as above */
@@ -727,7 +727,7 @@ body {
 }
 
 .card3-cv p:hover {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 20px;
     /* the text size is as above */
@@ -745,7 +745,7 @@ body {
         /* grid-row: 4 / span1; */
         background-color: rgb(92, 38, 70);
         /* margin: -1412px 12px 12px 22px; */
-        box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.211);
         /* the above shadow will be the shadow for ht element */
         transition: 0.1s;
         /* teh transtion duraton is as above */
@@ -758,7 +758,7 @@ body {
         /* the text size is as above */
     }
     .card3-cv:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+        box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.9123);
         /* the above shadow will be the shadow for ht element */
         color: rgb(255, 255, 255);
         /* the color of the letter is white in color */
@@ -789,7 +789,7 @@ body {
         /* the google font is incoonsolata */
     }
     .card3-cv h2:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: 25px;
         /* the text size is as above */
@@ -797,7 +797,7 @@ body {
         /* teh transtion duraton is as above */
     }
     .card3-cv h3:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: larger;
         /* the text size is as above */
@@ -805,7 +805,7 @@ body {
         /* teh transtion duraton is as above */
     }
     .card3-cv p:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: larger;
         /* the text size is as above */
@@ -824,7 +824,7 @@ body {
     height: fit-content;
     /* the height will be auto adjust as the content */
     background-color: rgb(42, 38, 92);
-    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.211);
     /* the above shadow will be the shadow for ht element */
     transition: 0.1s;
     /* teh transtion duraton is as above */
@@ -838,7 +838,7 @@ body {
 }
 
 .card4-cv:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.911);
     /* the above shadow will be the shadow for ht element */
     color: rgb(255, 255, 255);
     /* the color of the letter is white in color */
@@ -883,7 +883,7 @@ body {
         height: fit-content;
         /* the height will be auto adjust as the content */
         background-color: rgb(42, 38, 92);
-        box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.211);
         /* the above shadow will be the shadow for ht element */
         transition: 0.1s;
         /* teh transtion duraton is as above */
@@ -895,7 +895,7 @@ body {
         /* the text size is as above */
     }
     .card4-cv:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+        box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.911);
         /* the above shadow will be the shadow for ht element */
         color: rgb(255, 255, 255);
         /* the color of the letter is white in color */
@@ -935,7 +935,7 @@ body {
 }
 
 .lang-type-cv:hover {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 28px;
     /* the text size is as above */
@@ -949,7 +949,7 @@ body {
 }
 
 .lang-status-cv:hover {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 23px;
     /* the text size is as above */
@@ -963,7 +963,7 @@ body {
         /* the text size is as above */
     }
     .lang-type-cv:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: 24px;
         /* the text size is as above */
@@ -975,7 +975,7 @@ body {
         /* the text size is as above */
     }
     .lang-status-cv:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: 18px;
         /* the text size is as above */
@@ -996,7 +996,7 @@ body {
     background-color: rgb(76, 32, 112);
     color: white;
     /* the color of the letter is white in color */
-    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.211);
     /* the above shadow will be the shadow for ht element */
     margin: -375px 12px 12px 22px;
     transition: 0.1s;
@@ -1009,11 +1009,11 @@ body {
 }
 
 .card5-cv:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.911);
     /* the above shadow will be the shadow for ht element */
     color: rgb(255, 255, 255);
     /* the color of the letter is white in color */
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 15px;
     /* the text size is as above */
@@ -1038,7 +1038,7 @@ body {
     /* the widht is as above */
     height: 80px;
     /* the height will be as mentioned in it */
-    box-shadow: 0 4px 8px 0 rgba(212, 208, 208, 0.836), 0 6px 20px 0 rgba(255, 255, 255, 0.774);
+    box-shadow: 0 4.01234px 8.01234px 0 rgba(212.01234, 208.01234, 208.01234, 0.8361), 0 6.01234px 20.01234px 0 rgba(255.01234, 255.01234, 255.01234, 0.7741);
     /* the above shadow will be the shadow for ht element */
 }
 
@@ -1076,7 +1076,7 @@ body {
         background-color: rgb(76, 32, 112);
         color: white;
         /* the color of the letter is white in color */
-        box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 14.01234px 18.01234px 0 rgba(0, 0, 0, 0.21);
         /* the above shadow will be the shadow for ht element */
         transition: 0.1s;
         /* teh transtion duraton is as above */
@@ -1086,11 +1086,11 @@ body {
         /* the text size is as above */
     }
     .card5-cv:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+        box-shadow: 0 8.01234px 16.01234px 0 rgba(0, 0, 0, 0.91);
         /* the above shadow will be the shadow for ht element */
         color: rgb(255, 255, 255);
         /* the color of the letter is white in color */
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: 15px;
         /* the text size is as above */
@@ -1104,7 +1104,7 @@ body {
     }
     .card5-cv img:hover {
         transition-duration: 1s;
-        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+        box-shadow: 0 4.01234px 8.01234px 0 rgba(255.01234, 255.01234, 255.01234, 0.211), 0 6.01234px 20.01234px 0 rgba(255.01234, 255.01234, 255.01234, 0.191);
         /* the above shadow will be the shadow for ht element */
     }
     .cardhead5-cv {
@@ -1165,7 +1165,7 @@ body {
 }
 
 .sidebar_head-cv:hover {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 5.01234px white;
     /* on hover text shadow is apperared */
     font-size: 35px;
     /* the text size is as above */
@@ -1185,7 +1185,7 @@ body {
 }
 
 .sidebar_body-cv:hover {
-    text-shadow: 0 0 5px #c0baba;
+    text-shadow: 0 0 5.01234px #c0baba;
     /* on hover text shadow is apperared */
     font-size: 25px;
     /* the text size is as above */
@@ -1207,7 +1207,7 @@ body {
         /* it provides the padding to the left sides accroding to the above mangnitude */
     }
     .sidebar_headhead-cv:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: 64px;
         /* the text size is as above */
@@ -1227,7 +1227,7 @@ body {
         /* it provides the padding to the left sides accroding to the above mangnitude */
     }
     .sidebar_head-cv:hover {
-        text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5.01234px white;
         /* on hover text shadow is apperared */
         font-size: 35px;
         /* the text size is as above */
@@ -1245,7 +1245,7 @@ body {
         /* it provides the padding to the left sides accroding to the above mangnitude */
     }
     .sidebar_body-cv:hover {
-        text-shadow: 0 0 5px #beb4b4;
+        text-shadow: 0 0 5.01234px #beb4b4;
         /* on hover text shadow is apperared */
         font-size: 25px;
         /* the text size is as above */

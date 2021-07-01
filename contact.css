@@ -1,5 +1,4 @@
 body {
-    /* background-image: linear-gradient(rgb(5, 179, 223), rgb(75, 129, 143), rgb(15, 83, 110)); */
     background-color: rgb(88, 18, 18);
     /* added gradient to the body and here i have used three color means it creates gradient with 3 colorin linear way */
 }
@@ -127,7 +126,7 @@ body {
     10% {
         color: rgb(238, 255, 0);
         /* this sets the color for this */
-        text-shadow: 0px 0px 1px rgb(255, 253, 253);
+        text-shadow: 0.01234px 0.01234px 1.01234px rgb(255, 253, 253);
         /* provides the desired shadow to the text */
     }
     20% {
@@ -166,7 +165,7 @@ body {
     80% {
         color: rgb(38, 0, 255);
         /* this sets the color for this */
-        text-shadow: 0px 16px 6px rgb(214, 243, 86);
+        text-shadow: 0px 16.01234px 6.01234px rgb(214, 243, 86);
         /* provides the desired shadow to the text */
     }
     90% {
@@ -177,7 +176,7 @@ body {
     100% {
         color: rgb(255, 0, 43);
         /* this sets the color for this */
-        text-shadow: 0px 20px 20px rgb(19, 111, 248);
+        text-shadow: 0px 20.01234px 20.01234px rgb(19, 111, 248);
         /* provides the desired shadow to the text */
     }
 }
@@ -199,7 +198,7 @@ body {
     /* will be good */
     color: white;
     /* white color letter will be seen */
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2.01234px 4.01234px 0 rgba(0, 0, 0, 0.21), 0 6.01234px 20.01234px 0 rgba(0, 0, 0, 0.19);
     animation: colorchangersite 0.7s ease-out infinite;
 }
 
@@ -362,7 +361,7 @@ body {
         /* letter will have thsi size on hover */
         color: rgb(109, 5, 53);
         /* color will be changed to this on hover */
-        text-shadow: 1px 1px rgb(245, 244, 244);
+        text-shadow: 1.01234px 1.01234px rgb(245, 244, 244);
         /* shadow will be change on hover */
     }
     .getintouch-con textarea {
@@ -417,7 +416,7 @@ body {
     /* the transition will be done in 1s */
     color: rgb(12, 194, 194);
     /* the color of the letter are accoding to rgb values */
-    text-shadow: 1px 1px rgb(34, 22, 22);
+    text-shadow: 1.01234px 1.01234px rgb(34, 22, 22);
     /* the shadow will be nearly black with 1px of the widht */
     /* the google font is seen and it is roboto mono */
     font-family: 'Roboto Mono', monospace;
@@ -446,7 +445,7 @@ body {
     /* on hover second heading letters will be sized to 30.4px; */
     color: rgb(109, 5, 53);
     /* on hovered the secnd headign letters will be colored slight red */
-    text-shadow: 1px 1px rgb(245, 244, 244);
+    text-shadow: 1.01234px 1.01234px rgb(245, 244, 244);
     /* text shadow will be white on hovered on secondheading of getintouch */
 }
 
@@ -509,7 +508,7 @@ input:hover {
     /* the border is none means the earlier border of the input type submit is removed */
     text-align: center;
     /* the text is center aligned */
-    box-shadow: 2px 6px rgb(209, 197, 197);
+    box-shadow: 2.01234px 6.01234px rgb(209, 197, 197);
     /* the box shadow of the btn will be like white */
 }
 
@@ -518,7 +517,7 @@ input:hover {
     /* the bg color of the  submit button on hover is white */
     border: 2px solid rgb(133, 42, 42);
     /* the borderof the submit btn on hover is red */
-    box-shadow: 2px 4px rgb(88, 84, 84);
+    box-shadow: 2.01234px 4.01234px rgb(88, 84, 84);
     /* the box shadow of the submit btn is like gry on hover */
     color: rgb(133, 42, 42);
     /* the letter are red like color in the submit btn */
@@ -554,7 +553,7 @@ input:hover {
     /* the order is one because it is first shown then the getintouch box */
     z-index: 2;
     /* z-index: 2 means it is 2nd step from the origin if the origin is consisdered as the screen */
-    box-shadow: 1px 4px rgb(37, 10, 10);
+    box-shadow: 1.01234px 4.01234px rgb(37, 10, 10);
     /* the box-shadow is the nearly black and it si 1px 4 px black */
     font-size: 24px;
     /* letter in the contactbox need to be in 24px */
@@ -585,7 +584,7 @@ input:hover {
     /* the hover letter color will change to white */
     font-size: 40.5px;
     /* on hover the fontsize of the 2md heading will be changed */
-    text-shadow: 1px 1px rgb(82, 73, 73);
+    text-shadow: 1.01234px 1.01234px rgb(82, 73, 73);
     /* the text shadow wil be according to the mangnitude */
 }
 
@@ -607,7 +606,7 @@ input:hover {
     /* on hover white color is seen */
     font-size: 18.5px;
     /* on hover anchor size will be changed  */
-    text-shadow: 1px 1px rgb(121, 99, 99);
+    text-shadow: 1.01234px 1.01234px rgb(121, 99, 99);
     /* on hover the  anchor text shadow willb e changed */
 }
 
@@ -616,7 +615,7 @@ input:hover {
     /* on hover list item color will be change */
     font-size: 18.5px;
     /* on hover the font size of the list item will be changed */
-    text-shadow: 1px 1px rgb(121, 99, 99);
+    text-shadow: 1.01234px 1.01234px rgb(121, 99, 99);
     /* on hover the list itm will get grey text shadow */
 }
 
@@ -673,7 +672,7 @@ input:hover {
         /* the transtion duration is 10s for the changes done in this elemtn */
         order: 1;
         /* here it will be displayed first according to the grid layout */
-        box-shadow: 1px 4px rgb(37, 10, 10);
+        box-shadow: 1.01234px 4.01234px rgb(37, 10, 10);
         /* here box shadow will be changed the when is the screen is max 599px */
         font-size: 24px;
         /* no longer previous font size when is the screen is max 599px */
@@ -719,7 +718,7 @@ input:hover {
         /* the color of the list item ischanged on hover */
         font-size: 18.5px;
         /* the letter size is changes on hover */
-        text-shadow: 1px 1px rgb(121, 99, 99);
+        text-shadow: 1.01234px 1.01234px rgb(121, 99, 99);
         /* the text shadow is changed on hover */
     }
     .contactbox-con li:hover {
@@ -727,7 +726,7 @@ input:hover {
         /* the color of the contact box list item is changed on hover */
         font-size: 18.5px;
         /* the size fo the letter is changed on the hover */
-        text-shadow: 1px 1px rgb(121, 99, 99);
+        text-shadow: 1.01234px 1.01234px rgb(121, 99, 99);
         /* the text shadow also changes on hover */
     }
     .contactbox-con li img {
